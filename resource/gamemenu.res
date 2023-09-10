@@ -35,24 +35,18 @@
 
  "6"
  {
-  "label" ""
-  "command" ""
- }
-
- "7"
- {
   "label" "#gameui_gamemenu_changegame"
   "command" "openchangegamedialog"
   "notsteam" "1"
  }
 
- "8"
+ "7"
  {
   "label" "#gameui_gamemenu_options"
   "command" "openoptionsdialog"
  }
 
- "9"
+ "8"
  {
   "label" "#gameui_gamemenu_quit"
   "command" "quit"
