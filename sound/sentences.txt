@@ -1309,7 +1309,9 @@ JF_LAST3 justfight/npc/last3
 JF_LAST4 justfight/npc/last4
 JF_LAST5 justfight/npc/last5
 JF_LAST6 scientist/scream1
-JF_LAST7 justfight/npc/dangerousroute
+JF_LAST7 justfight/npc/onlywayout
+JF_LAST8 justfight/npc/teleporting
+JF_LAST9 justfight/npc/jumpon
 
 //Jsut Fight VOX Sentences
 
