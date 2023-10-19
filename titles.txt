@@ -91,7 +91,7 @@ Current Assignment: Stop Anomalous Activity
 Current Destination: Top Secret Facility
 Permission To Use Lethal Force: Granted
 
-Your objectives:
+Your Objectives:
 Locate Remaining Science Personnel
 Get Access To  Main Control Computer Of The Facility
 Stop Anomalous Activity
@@ -111,7 +111,7 @@ $fadeout 0.5
 
 OBJECTIVE1
 {
-Objective Failed: Get access to Main Control Computer
+Objective Accomplished: Get access to Main Control Computer
 }
 
 OBJECTIVE2
