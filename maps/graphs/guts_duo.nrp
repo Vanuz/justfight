@@ -1383,7 +1383,7 @@ Node #  45:
   48
   49  Entity on connection: func_breakable, name:   Model: *33
   72  Entity on connection: func_breakable, name:   Model: *33
-  75  Entity on connection: func_breakable, name:   Model: *33
+  75
  154
  155
  156
@@ -1413,7 +1413,7 @@ Node #  48:
   46  Entity on connection: func_breakable, name: zomb_wall  Model: *34
   47
   49
-  54
+  54  Entity on connection: func_breakable, name:   Model: *39
   55
   72  Entity on connection: func_breakable, name:   Model: *33
   75
@@ -1428,7 +1428,7 @@ Node #  49:
   47
   48
   54
-  72  Entity on connection: func_breakable, name:   Model: *39
+  72  Entity on connection: func_breakable, name:   Model: *33
   75
  154  Entity on connection: func_wall, name:   Model: *185
  155  Entity on connection: func_wall, name:   Model: *185
@@ -1464,7 +1464,7 @@ Node #  53:
 ----------------------------------------------------------------------------
 Node #  54:
 
-  48
+  48  Entity on connection: func_breakable, name:   Model: *39
   49
   55
   65
@@ -1657,7 +1657,7 @@ Node #  74:
 ----------------------------------------------------------------------------
 Node #  75:
 
-  45  Entity on connection: func_breakable, name:   Model: *33
+  45
   46  Entity on connection: func_breakable, name: zomb_wall  Model: *34
   47
   48

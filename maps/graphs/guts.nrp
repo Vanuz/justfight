@@ -1,5 +1,5 @@
 Node Graph Report for map:  guts.bsp
-93 Total Nodes
+94 Total Nodes
 
 Node#            0
 Location       274,   8,-944
@@ -559,6 +559,12 @@ HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
+Node#           93
+Location      2024,1764,-1072
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
 
 
 ----------------------------------------------------------------------------
@@ -632,8 +638,8 @@ Node #   9:
   13
   14  Entity on connection: func_breakable, name: exbox1  Model: *16
   16  Entity on connection: func_breakable, name: exbox1  Model: *16
-  71  Entity on connection: func_wall, name:   Model: *156
-  72  Entity on connection: func_wall, name:   Model: *156
+  71  Entity on connection: func_wall, name:   Model: *155
+  72  Entity on connection: func_wall, name:   Model: *155
 ----------------------------------------------------------------------------
 Node #  10:
 
@@ -644,8 +650,8 @@ Node #  10:
   13
   14  Entity on connection: func_breakable, name: exbox1  Model: *16
   16  Entity on connection: func_breakable, name: exbox1  Model: *16
-  71  Entity on connection: func_wall, name:   Model: *156
-  72  Entity on connection: func_wall, name:   Model: *156
+  71  Entity on connection: func_wall, name:   Model: *155
+  72  Entity on connection: func_wall, name:   Model: *155
 ----------------------------------------------------------------------------
 Node #  11:
 
@@ -658,8 +664,8 @@ Node #  11:
   14  Entity on connection: func_breakable, name: exbox1  Model: *16
   16  Entity on connection: func_breakable, name: exbox1  Model: *16
   17
-  71  Entity on connection: func_wall, name:   Model: *156
-  72  Entity on connection: func_wall, name:   Model: *156
+  71  Entity on connection: func_wall, name:   Model: *155
+  72  Entity on connection: func_wall, name:   Model: *155
 ----------------------------------------------------------------------------
 Node #  12:
 
@@ -672,8 +678,8 @@ Node #  12:
   14
   16
   17  Entity on connection: func_breakable, name: exbox1  Model: *16
-  71  Entity on connection: func_wall, name:   Model: *156
-  72  Entity on connection: func_wall, name:   Model: *156
+  71  Entity on connection: func_wall, name:   Model: *155
+  72  Entity on connection: func_wall, name:   Model: *155
 ----------------------------------------------------------------------------
 Node #  13:
 
@@ -686,8 +692,8 @@ Node #  13:
   14
   15
   16
-  71  Entity on connection: func_wall, name:   Model: *156
-  72  Entity on connection: func_wall, name:   Model: *156
+  71  Entity on connection: func_wall, name:   Model: *155
+  72  Entity on connection: func_wall, name:   Model: *155
 ----------------------------------------------------------------------------
 Node #  14:
 
@@ -701,8 +707,8 @@ Node #  14:
   15
   16
   17
-  71  Entity on connection: func_wall, name:   Model: *156
-  72  Entity on connection: func_wall, name:   Model: *156
+  71  Entity on connection: func_wall, name:   Model: *155
+  72  Entity on connection: func_wall, name:   Model: *155
 ----------------------------------------------------------------------------
 Node #  15:
 
@@ -712,7 +718,7 @@ Node #  15:
   17
   18
   19
-  72  Entity on connection: func_wall, name:   Model: *156
+  72  Entity on connection: func_wall, name:   Model: *155
 ----------------------------------------------------------------------------
 Node #  16:
 
@@ -726,9 +732,9 @@ Node #  16:
   14
   15
   17
-  18  Entity on connection: func_breakable, name:   Model: *90
-  19  Entity on connection: func_breakable, name:   Model: *90
-  72  Entity on connection: func_wall, name:   Model: *156
+  18  Entity on connection: func_breakable, name:   Model: *89
+  19  Entity on connection: func_breakable, name:   Model: *89
+  72  Entity on connection: func_wall, name:   Model: *155
 ----------------------------------------------------------------------------
 Node #  17:
 
@@ -739,12 +745,12 @@ Node #  17:
   16
   18
   19
-  71  Entity on connection: func_wall, name:   Model: *156
+  71  Entity on connection: func_wall, name:   Model: *155
 ----------------------------------------------------------------------------
 Node #  18:
 
   15
-  16  Entity on connection: func_breakable, name:   Model: *90
+  16  Entity on connection: func_breakable, name:   Model: *89
   17
   19
   21
@@ -753,16 +759,16 @@ Node #  18:
 Node #  19:
 
   15
-  16  Entity on connection: func_breakable, name:   Model: *90
+  16  Entity on connection: func_breakable, name:   Model: *89
   17
   18
   20  Entity on connection: func_door_rotating, name: zombdoor  Model: *23
   21
   22
-  24  Entity on connection: func_wall, name:   Model: *129
+  24  Entity on connection: func_wall, name:   Model: *128
   89
-  90  Entity on connection: func_wall, name:   Model: *129
-  91  Entity on connection: func_wall, name:   Model: *129
+  90  Entity on connection: func_wall, name:   Model: *128
+  91  Entity on connection: func_wall, name:   Model: *128
 ----------------------------------------------------------------------------
 Node #  20:
 
@@ -777,11 +783,11 @@ Node #  21:
   19
   20  Entity on connection: func_door_rotating, name: zombdoor  Model: *23
   22
-  23  Entity on connection: func_wall, name:   Model: *129
-  24  Entity on connection: func_wall, name:   Model: *129
+  23  Entity on connection: func_wall, name:   Model: *128
+  24  Entity on connection: func_wall, name:   Model: *128
   89
-  90  Entity on connection: func_wall, name:   Model: *129
-  91  Entity on connection: func_wall, name:   Model: *129
+  90  Entity on connection: func_wall, name:   Model: *128
+  91  Entity on connection: func_wall, name:   Model: *128
 ----------------------------------------------------------------------------
 Node #  22:
 
@@ -789,14 +795,14 @@ Node #  22:
   20  Entity on connection: func_door_rotating, name: zombdoor  Model: *23
   21
   23
-  24  Entity on connection: func_breakable, name:   Model: *125
+  24  Entity on connection: func_breakable, name:   Model: *124
   89
   90
   91
 ----------------------------------------------------------------------------
 Node #  23:
 
-  21  Entity on connection: func_wall, name:   Model: *129
+  21  Entity on connection: func_wall, name:   Model: *128
   22
   24
   89
@@ -805,9 +811,9 @@ Node #  23:
 ----------------------------------------------------------------------------
 Node #  24:
 
-  19  Entity on connection: func_wall, name:   Model: *129
-  21  Entity on connection: func_wall, name:   Model: *129
-  22  Entity on connection: func_breakable, name:   Model: *125
+  19  Entity on connection: func_wall, name:   Model: *128
+  21  Entity on connection: func_wall, name:   Model: *128
+  22  Entity on connection: func_breakable, name:   Model: *124
   23
   89
   90
@@ -869,7 +875,7 @@ Node #  30:
   42
   43
   44
-  46  Entity on connection: func_wall, name:   Model: *141
+  46  Entity on connection: func_wall, name:   Model: *140
 ----------------------------------------------------------------------------
 Node #  31:
 
@@ -885,7 +891,7 @@ Node #  31:
   42
   43
   44
-  46  Entity on connection: func_wall, name:   Model: *141
+  46  Entity on connection: func_wall, name:   Model: *140
 ----------------------------------------------------------------------------
 Node #  32:
 
@@ -902,7 +908,7 @@ Node #  32:
   42
   43
   44
-  46  Entity on connection: func_wall, name:   Model: *141
+  46  Entity on connection: func_wall, name:   Model: *140
 ----------------------------------------------------------------------------
 Node #  33:
 
@@ -933,7 +939,7 @@ Node #  34:
   42
   43
   44
-  46  Entity on connection: func_wall, name:   Model: *141
+  46  Entity on connection: func_wall, name:   Model: *140
 ----------------------------------------------------------------------------
 Node #  35:
 
@@ -977,9 +983,9 @@ Node #  38:
 
   39
   40
-  41  Entity on connection: func_breakable, name:   Model: *149
+  41  Entity on connection: func_breakable, name:   Model: *148
   45
-  47  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
   48
   53
   92
@@ -987,9 +993,9 @@ Node #  38:
 Node #  39:
 
   38
-  48  Entity on connection: func_breakable, name:   Model: *149
-  52  Entity on connection: func_breakable, name:   Model: *149
-  53  Entity on connection: func_breakable, name:   Model: *149
+  48  Entity on connection: func_breakable, name:   Model: *148
+  52  Entity on connection: func_breakable, name:   Model: *148
+  53  Entity on connection: func_breakable, name:   Model: *148
   92
 ----------------------------------------------------------------------------
 Node #  40:
@@ -1001,9 +1007,9 @@ Node #  40:
   42  Entity on connection: func_door, name:   Model: *53
   43  Entity on connection: func_door, name:   Model: *53
   45
-  47  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
   48
-  49  Entity on connection: func_wall, name:   Model: *158
+  49  Entity on connection: func_wall, name:   Model: *157
   52
   53
   54
@@ -1015,20 +1021,20 @@ Node #  41:
   31  Entity on connection: func_door, name:   Model: *53
   32  Entity on connection: func_door, name:   Model: *53
   33  Entity on connection: func_door, name:   Model: *53
-  38  Entity on connection: func_breakable, name:   Model: *149
+  38  Entity on connection: func_breakable, name:   Model: *148
   40
   42  Entity on connection: func_door, name:   Model: *53
   43  Entity on connection: func_door, name:   Model: *53
   45
   46  Entity on connection: func_door, name:   Model: *53
-  48  Entity on connection: func_wall, name:   Model: *158
-  49  Entity on connection: func_wall, name:   Model: *158
+  48  Entity on connection: func_wall, name:   Model: *157
+  49  Entity on connection: func_wall, name:   Model: *157
   50
-  51  Entity on connection: func_breakable, name:   Model: *65
+  51  Entity on connection: func_breakable, name:   Model: *64
   52
   53
   54
-  92  Entity on connection: func_breakable, name:   Model: *149
+  92  Entity on connection: func_breakable, name:   Model: *148
 ----------------------------------------------------------------------------
 Node #  42:
 
@@ -1043,7 +1049,7 @@ Node #  42:
   40  Entity on connection: func_door, name:   Model: *53
   41  Entity on connection: func_door, name:   Model: *53
   43
-  44  Entity on connection: func_wall, name:   Model: *141
+  44  Entity on connection: func_wall, name:   Model: *140
   46
 ----------------------------------------------------------------------------
 Node #  43:
@@ -1061,7 +1067,7 @@ Node #  43:
   41  Entity on connection: func_door, name:   Model: *53
   42
   44
-  46  Entity on connection: func_wall, name:   Model: *141
+  46  Entity on connection: func_wall, name:   Model: *140
 ----------------------------------------------------------------------------
 Node #  44:
 
@@ -1074,9 +1080,9 @@ Node #  44:
   35  Entity on connection: func_wall, name:   Model: *42
   36  Entity on connection: func_wall, name:   Model: *42
   37  Entity on connection: func_wall, name:   Model: *42
-  42  Entity on connection: func_wall, name:   Model: *141
+  42  Entity on connection: func_wall, name:   Model: *140
   43
-  46  Entity on connection: func_wall, name:   Model: *141
+  46  Entity on connection: func_wall, name:   Model: *140
 ----------------------------------------------------------------------------
 Node #  45:
 
@@ -1084,389 +1090,396 @@ Node #  45:
   40
   41
   46  Entity on connection: func_door, name:   Model: *53
-  47  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
   48
-  49  Entity on connection: func_wall, name:   Model: *158
+  49  Entity on connection: func_wall, name:   Model: *157
   52
   53
   54
-  92  Entity on connection: func_breakable, name:   Model: *149
+  92  Entity on connection: func_breakable, name:   Model: *148
 ----------------------------------------------------------------------------
 Node #  46:
 
-  30  Entity on connection: func_wall, name:   Model: *141
-  31  Entity on connection: func_wall, name:   Model: *141
-  32  Entity on connection: func_wall, name:   Model: *141
+  30  Entity on connection: func_wall, name:   Model: *140
+  31  Entity on connection: func_wall, name:   Model: *140
+  32  Entity on connection: func_wall, name:   Model: *140
   33
-  34  Entity on connection: func_wall, name:   Model: *141
+  34  Entity on connection: func_wall, name:   Model: *140
   41  Entity on connection: func_door, name:   Model: *53
   42
-  43  Entity on connection: func_wall, name:   Model: *141
-  44  Entity on connection: func_wall, name:   Model: *141
+  43  Entity on connection: func_wall, name:   Model: *140
+  44  Entity on connection: func_wall, name:   Model: *140
   45  Entity on connection: func_door, name:   Model: *53
 ----------------------------------------------------------------------------
 Node #  47:
 
-  38  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  40  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  45  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  48  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  49  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  50  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  51  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  53  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  38  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  40  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  45  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  48  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  49  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  50  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  51  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  53  Entity on connection: func_breakable, name: crate_wall  Model: *65
   65
   66
-  92  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  92  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  93  Entity on connection: func_breakable, name: crate_wall  Model: *65
 ----------------------------------------------------------------------------
 Node #  48:
 
   38
-  39  Entity on connection: func_breakable, name:   Model: *149
+  39  Entity on connection: func_breakable, name:   Model: *148
   40
-  41  Entity on connection: func_wall, name:   Model: *158
+  41  Entity on connection: func_wall, name:   Model: *157
   45
-  47  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
   49
   50
   51
-  52  Entity on connection: func_wall, name:   Model: *158
+  52  Entity on connection: func_wall, name:   Model: *157
   53
-  66  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  66  Entity on connection: func_breakable, name: crate_wall  Model: *65
   92
+  93
 ----------------------------------------------------------------------------
 Node #  49:
 
-  40  Entity on connection: func_wall, name:   Model: *158
-  41  Entity on connection: func_wall, name:   Model: *158
-  45  Entity on connection: func_wall, name:   Model: *158
-  47  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  40  Entity on connection: func_wall, name:   Model: *157
+  41  Entity on connection: func_wall, name:   Model: *157
+  45  Entity on connection: func_wall, name:   Model: *157
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
   48
   50
   51
-  52  Entity on connection: func_wall, name:   Model: *158
-  53  Entity on connection: func_wall, name:   Model: *158
-  66  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  52  Entity on connection: func_wall, name:   Model: *157
+  53  Entity on connection: func_wall, name:   Model: *157
+  66  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  93
 ----------------------------------------------------------------------------
 Node #  50:
 
   41
-  47  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
   48
   49
   51
   52
   53
-  66  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  66  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  93
 ----------------------------------------------------------------------------
 Node #  51:
 
-  41  Entity on connection: func_breakable, name:   Model: *65
-  47  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  41  Entity on connection: func_breakable, name:   Model: *64
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
   48
   49
   50
   52
-  53  Entity on connection: func_breakable, name:   Model: *65
-  54  Entity on connection: func_breakable, name:   Model: *65
-  66  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  53  Entity on connection: func_breakable, name:   Model: *64
+  54  Entity on connection: func_breakable, name:   Model: *64
+  66  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  93
 ----------------------------------------------------------------------------
 Node #  52:
 
-  39  Entity on connection: func_breakable, name:   Model: *149
+  39  Entity on connection: func_breakable, name:   Model: *148
   40
   41
   45
-  48  Entity on connection: func_wall, name:   Model: *158
-  49  Entity on connection: func_wall, name:   Model: *158
+  48  Entity on connection: func_wall, name:   Model: *157
+  49  Entity on connection: func_wall, name:   Model: *157
   50
   51
   53
+  93
 ----------------------------------------------------------------------------
 Node #  53:
 
   38
-  39  Entity on connection: func_breakable, name:   Model: *149
+  39  Entity on connection: func_breakable, name:   Model: *148
   40
   41
   45
-  47  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
   48
-  49  Entity on connection: func_wall, name:   Model: *158
+  49  Entity on connection: func_wall, name:   Model: *157
   50
-  51  Entity on connection: func_breakable, name:   Model: *65
+  51  Entity on connection: func_breakable, name:   Model: *64
   52
   54
-  92  Entity on connection: func_breakable, name:   Model: *149
+  92  Entity on connection: func_breakable, name:   Model: *148
 ----------------------------------------------------------------------------
 Node #  54:
 
   40
   41
   45
-  51  Entity on connection: func_breakable, name:   Model: *65
+  51  Entity on connection: func_breakable, name:   Model: *64
   53
-  92  Entity on connection: func_breakable, name:   Model: *63
+  92  Entity on connection: func_breakable, name:   Model: *62
 ----------------------------------------------------------------------------
 Node #  55:
 
   56
-  57  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
-  59  Entity on connection: func_wall, name:   Model: *83
-  60  Entity on connection: func_wall, name:   Model: *83
-  65  Entity on connection: func_door_rotating, name:   Model: *77
-  67  Entity on connection: func_wall, name:   Model: *83
-  68  Entity on connection: func_wall, name:   Model: *83
-  69  Entity on connection: func_wall, name:   Model: *83
+  57  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
+  59  Entity on connection: func_wall, name:   Model: *82
+  60  Entity on connection: func_wall, name:   Model: *82
+  65  Entity on connection: func_door_rotating, name:   Model: *76
+  67  Entity on connection: func_wall, name:   Model: *82
+  68  Entity on connection: func_wall, name:   Model: *82
+  69  Entity on connection: func_wall, name:   Model: *82
   70
-  79  Entity on connection: func_wall, name:   Model: *83
-  80  Entity on connection: func_wall, name:   Model: *83
-  81  Entity on connection: func_wall, name:   Model: *83
+  79  Entity on connection: func_wall, name:   Model: *82
+  80  Entity on connection: func_wall, name:   Model: *82
+  81  Entity on connection: func_wall, name:   Model: *82
   82
-  83  Entity on connection: func_wall, name:   Model: *83
+  83  Entity on connection: func_wall, name:   Model: *82
   86
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  56:
 
   55
-  57  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
-  59  Entity on connection: func_wall, name:   Model: *83
-  60  Entity on connection: func_wall, name:   Model: *83
-  67  Entity on connection: func_wall, name:   Model: *83
-  68  Entity on connection: func_wall, name:   Model: *83
-  69  Entity on connection: func_wall, name:   Model: *83
+  57  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
+  59  Entity on connection: func_wall, name:   Model: *82
+  60  Entity on connection: func_wall, name:   Model: *82
+  67  Entity on connection: func_wall, name:   Model: *82
+  68  Entity on connection: func_wall, name:   Model: *82
+  69  Entity on connection: func_wall, name:   Model: *82
   70
-  79  Entity on connection: func_wall, name:   Model: *83
-  80  Entity on connection: func_wall, name:   Model: *83
-  81  Entity on connection: func_wall, name:   Model: *83
+  79  Entity on connection: func_wall, name:   Model: *82
+  80  Entity on connection: func_wall, name:   Model: *82
+  81  Entity on connection: func_wall, name:   Model: *82
   82
-  83  Entity on connection: func_wall, name:   Model: *83
+  83  Entity on connection: func_wall, name:   Model: *82
   86
   87
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  57:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
   58
-  59  Entity on connection: func_wall, name:   Model: *83
-  60  Entity on connection: func_wall, name:   Model: *83
-  67  Entity on connection: func_wall, name:   Model: *83
-  69  Entity on connection: func_wall, name:   Model: *83
-  79  Entity on connection: func_wall, name:   Model: *83
-  80  Entity on connection: func_wall, name:   Model: *83
+  59  Entity on connection: func_wall, name:   Model: *82
+  60  Entity on connection: func_wall, name:   Model: *82
+  67  Entity on connection: func_wall, name:   Model: *82
+  69  Entity on connection: func_wall, name:   Model: *82
+  79  Entity on connection: func_wall, name:   Model: *82
+  80  Entity on connection: func_wall, name:   Model: *82
   81
   82
   83
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  58:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
   57
-  59  Entity on connection: func_wall, name:   Model: *83
-  60  Entity on connection: func_wall, name:   Model: *83
-  67  Entity on connection: func_wall, name:   Model: *83
-  68  Entity on connection: func_wall, name:   Model: *83
-  69  Entity on connection: func_wall, name:   Model: *83
-  79  Entity on connection: func_wall, name:   Model: *83
-  80  Entity on connection: func_wall, name:   Model: *83
+  59  Entity on connection: func_wall, name:   Model: *82
+  60  Entity on connection: func_wall, name:   Model: *82
+  67  Entity on connection: func_wall, name:   Model: *82
+  68  Entity on connection: func_wall, name:   Model: *82
+  69  Entity on connection: func_wall, name:   Model: *82
+  79  Entity on connection: func_wall, name:   Model: *82
+  80  Entity on connection: func_wall, name:   Model: *82
   81
   82
   83
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  59:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
-  57  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
+  57  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
   60
-  61  Entity on connection: func_door_rotating, name:   Model: *77
-  62  Entity on connection: func_door_rotating, name:   Model: *77
-  64  Entity on connection: func_door_rotating, name:   Model: *77
-  65  Entity on connection: func_door_rotating, name:   Model: *77
-  67  Entity on connection: func_wall, name:   Model: *83
-  68  Entity on connection: func_wall, name:   Model: *83
+  61  Entity on connection: func_door_rotating, name:   Model: *76
+  62  Entity on connection: func_door_rotating, name:   Model: *76
+  64  Entity on connection: func_door_rotating, name:   Model: *76
+  65  Entity on connection: func_door_rotating, name:   Model: *76
+  67  Entity on connection: func_wall, name:   Model: *82
+  68  Entity on connection: func_wall, name:   Model: *82
   69
   79
   80
-  81  Entity on connection: func_wall, name:   Model: *83
-  82  Entity on connection: func_wall, name:   Model: *83
+  81  Entity on connection: func_wall, name:   Model: *82
+  82  Entity on connection: func_wall, name:   Model: *82
   83
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  60:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
-  57  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
+  57  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
   59
-  61  Entity on connection: func_door_rotating, name:   Model: *77
-  62  Entity on connection: func_door_rotating, name:   Model: *77
-  64  Entity on connection: func_door_rotating, name:   Model: *77
-  65  Entity on connection: func_door_rotating, name:   Model: *77
-  66  Entity on connection: func_door_rotating, name:   Model: *77
+  61  Entity on connection: func_door_rotating, name:   Model: *76
+  62  Entity on connection: func_door_rotating, name:   Model: *76
+  64  Entity on connection: func_door_rotating, name:   Model: *76
+  65  Entity on connection: func_door_rotating, name:   Model: *76
+  66  Entity on connection: func_door_rotating, name:   Model: *76
   67
   68
   69
   79
   80
-  81  Entity on connection: func_wall, name:   Model: *83
-  82  Entity on connection: func_wall, name:   Model: *83
+  81  Entity on connection: func_wall, name:   Model: *82
+  82  Entity on connection: func_wall, name:   Model: *82
   83
 ----------------------------------------------------------------------------
 Node #  61:
 
-  59  Entity on connection: func_door_rotating, name:   Model: *77
-  60  Entity on connection: func_door_rotating, name:   Model: *77
+  59  Entity on connection: func_door_rotating, name:   Model: *76
+  60  Entity on connection: func_door_rotating, name:   Model: *76
   62
   64
   65
   66
-  68  Entity on connection: func_door_rotating, name:   Model: *77
-  69  Entity on connection: func_door_rotating, name:   Model: *77
-  79  Entity on connection: func_door_rotating, name:   Model: *77
-  80  Entity on connection: func_door_rotating, name:   Model: *77
+  68  Entity on connection: func_door_rotating, name:   Model: *76
+  69  Entity on connection: func_door_rotating, name:   Model: *76
+  79  Entity on connection: func_door_rotating, name:   Model: *76
+  80  Entity on connection: func_door_rotating, name:   Model: *76
 ----------------------------------------------------------------------------
 Node #  62:
 
-  59  Entity on connection: func_door_rotating, name:   Model: *77
-  60  Entity on connection: func_door_rotating, name:   Model: *77
+  59  Entity on connection: func_door_rotating, name:   Model: *76
+  60  Entity on connection: func_door_rotating, name:   Model: *76
   61
-  63  Entity on connection: func_door_rotating, name: slavdoor  Model: *67
+  63  Entity on connection: func_door_rotating, name: slavdoor  Model: *66
   64
   65
   66
-  68  Entity on connection: func_door_rotating, name:   Model: *77
-  79  Entity on connection: func_door_rotating, name:   Model: *77
-  80  Entity on connection: func_door_rotating, name:   Model: *77
+  68  Entity on connection: func_door_rotating, name:   Model: *76
+  79  Entity on connection: func_door_rotating, name:   Model: *76
+  80  Entity on connection: func_door_rotating, name:   Model: *76
 ----------------------------------------------------------------------------
 Node #  63:
 
-  62  Entity on connection: func_door_rotating, name: slavdoor  Model: *67
+  62  Entity on connection: func_door_rotating, name: slavdoor  Model: *66
 ----------------------------------------------------------------------------
 Node #  64:
 
-  59  Entity on connection: func_door_rotating, name:   Model: *77
-  60  Entity on connection: func_door_rotating, name:   Model: *77
+  59  Entity on connection: func_door_rotating, name:   Model: *76
+  60  Entity on connection: func_door_rotating, name:   Model: *76
   61
   62
   65
   66
-  69  Entity on connection: func_door_rotating, name:   Model: *77
-  79  Entity on connection: func_door_rotating, name:   Model: *77
-  80  Entity on connection: func_door_rotating, name:   Model: *77
-  82  Entity on connection: func_wall, name:   Model: *83
+  69  Entity on connection: func_door_rotating, name:   Model: *76
+  79  Entity on connection: func_door_rotating, name:   Model: *76
+  80  Entity on connection: func_door_rotating, name:   Model: *76
+  82  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  65:
 
   47
-  55  Entity on connection: func_door_rotating, name:   Model: *77
-  59  Entity on connection: func_door_rotating, name:   Model: *77
-  60  Entity on connection: func_door_rotating, name:   Model: *77
+  55  Entity on connection: func_door_rotating, name:   Model: *76
+  59  Entity on connection: func_door_rotating, name:   Model: *76
+  60  Entity on connection: func_door_rotating, name:   Model: *76
   61
   62
   64
   66
-  79  Entity on connection: func_door_rotating, name:   Model: *77
-  80  Entity on connection: func_door_rotating, name:   Model: *77
-  82  Entity on connection: func_wall, name:   Model: *83
+  79  Entity on connection: func_door_rotating, name:   Model: *76
+  80  Entity on connection: func_door_rotating, name:   Model: *76
+  82  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  66:
 
   47
-  48  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  49  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  50  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  51  Entity on connection: func_breakable, name: crate_wall  Model: *66
-  60  Entity on connection: func_door_rotating, name:   Model: *77
+  48  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  49  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  50  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  51  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  60  Entity on connection: func_door_rotating, name:   Model: *76
   61
   62
   64
   65
-  68  Entity on connection: func_door_rotating, name:   Model: *77
-  80  Entity on connection: func_door_rotating, name:   Model: *77
+  68  Entity on connection: func_door_rotating, name:   Model: *76
+  80  Entity on connection: func_door_rotating, name:   Model: *76
+  93  Entity on connection: func_breakable, name: crate_wall  Model: *65
 ----------------------------------------------------------------------------
 Node #  67:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
-  57  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
-  59  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
+  57  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
+  59  Entity on connection: func_wall, name:   Model: *82
   60
   68
   69
   79
-  80  Entity on connection: func_wall, name:   Model: *83
-  81  Entity on connection: func_wall, name:   Model: *83
-  82  Entity on connection: func_wall, name:   Model: *83
-  83  Entity on connection: func_wall, name:   Model: *83
+  80  Entity on connection: func_wall, name:   Model: *82
+  81  Entity on connection: func_wall, name:   Model: *82
+  82  Entity on connection: func_wall, name:   Model: *82
+  83  Entity on connection: func_wall, name:   Model: *82
   88
 ----------------------------------------------------------------------------
 Node #  68:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
-  59  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
+  59  Entity on connection: func_wall, name:   Model: *82
   60
-  61  Entity on connection: func_door_rotating, name:   Model: *77
-  62  Entity on connection: func_door_rotating, name:   Model: *77
-  66  Entity on connection: func_door_rotating, name:   Model: *77
+  61  Entity on connection: func_door_rotating, name:   Model: *76
+  62  Entity on connection: func_door_rotating, name:   Model: *76
+  66  Entity on connection: func_door_rotating, name:   Model: *76
   67
   69
-  79  Entity on connection: func_wall, name:   Model: *83
-  80  Entity on connection: func_wall, name:   Model: *83
-  81  Entity on connection: func_wall, name:   Model: *83
-  82  Entity on connection: func_wall, name:   Model: *83
-  83  Entity on connection: func_wall, name:   Model: *83
+  79  Entity on connection: func_wall, name:   Model: *82
+  80  Entity on connection: func_wall, name:   Model: *82
+  81  Entity on connection: func_wall, name:   Model: *82
+  82  Entity on connection: func_wall, name:   Model: *82
+  83  Entity on connection: func_wall, name:   Model: *82
   88
 ----------------------------------------------------------------------------
 Node #  69:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
-  57  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
+  57  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
   59
   60
-  61  Entity on connection: func_door_rotating, name:   Model: *77
-  64  Entity on connection: func_door_rotating, name:   Model: *77
+  61  Entity on connection: func_door_rotating, name:   Model: *76
+  64  Entity on connection: func_door_rotating, name:   Model: *76
   67
   68
   79
   80
-  81  Entity on connection: func_wall, name:   Model: *83
-  82  Entity on connection: func_wall, name:   Model: *83
+  81  Entity on connection: func_wall, name:   Model: *82
+  82  Entity on connection: func_wall, name:   Model: *82
   83
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  70:
 
   55
   56
-  82  Entity on connection: func_wall, name:   Model: *134
+  82  Entity on connection: func_wall, name:   Model: *133
   86
   87
 ----------------------------------------------------------------------------
 Node #  71:
 
-   9  Entity on connection: func_wall, name:   Model: *156
-  10  Entity on connection: func_wall, name:   Model: *156
-  11  Entity on connection: func_wall, name:   Model: *156
-  12  Entity on connection: func_wall, name:   Model: *156
-  13  Entity on connection: func_wall, name:   Model: *156
-  14  Entity on connection: func_wall, name:   Model: *156
-  17  Entity on connection: func_wall, name:   Model: *156
+   9  Entity on connection: func_wall, name:   Model: *155
+  10  Entity on connection: func_wall, name:   Model: *155
+  11  Entity on connection: func_wall, name:   Model: *155
+  12  Entity on connection: func_wall, name:   Model: *155
+  13  Entity on connection: func_wall, name:   Model: *155
+  14  Entity on connection: func_wall, name:   Model: *155
+  17  Entity on connection: func_wall, name:   Model: *155
   72
   74
   84
@@ -1475,14 +1488,14 @@ Node #  71:
 ----------------------------------------------------------------------------
 Node #  72:
 
-   9  Entity on connection: func_wall, name:   Model: *156
-  10  Entity on connection: func_wall, name:   Model: *156
-  11  Entity on connection: func_wall, name:   Model: *156
-  12  Entity on connection: func_wall, name:   Model: *156
-  13  Entity on connection: func_wall, name:   Model: *156
-  14  Entity on connection: func_wall, name:   Model: *156
-  15  Entity on connection: func_wall, name:   Model: *156
-  16  Entity on connection: func_wall, name:   Model: *156
+   9  Entity on connection: func_wall, name:   Model: *155
+  10  Entity on connection: func_wall, name:   Model: *155
+  11  Entity on connection: func_wall, name:   Model: *155
+  12  Entity on connection: func_wall, name:   Model: *155
+  13  Entity on connection: func_wall, name:   Model: *155
+  14  Entity on connection: func_wall, name:   Model: *155
+  15  Entity on connection: func_wall, name:   Model: *155
+  16  Entity on connection: func_wall, name:   Model: *155
   71
   74
   84
@@ -1528,63 +1541,63 @@ Node #  78:
 ----------------------------------------------------------------------------
 Node #  79:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
-  57  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
+  57  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
   59
   60
-  61  Entity on connection: func_door_rotating, name:   Model: *77
-  62  Entity on connection: func_door_rotating, name:   Model: *77
-  64  Entity on connection: func_door_rotating, name:   Model: *77
-  65  Entity on connection: func_door_rotating, name:   Model: *77
+  61  Entity on connection: func_door_rotating, name:   Model: *76
+  62  Entity on connection: func_door_rotating, name:   Model: *76
+  64  Entity on connection: func_door_rotating, name:   Model: *76
+  65  Entity on connection: func_door_rotating, name:   Model: *76
   67
-  68  Entity on connection: func_wall, name:   Model: *83
+  68  Entity on connection: func_wall, name:   Model: *82
   69
   80
-  81  Entity on connection: func_wall, name:   Model: *83
-  82  Entity on connection: func_wall, name:   Model: *83
+  81  Entity on connection: func_wall, name:   Model: *82
+  82  Entity on connection: func_wall, name:   Model: *82
   83
   88
 ----------------------------------------------------------------------------
 Node #  80:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
-  57  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
+  57  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
   59
   60
-  61  Entity on connection: func_door_rotating, name:   Model: *77
-  62  Entity on connection: func_door_rotating, name:   Model: *77
-  64  Entity on connection: func_door_rotating, name:   Model: *77
-  65  Entity on connection: func_door_rotating, name:   Model: *77
-  66  Entity on connection: func_door_rotating, name:   Model: *77
-  67  Entity on connection: func_wall, name:   Model: *83
-  68  Entity on connection: func_wall, name:   Model: *83
+  61  Entity on connection: func_door_rotating, name:   Model: *76
+  62  Entity on connection: func_door_rotating, name:   Model: *76
+  64  Entity on connection: func_door_rotating, name:   Model: *76
+  65  Entity on connection: func_door_rotating, name:   Model: *76
+  66  Entity on connection: func_door_rotating, name:   Model: *76
+  67  Entity on connection: func_wall, name:   Model: *82
+  68  Entity on connection: func_wall, name:   Model: *82
   69
   79
-  81  Entity on connection: func_wall, name:   Model: *83
-  82  Entity on connection: func_wall, name:   Model: *83
+  81  Entity on connection: func_wall, name:   Model: *82
+  82  Entity on connection: func_wall, name:   Model: *82
   83
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  81:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
   57
   58
-  59  Entity on connection: func_wall, name:   Model: *83
-  60  Entity on connection: func_wall, name:   Model: *83
-  67  Entity on connection: func_wall, name:   Model: *83
-  68  Entity on connection: func_wall, name:   Model: *83
-  69  Entity on connection: func_wall, name:   Model: *83
-  79  Entity on connection: func_wall, name:   Model: *83
-  80  Entity on connection: func_wall, name:   Model: *83
+  59  Entity on connection: func_wall, name:   Model: *82
+  60  Entity on connection: func_wall, name:   Model: *82
+  67  Entity on connection: func_wall, name:   Model: *82
+  68  Entity on connection: func_wall, name:   Model: *82
+  69  Entity on connection: func_wall, name:   Model: *82
+  79  Entity on connection: func_wall, name:   Model: *82
+  80  Entity on connection: func_wall, name:   Model: *82
   82
   83
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  82:
 
@@ -1592,37 +1605,37 @@ Node #  82:
   56
   57
   58
-  59  Entity on connection: func_wall, name:   Model: *83
-  60  Entity on connection: func_wall, name:   Model: *83
-  64  Entity on connection: func_wall, name:   Model: *83
-  65  Entity on connection: func_wall, name:   Model: *83
-  67  Entity on connection: func_wall, name:   Model: *83
-  68  Entity on connection: func_wall, name:   Model: *83
-  69  Entity on connection: func_wall, name:   Model: *83
-  70  Entity on connection: func_wall, name:   Model: *134
-  79  Entity on connection: func_wall, name:   Model: *83
-  80  Entity on connection: func_wall, name:   Model: *83
+  59  Entity on connection: func_wall, name:   Model: *82
+  60  Entity on connection: func_wall, name:   Model: *82
+  64  Entity on connection: func_wall, name:   Model: *82
+  65  Entity on connection: func_wall, name:   Model: *82
+  67  Entity on connection: func_wall, name:   Model: *82
+  68  Entity on connection: func_wall, name:   Model: *82
+  69  Entity on connection: func_wall, name:   Model: *82
+  70  Entity on connection: func_wall, name:   Model: *133
+  79  Entity on connection: func_wall, name:   Model: *82
+  80  Entity on connection: func_wall, name:   Model: *82
   81
   83
   87
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  83:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
   57
   58
   59
   60
-  67  Entity on connection: func_wall, name:   Model: *83
-  68  Entity on connection: func_wall, name:   Model: *83
+  67  Entity on connection: func_wall, name:   Model: *82
+  68  Entity on connection: func_wall, name:   Model: *82
   69
   79
   80
   81
   82
-  88  Entity on connection: func_wall, name:   Model: *83
+  88  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  84:
 
@@ -1663,19 +1676,19 @@ Node #  87:
 ----------------------------------------------------------------------------
 Node #  88:
 
-  55  Entity on connection: func_wall, name:   Model: *83
-  56  Entity on connection: func_wall, name:   Model: *83
-  57  Entity on connection: func_wall, name:   Model: *83
-  58  Entity on connection: func_wall, name:   Model: *83
-  59  Entity on connection: func_wall, name:   Model: *83
+  55  Entity on connection: func_wall, name:   Model: *82
+  56  Entity on connection: func_wall, name:   Model: *82
+  57  Entity on connection: func_wall, name:   Model: *82
+  58  Entity on connection: func_wall, name:   Model: *82
+  59  Entity on connection: func_wall, name:   Model: *82
   67
   68
-  69  Entity on connection: func_wall, name:   Model: *83
+  69  Entity on connection: func_wall, name:   Model: *82
   79
-  80  Entity on connection: func_wall, name:   Model: *83
-  81  Entity on connection: func_wall, name:   Model: *83
-  82  Entity on connection: func_wall, name:   Model: *83
-  83  Entity on connection: func_wall, name:   Model: *83
+  80  Entity on connection: func_wall, name:   Model: *82
+  81  Entity on connection: func_wall, name:   Model: *82
+  82  Entity on connection: func_wall, name:   Model: *82
+  83  Entity on connection: func_wall, name:   Model: *82
 ----------------------------------------------------------------------------
 Node #  89:
 
@@ -1691,8 +1704,8 @@ Node #  89:
 ----------------------------------------------------------------------------
 Node #  90:
 
-  19  Entity on connection: func_wall, name:   Model: *129
-  21  Entity on connection: func_wall, name:   Model: *129
+  19  Entity on connection: func_wall, name:   Model: *128
+  21  Entity on connection: func_wall, name:   Model: *128
   22
   23
   24
@@ -1701,8 +1714,8 @@ Node #  90:
 ----------------------------------------------------------------------------
 Node #  91:
 
-  19  Entity on connection: func_wall, name:   Model: *129
-  21  Entity on connection: func_wall, name:   Model: *129
+  19  Entity on connection: func_wall, name:   Model: *128
+  21  Entity on connection: func_wall, name:   Model: *128
   22
   23
   24
@@ -1714,15 +1727,25 @@ Node #  92:
   38
   39
   40
-  41  Entity on connection: func_breakable, name:   Model: *149
-  45  Entity on connection: func_breakable, name:   Model: *149
-  47  Entity on connection: func_breakable, name: crate_wall  Model: *66
+  41  Entity on connection: func_breakable, name:   Model: *148
+  45  Entity on connection: func_breakable, name:   Model: *148
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
   48
-  53  Entity on connection: func_breakable, name:   Model: *149
-  54  Entity on connection: func_breakable, name:   Model: *63
+  53  Entity on connection: func_breakable, name:   Model: *148
+  54  Entity on connection: func_breakable, name:   Model: *62
+----------------------------------------------------------------------------
+Node #  93:
+
+  47  Entity on connection: func_breakable, name: crate_wall  Model: *65
+  48
+  49
+  50
+  51
+  52
+  66  Entity on connection: func_breakable, name: crate_wall  Model: *65
 ----------------------------------------------------------------------------
 
- 878 Total Initial Connections -   19 Maximum connections for a single node.
+ 892 Total Initial Connections -   19 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -2169,13 +2192,14 @@ Node   47:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  38 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  40 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  92 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
-Rejected Node  40 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
 Rejected Node  45 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  53 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
@@ -2184,16 +2208,16 @@ Node   48:
 NODE_SMALL_HULL step 0.000000
 Rejected Node  38 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
+Rejected Node  39 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
 Rejected Node  92 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
-Rejected Node  39 - Unreachable by Any Hull
+Rejected Node  40 - Unreachable by Any Hull
 NODE_HUMAN_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
-Rejected Node  40 - Unreachable by Any Hull
+Rejected Node  41 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  52 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
-Rejected Node  41 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   49:
@@ -2203,13 +2227,13 @@ Rejected Node  40 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  41 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
+Rejected Node  45 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
 Rejected Node  53 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  52 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  51 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
-Rejected Node  45 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   50:
 
@@ -2223,18 +2247,20 @@ Node   51:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  41 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  49 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
-Rejected Node  54 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
 Rejected Node  53 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  54 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   52:
 
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  48 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  49 - Unreachable by Any Hull
 NODE_HUMAN_HULL step 0.000000
@@ -2478,15 +2504,15 @@ Node   66:
 NODE_SMALL_HULL step 0.000000
 Rejected Node  60 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
+Rejected Node  61 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
 Rejected Node  80 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  68 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
-Rejected Node  61 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
 Rejected Node  62 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   67:
 
@@ -2900,6 +2926,12 @@ Rejected Node  47 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  48 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
+Node   93:
+
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+-------------------------------------------------------------------------------
 
 
 ----------------------------------------------------------------------------
@@ -3146,8 +3178,8 @@ Node  50:
 ----------------------------------------------------------------------------
 
 Node  51:
-REJECTED NODE  66 through Node  48, Dot = 0.999608
 REJECTED NODE  47 through Node  48, Dot = 0.998018
+REJECTED NODE  66 through Node  48, Dot = 0.999608
 ----------------------------------------------------------------------------
 
 Node  52:
@@ -3323,6 +3355,10 @@ REJECTED NODE  45 through Node  40, Dot = 0.999845
 REJECTED NODE  53 through Node  40, Dot = 0.999878
 ----------------------------------------------------------------------------
 
+Node  93:
+REJECTED NODE  66 through Node  47, Dot = 0.999090
+----------------------------------------------------------------------------
+
 
 
 -------------------------------------------------------------------------------
@@ -3340,14 +3376,15 @@ WARNING: Node  49 does not connect back to Node  48
 WARNING: Node  44 does not connect back to Node  49
 WARNING: Node  34 does not connect back to Node  51
 WARNING: Node  40 does not connect back to Node  52
-WARNING: Node  53 does not connect back to Node  55
-WARNING: Node  85 does not connect back to Node  82
-WARNING: Node  86 does not connect back to Node  88
+WARNING: Node  53 does not connect back to Node  54
+WARNING: Node  54 does not connect back to Node  58
+WARNING: Node  86 does not connect back to Node  83
+WARNING: Node  87 does not connect back to Node  89
 -------------------------------------------------------------------------------
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 352
+Total Number of Connections in Pool: 365
 -------------------------------------------------------------------------------
-Connection Pool: 8448 bytes
+Connection Pool: 8760 bytes
 -------------------------------------------------------------------------------
