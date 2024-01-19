@@ -1328,6 +1328,7 @@ JF_GENERAL1_9 buzwarn buzwarn (e95 p98) hostile alien force detected in the faci
 JF_GENERAL1_10 deeoo deeoo (e95 p98) doctor bailey, evacuate to administration complex right now
 
 //Jokes and Fluff
+
 JF_WILCO deeoo deeoo (e95 p98) roger wilco, evacuate waste processing facility immediately
 JF_INDIA bloop (e95 p98) india has been destroyed
 JF_FACTS bloop (e95 p98) kill all alien life forms, please
@@ -1341,4 +1342,5 @@ JF_MESSAGE1 (e95 p98) this computer has no use, please, move on
 JF_MESSAGE2 (e95 p98) sector b status, fifty percent failure
 JF_MESSAGE3 (e95 p98) ventillation maintenance crew report your status immediately
 JF_MESSAGE4 (e95 p98) danger danger, high voltage, in sector a
+JF_MESSAGE5 deeoo deeoo (e95 p98)  this chemical processing plant is damaged, call repair team immediately
 JF_SUPERTEAM deeoo deeoo (e108 p88) super alpha bravo team hostile alien forms detected, eliminate immediately
