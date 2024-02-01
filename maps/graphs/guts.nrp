@@ -2949,7 +2949,7 @@ REJECTED NODE   0 through Node   1, Dot = 0.999896
 ----------------------------------------------------------------------------
 
 Node   3:
-REJECTED NODE   5 through Node   4, Dot = 1.000000
+REJECTED NODE   5 through Node   4, Dot = 0.999999
 ----------------------------------------------------------------------------
 
 Node   4:
@@ -3003,7 +3003,7 @@ REJECTED NODE   7 through Node   9, Dot = 0.999046
 
 Node  13:
 REJECTED NODE   6 through Node   7, Dot = 0.999984
-REJECTED NODE   7 through Node   9, Dot = 0.998649
+REJECTED NODE   7 through Node   9, Dot = 0.998650
 ----------------------------------------------------------------------------
 
 Node  14:
@@ -3022,7 +3022,7 @@ REJECTED NODE   6 through Node   7, Dot = 0.999950
 REJECTED NODE  19 through Node  18, Dot = 0.999766
 REJECTED NODE   7 through Node   9, Dot = 0.999913
 REJECTED NODE   9 through Node  10, Dot = 0.999887
-REJECTED NODE  10 through Node  11, Dot = 0.999597
+REJECTED NODE  10 through Node  11, Dot = 0.999596
 REJECTED NODE  11 through Node  14, Dot = 0.998318
 ----------------------------------------------------------------------------
 
@@ -3074,7 +3074,7 @@ REJECTED NODE  26 through Node  27, Dot = 0.999870
 ----------------------------------------------------------------------------
 
 Node  29:
-REJECTED NODE  25 through Node  26, Dot = 0.999637
+REJECTED NODE  25 through Node  26, Dot = 0.999638
 REJECTED NODE  43 through Node  30, Dot = 0.999506
 REJECTED NODE  31 through Node  30, Dot = 0.998131
 REJECTED NODE  33 through Node  30, Dot = 0.999667
@@ -3101,7 +3101,7 @@ REJECTED NODE  40 through Node  42, Dot = 0.999794
 ----------------------------------------------------------------------------
 
 Node  34:
-REJECTED NODE  44 through Node  32, Dot = 0.999809
+REJECTED NODE  44 through Node  32, Dot = 0.999808
 ----------------------------------------------------------------------------
 
 Node  35:
@@ -3123,7 +3123,7 @@ Node  39:
 ----------------------------------------------------------------------------
 
 Node  40:
-REJECTED NODE  33 through Node  42, Dot = 0.999835
+REJECTED NODE  33 through Node  42, Dot = 0.999836
 REJECTED NODE  53 through Node  45, Dot = 0.999812
 REJECTED NODE  52 through Node  45, Dot = 0.999791
 REJECTED NODE  38 through Node  92, Dot = 0.999913
@@ -3286,7 +3286,7 @@ Node  73:
 Node  74:
 REJECTED NODE  71 through Node  72, Dot = 1.000000
 REJECTED NODE  85 through Node  72, Dot = 0.999880
-REJECTED NODE  84 through Node  72, Dot = 0.999865
+REJECTED NODE  84 through Node  72, Dot = 0.999866
 ----------------------------------------------------------------------------
 
 Node  75:

@@ -1299,6 +1299,7 @@ GM_WISE gman/gman_wise
 GM_REGRET gman/gman_noreg
 GM_WONTWORK gman/gman_nowork
 
+//Just Fight Sentences 
 //Just Fight Monster Sentences
 
 JF_NONONO justfight/npc/nonono
@@ -1315,17 +1316,17 @@ JF_LAST9 justfight/npc/jumpon
 
 //Jsut Fight VOX Sentences
 
-JF_GENERAL1_0 deeoo deeoo (e95 p98) super alpha bravo team, eliminate all unauthorized biological forms
-JF_GENERAL1_1 buzwarn buzwarn (e95 p98) general failure, main control computer has no access to defense systems
-JF_GENERAL1_2 buzwarn buzwarn (e95 p98) failure in dimensional containment system, repair immediately
-JF_GENERAL1_3 deeoo deeoo (e95 p98) general failure, main control computer has no access to administration complex
-JF_GENERAL1_4 doop (e95 p98) remaining service personnel proceed to administration complex
-JF_GENERAL1_5 deeoo deeoo (e95 p98) attention, all remaining personnel, proceed to administration complex, immediately
-JF_GENERAL1_6 buzwarn buzwarn (e95 p98) please, mister wilco, report to administrator right now
-JF_GENERAL1_7 deeoo deeoo (e95 p98) unauthorized biological forms detected in dimensional containment system.
-JF_GENERAL1_8 deeoo deeoo (e95 p98) doctor coomer, report your status to administrator
-JF_GENERAL1_9 buzwarn buzwarn (e95 p98) hostile alien force detected in the facility
-JF_GENERAL1_10 deeoo deeoo (e95 p98) doctor bailey, evacuate to administration complex right now
+JF_START_0 deeoo deeoo (e95 p98) super alpha bravo team, eliminate all unauthorized biological forms
+JF_START_1 buzwarn buzwarn (e95 p98) general failure, main control computer has no access to defense systems
+JF_START_2 buzwarn buzwarn (e95 p98) failure in dimensional containment system, repair immediately
+JF_START_3 deeoo deeoo (e95 p98) general failure, main control computer has no access to administration complex
+JF_START_4 doop (e95 p98) remaining service personnel proceed to administration complex
+JF_START_5 deeoo deeoo (e95 p98) attention, all remaining personnel, proceed to administration complex, immediately
+JF_START_6 buzwarn buzwarn (e95 p98) please, mister wilco, report to administrator right now
+JF_START_7 deeoo deeoo (e95 p98) unauthorized biological forms detected in dimensional containment system.
+JF_START_8 deeoo deeoo (e95 p98) doctor coomer, report your status to administrator
+JF_START_9 buzwarn buzwarn (e95 p98) hostile alien force detected in the facility
+JF_START_10 deeoo deeoo (e95 p98) doctor bailey, evacuate to administration complex right now
 
 //Jokes and Fluff
 
