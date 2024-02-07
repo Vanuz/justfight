@@ -1316,23 +1316,29 @@ JF_LAST9 justfight/npc/jumpon
 
 //Jsut Fight VOX Sentences
 
-JF_START_0 deeoo deeoo (e95 p98) super alpha bravo team, eliminate all unauthorized biological forms
-JF_START_1 buzwarn buzwarn (e95 p98) general failure, main control computer has no access to defense systems
-JF_START_2 buzwarn buzwarn (e95 p98) failure in dimensional containment system, repair immediately
-JF_START_3 deeoo deeoo (e95 p98) general failure, main control computer has no access to administration complex
-JF_START_4 doop (e95 p98) remaining service personnel proceed to administration complex
-JF_START_5 deeoo deeoo (e95 p98) attention, all remaining personnel, proceed to administration complex, immediately
-JF_START_6 buzwarn buzwarn (e95 p98) please, mister wilco, report to administrator right now
-JF_START_7 deeoo deeoo (e95 p98) unauthorized biological forms detected in dimensional containment system.
-JF_START_8 deeoo deeoo (e95 p98) doctor coomer, report your status to administrator
-JF_START_9 buzwarn buzwarn (e95 p98) hostile alien force detected in the facility
-JF_START_10 deeoo deeoo (e95 p98) doctor bailey, evacuate to administration complex right now
+//VOX sentences for the starting map:
+
+JF_START_1 buzwarn buzwarn (e95 p98) warning. hostile alien force detected in the facility
+JF_START_2 deeoo deeoo (e95 p98) attention, main control computer has no access to defense systems
+JF_START_3 deeoo deeoo (e95 p98) failure failure, main control computer has no access to administration complex
+
+//VOX sentences for next two maps:
+
+JF_GUTS_0 deeoo deeoo (e95 p98) super alpha bravo team, eliminate all unauthorized biological forms
+JF_GUTS_1 buzwarn buzwarn (e95 p98) failure in dimensional containment system, repair immediately
+JF_GUTS_2 doop (e95 p98) remaining service personnel proceed to administration complex
+JF_GUTS_3 deeoo deeoo (e95 p98) attention, all remaining personnel, proceed to administration complex, immediately
+JF_GUTS_4 deeoo deeoo (e95 p98) unauthorized biological forms detected in dimensional containment system.
+JF_GUTS_5 deeoo deeoo (e95 p98) doctor coomer, report your status to administrator
+JF_GUTS_6 deeoo deeoo (e95 p98) doctor bailey, evacuate to administration complex right now
+JF_GUTS_7 buzwarn buzwarn (e95 p98) warning. hostile alien force detected in the facility
+JF_GUTS_8 buzwarn buzwarn (e95 p98) please, mister wilco, report to the administrator right now
 
 //Jokes and Fluff
 
-JF_WILCO deeoo deeoo (e95 p98) roger wilco, evacuate waste processing facility immediately
+JF_DETECTED deeoo deeoo (e95 p98) unauthorized agent detected, processing. buzwarn buzwarn error, failed to access main control computer, user input is required
 JF_INDIA bloop (e95 p98) india has been destroyed
-JF_FACTS bloop (e95 p98) kill all alien life forms, please
+JF_FACTS bloop (e95 p98) quebec has been detected, processing. (e108 p88) quebec has been destroyed
 JF_BOOBIETRAP buzwarn buzwarn (e95 p98) unauthorized access to main control computer deeoo deeoo (e108 p88) super alpha bravo team eliminate intruder
 JF_PLEASEMOVE bloop (e95 p98) please, move on
 JF_GREENCOOMER bloop (e95 p98) doctor green and doctor coomer report to administration
@@ -1340,8 +1346,8 @@ JF_POORDOC bloop (e95 p98) doctor johnson wanted for questioning
 JF_ADMINBLOC buzwarn (e95 p98) this door is locked by order of the administration, the door will be unlocked in (e65 p101) nine nine nine nine nine nine (e95 p98) hours
 JF_ESCAPE bloop (e95 p98) escape this facility escape escape escape (p88) escape (p78) escape (p68) escape (p58) escape
 JF_MESSAGE1 (e95 p98) this computer has no use, please, move on
-JF_MESSAGE2 (e95 p98) sector b status, fifty percent failure
+JF_MESSAGE2 bloop (e95 p98) attention, sector b status, fifty percent failure
 JF_MESSAGE3 (e95 p98) ventillation maintenance crew report your status immediately
-JF_MESSAGE4 (e95 p98) danger danger, high voltage, in sector a
+JF_MESSAGE4 (e95 p98) danger danger, high voltage in sector a
 JF_MESSAGE5 deeoo deeoo (e95 p98)  this chemical processing plant is damaged, call repair team immediately
 JF_SUPERTEAM deeoo deeoo (e108 p88) super alpha bravo team hostile alien forms detected, eliminate immediately
