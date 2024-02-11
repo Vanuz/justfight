@@ -1327,7 +1327,7 @@ JF_START_3 deeoo deeoo (e95 p98) failure failure, main control computer has no a
 JF_GUTS_0 deeoo deeoo (e95 p98) super alpha bravo team, eliminate all unauthorized biological forms
 JF_GUTS_1 buzwarn buzwarn (e95 p98) failure in dimensional containment system, repair immediately
 JF_GUTS_2 doop (e95 p98) remaining service personnel proceed to administration complex
-JF_GUTS_3 deeoo deeoo (e95 p98) attention, all remaining personnel, proceed to administration complex, immediately
+JF_GUTS_3 deeoo deeoo (e95 p98) attention, all remaining personnel, proceed to administration complex immediately
 JF_GUTS_4 deeoo deeoo (e95 p98) unauthorized biological forms detected in dimensional containment system.
 JF_GUTS_5 deeoo deeoo (e95 p98) doctor coomer, report your status to administrator
 JF_GUTS_6 deeoo deeoo (e95 p98) doctor bailey, evacuate to administration complex right now
