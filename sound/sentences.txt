@@ -1318,9 +1318,8 @@ JF_LAST9 justfight/npc/jumpon
 
 //VOX sentences for the starting map:
 
-JF_START_1 buzwarn buzwarn (e95 p98) warning. hostile alien force detected in the facility
-JF_START_2 deeoo deeoo (e95 p98) attention, main control computer has no access to defense systems
-JF_START_3 deeoo deeoo (e95 p98) failure failure, main control computer has no access to administration complex
+JF_START_1 buzwarn buzwarn (e95 p98) warning. hostile alien force detected in the facility. buzwarn buzwarn, warning, main control computer has no access to defense systems, security override required
+JF_START_2 deeoo deeoo (e95 p98) failure failure, main control computer has no access to administration complex
 
 //VOX sentences for next two maps:
 
