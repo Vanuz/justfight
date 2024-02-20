@@ -6,7 +6,7 @@
 "MaxRange" "4096"
 "mapversion" "220"
 "mapversion" "220"
-"wad" "\programs\hldmcomptools\wads\halflife.wad;\programs\hldmcomptools\wads\liquids.wad;\programs\hldmcomptools\wads\xeno.wad;\programs\hldmcomptools\wads\zhlt.wad;\games\steam\steamapps\common\half-life\valve\decals.wad;\games\steam\steamapps\common\half-life\justfight\utilization.wad"
+"wad" "\mystuff\work\hldmcomptools\wads\decals.wad;\mystuff\work\hldmcomptools\wads\halflife.wad;\mystuff\work\hldmcomptools\wads\liquids.wad;\mystuff\work\hldmcomptools\wads\spraypaint.wad;\mystuff\work\hldmcomptools\wads\xeno.wad;\mystuff\work\hldmcomptools\wads\zhlt.wad;\mystuff\games\steam\steamapps\common\half-life\justfight\utilization.wad"
 {
 ( 1920 -752 -936 ) ( 1920 -672 -936 ) ( 1968 -672 -936 ) C3A1B_W4 [ 1 0 0 0 ] [ 0 -1 0 -112 ] 0 1 1 
 ( 1920 -672 -1008 ) ( 1920 -672 -936 ) ( 1920 -752 -936 ) C3A1B_W4 [ 0 1.83691e-016 1 112 ] [ 0 -1 1.83691e-016 -130 ] 0 1 1 
@@ -4440,19 +4440,19 @@
 "rendercolor" "0 0 0"
 "targetname" "exbox1"
 {
-( 1392 -624 -1008 ) ( 1392 -560 -1008 ) ( 1456 -560 -1008 ) BCRATE09B [ 1 0 0 -48 ] [ 0 -1 0 16 ] 0 1 1 
-( 1392 -560 -1072 ) ( 1392 -624 -1072 ) ( 1456 -624 -1072 ) BCRATE09A [ 1 0 0 -32 ] [ 0 -1 0 0 ] 0 1 1 
-( 1392 -624 -1072 ) ( 1392 -560 -1072 ) ( 1392 -560 -1008 ) BCRATE09A [ 0 1 0 -16 ] [ 0 0 -1 -48 ] 0 1 1 
-( 1456 -560 -1072 ) ( 1456 -624 -1072 ) ( 1456 -624 -1008 ) BCRATE09C [ 0 1 0 -16 ] [ 0 0 -1 -48 ] 0 1 1 
-( 1392 -560 -1072 ) ( 1456 -560 -1072 ) ( 1456 -560 -1008 ) BCRATE09A [ 1 0 0 -48 ] [ 0 0 -1 -48 ] 0 1 1 
-( 1456 -624 -1072 ) ( 1392 -624 -1072 ) ( 1392 -624 -1008 ) BCRATE09C [ 1 0 0 -48 ] [ 0 0 -1 -48 ] 0 1 1 
+( 1408 -560 -1008 ) ( 1408 -496 -1008 ) ( 1472 -496 -1008 ) BCRATE09B [ 1 0 0 -64 ] [ 0 -1 0 16 ] 0 1 1 
+( 1408 -496 -1072 ) ( 1408 -560 -1072 ) ( 1472 -560 -1072 ) BCRATE09A [ 1 0 0 -48 ] [ 0 -1 0 0 ] 0 1 1 
+( 1408 -560 -1072 ) ( 1408 -496 -1072 ) ( 1408 -496 -1008 ) BCRATE09A [ 0 1 0 -16 ] [ 0 0 -1 -48 ] 0 1 1 
+( 1472 -496 -1072 ) ( 1472 -560 -1072 ) ( 1472 -560 -1008 ) BCRATE09C [ 0 1 0 -16 ] [ 0 0 -1 -48 ] 0 1 1 
+( 1408 -496 -1072 ) ( 1472 -496 -1072 ) ( 1472 -496 -1008 ) BCRATE09A [ 1 0 0 -64 ] [ 0 0 -1 -48 ] 0 1 1 
+( 1472 -560 -1072 ) ( 1408 -560 -1072 ) ( 1408 -560 -1008 ) BCRATE09C [ 1 0 0 -64 ] [ 0 0 -1 -48 ] 0 1 1 
 }
 }
 {
 "classname" "env_explosion"
 "targetname" "ex1"
 "iMagnitude" "150"
-"origin" "1424 -592 -1040"
+"origin" "1440 -528 -1040"
 }
 {
 "classname" "env_shooter"
@@ -4466,7 +4466,7 @@
 "shootsounds" "1"
 "scale" "100"
 "angles" "-90 0 0"
-"origin" "1424 -600 -1040"
+"origin" "1440 -528 -1040"
 }
 {
 "classname" "light"
@@ -5216,7 +5216,7 @@
 }
 {
 "classname" "info_node"
-"origin" "1395 -522 -1072"
+"origin" "1392 -592 -1072"
 }
 {
 "classname" "info_node"
@@ -5365,31 +5365,31 @@
 "rendercolor" "0 0 0"
 "gibmodel" "models/tech_crategibs.mdl"
 {
-( 1600 -876 -1008 ) ( 1600 -812 -1008 ) ( 1664 -812 -1008 ) CRATE02B [ 1 0 0 64 ] [ 0 -1 0 20 ] 0 1 1 
-( 1600 -812 -1072 ) ( 1600 -876 -1072 ) ( 1664 -876 -1072 ) GENERIC014H [ 1 0 0 32 ] [ 0 -1 0 20 ] 0 1 1 
-( 1600 -876 -1072 ) ( 1600 -812 -1072 ) ( 1600 -812 -1008 ) CRATE06 [ 0 1 0 -20 ] [ 0 0 -1 16 ] 0 1 1 
-( 1664 -812 -1072 ) ( 1664 -876 -1072 ) ( 1664 -876 -1008 ) CRATE06 [ 0 1 0 -20 ] [ 0 0 -1 16 ] 0 1 1 
-( 1600 -812 -1072 ) ( 1664 -812 -1072 ) ( 1664 -812 -1008 ) CRATE03 [ 1 0 0 64 ] [ 0 0 -1 16 ] 0 1 1 
-( 1664 -876 -1072 ) ( 1600 -876 -1072 ) ( 1600 -876 -1008 ) CRATE03 [ 1 0 0 64 ] [ 0 0 -1 16 ] 0 1 1 
+( 1600 -840 -1008 ) ( 1600 -776 -1008 ) ( 1664 -776 -1008 ) CRATE02B [ 1 0 0 64 ] [ 0 -1 0 56 ] 0 1 1 
+( 1600 -776 -1072 ) ( 1600 -840 -1072 ) ( 1664 -840 -1072 ) GENERIC014H [ 1 0 0 32 ] [ 0 -1 0 24 ] 0 1 1 
+( 1600 -840 -1072 ) ( 1600 -776 -1072 ) ( 1600 -776 -1008 ) CRATE06 [ 0 1 0 -56 ] [ 0 0 -1 16 ] 0 1 1 
+( 1664 -776 -1072 ) ( 1664 -840 -1072 ) ( 1664 -840 -1008 ) CRATE06 [ 0 1 0 -56 ] [ 0 0 -1 16 ] 0 1 1 
+( 1600 -776 -1072 ) ( 1664 -776 -1072 ) ( 1664 -776 -1008 ) CRATE03 [ 1 0 0 64 ] [ 0 0 -1 16 ] 0 1 1 
+( 1664 -840 -1072 ) ( 1600 -840 -1072 ) ( 1600 -840 -1008 ) CRATE03 [ 1 0 0 64 ] [ 0 0 -1 16 ] 0 1 1 
 }
 }
 {
 "classname" "monster_headcrab"
 "rendercolor" "0 0 0"
 "angles" "0 90 0"
-"origin" "1687 -960 -1072"
+"origin" "1664 -880 -1072"
 }
 {
 "classname" "monster_headcrab"
 "rendercolor" "0 0 0"
 "angles" "0 45 0"
-"origin" "1704 -1015 -1072"
+"origin" "1681 -935 -1072"
 }
 {
 "classname" "monster_headcrab"
 "rendercolor" "0 0 0"
 "angles" "0 78 0"
-"origin" "1632 -832 -1008"
+"origin" "1632 -796 -1008"
 }
 {
 "classname" "trigger_once"
@@ -7335,7 +7335,7 @@
 {
 "classname" "weapon_shotgun"
 "angles" "0 95 0"
-"target" "battle_trigger"
+"target" "battle_relay"
 "origin" "2136 1528 -1024"
 }
 {
@@ -8641,7 +8641,7 @@
 "renderfx" "14"
 "rendermode" "3"
 "renderamt" "255"
-"scale" "1"
+"scale" "2"
 "origin" "1216 -584 -856"
 }
 {
@@ -8655,7 +8655,7 @@
 "renderfx" "14"
 "rendermode" "3"
 "renderamt" "255"
-"scale" "1"
+"scale" "2"
 "origin" "1216 -584 -856"
 }
 {
@@ -13038,4 +13038,40 @@
 "_light" "255 255 128 96"
 "_fade" "1.0"
 "origin" "384 24 -792"
+}
+{
+"classname" "monster_headcrab"
+"rendercolor" "0 0 0"
+"angles" "0 90 0"
+"origin" "1696 -1000 -1072"
+}
+{
+"classname" "trigger_once"
+"target" "battle_relay"
+{
+( 2016 1488 -944 ) ( 2016 1792 -944 ) ( 2032 1792 -944 ) AAATRIGGER [ 1 0 0 16 ] [ 0 -1 0 0 ] 0 1 1 
+( 2016 1792 -1072 ) ( 2016 1488 -1072 ) ( 2032 1488 -1072 ) AAATRIGGER [ 1 0 0 16 ] [ 0 -1 0 0 ] 0 1 1 
+( 2016 1488 -1072 ) ( 2016 1792 -1072 ) ( 2016 1792 -944 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( 2032 1792 -1072 ) ( 2032 1488 -1072 ) ( 2032 1488 -944 ) AAATRIGGER [ 0 1 0 0 ] [ 0 0 -1 0 ] 0 1 1 
+( 2016 1792 -1072 ) ( 2032 1792 -1072 ) ( 2032 1792 -944 ) AAATRIGGER [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 1 1 
+( 2032 1488 -1072 ) ( 2016 1488 -1072 ) ( 2016 1488 -944 ) AAATRIGGER [ 1 0 0 16 ] [ 0 0 -1 0 ] 0 1 1 
+}
+}
+{
+"classname" "speaker"
+"health" "5"
+"message" "JF_GUTS"
+"origin" "1216 -576 -672"
+}
+{
+"classname" "trigger_relay"
+"origin" "1847 512 -1015"
+}
+{
+"classname" "trigger_relay"
+"spawnflags" "1"
+"targetname" "battle_relay"
+"target" "battle_trigger"
+"triggerstate" "1"
+"origin" "2056 1560 -1008"
 }

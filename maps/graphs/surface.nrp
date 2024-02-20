@@ -8911,7 +8911,7 @@ REJECTED NODE  21 through Node  22, Dot = 0.998000
 Node  18:
 REJECTED NODE  13 through Node  15, Dot = 0.998155
 REJECTED NODE  29 through Node  20, Dot = 0.999068
-REJECTED NODE  23 through Node  20, Dot = 0.999225
+REJECTED NODE  23 through Node  20, Dot = 0.999224
 REJECTED NODE  22 through Node  20, Dot = 0.999828
 REJECTED NODE  21 through Node  20, Dot = 0.999490
 REJECTED NODE  14 through Node  15, Dot = 0.998633
@@ -9231,7 +9231,7 @@ REJECTED NODE  65 through Node  64, Dot = 0.998460
 REJECTED NODE  70 through Node  64, Dot = 0.999126
 REJECTED NODE 124 through Node 116, Dot = 0.999790
 REJECTED NODE  83 through Node  64, Dot = 0.999446
-REJECTED NODE  82 through Node  64, Dot = 0.999498
+REJECTED NODE  82 through Node  64, Dot = 0.999499
 REJECTED NODE  74 through Node  64, Dot = 0.998920
 ----------------------------------------------------------------------------
 
@@ -9397,7 +9397,7 @@ REJECTED NODE  87 through Node  88, Dot = 0.999897
 
 Node  73:
 REJECTED NODE  57 through Node  58, Dot = 0.999777
-REJECTED NODE 116 through Node  76, Dot = 0.999967
+REJECTED NODE 116 through Node  76, Dot = 0.999968
 REJECTED NODE 111 through Node 112, Dot = 0.999602
 REJECTED NODE 110 through Node 112, Dot = 0.999747
 REJECTED NODE  69 through Node  72, Dot = 1.000000
@@ -9426,7 +9426,7 @@ REJECTED NODE  58 through Node  67, Dot = 1.000000
 REJECTED NODE 116 through Node 114, Dot = 0.999665
 REJECTED NODE  64 through Node  65, Dot = 0.999696
 REJECTED NODE  65 through Node  70, Dot = 0.999092
-REJECTED NODE  66 through Node  70, Dot = 0.999320
+REJECTED NODE  66 through Node  70, Dot = 0.999319
 REJECTED NODE  67 through Node  68, Dot = 1.000000
 REJECTED NODE  71 through Node  68, Dot = 1.000000
 ----------------------------------------------------------------------------
@@ -9463,7 +9463,7 @@ REJECTED NODE  27 through Node  28, Dot = 0.999997
 REJECTED NODE 100 through Node  72, Dot = 0.999894
 REJECTED NODE  28 through Node  56, Dot = 0.999945
 REJECTED NODE  56 through Node  57, Dot = 0.999864
-REJECTED NODE  57 through Node  58, Dot = 0.999982
+REJECTED NODE  57 through Node  58, Dot = 0.999981
 REJECTED NODE  58 through Node  67, Dot = 0.999485
 REJECTED NODE  65 through Node  76, Dot = 0.999979
 REJECTED NODE  67 through Node  71, Dot = 0.999789
@@ -9556,7 +9556,7 @@ REJECTED NODE  96 through Node  86, Dot = 0.999973
 REJECTED NODE  65 through Node  70, Dot = 0.999934
 REJECTED NODE  66 through Node  70, Dot = 0.999991
 REJECTED NODE  67 through Node  82, Dot = 0.999571
-REJECTED NODE  88 through Node  86, Dot = 0.999903
+REJECTED NODE  88 through Node  86, Dot = 0.999904
 REJECTED NODE  91 through Node  86, Dot = 0.999355
 REJECTED NODE  94 through Node  86, Dot = 0.999893
 REJECTED NODE  69 through Node  72, Dot = 0.999483
@@ -9608,7 +9608,7 @@ Node  90:
 REJECTED NODE  60 through Node 100, Dot = 0.998249
 REJECTED NODE  64 through Node  65, Dot = 0.999971
 REJECTED NODE 113 through Node  68, Dot = 0.999654
-REJECTED NODE 124 through Node 112, Dot = 0.999970
+REJECTED NODE 124 through Node 112, Dot = 0.999971
 REJECTED NODE 111 through Node 112, Dot = 0.999939
 REJECTED NODE 110 through Node 112, Dot = 0.999365
 REJECTED NODE 105 through Node  80, Dot = 0.999629
@@ -9878,7 +9878,7 @@ REJECTED NODE 121 through Node 120, Dot = 0.999281
 REJECTED NODE  89 through Node  68, Dot = 0.999984
 REJECTED NODE  90 through Node  68, Dot = 0.998795
 REJECTED NODE 100 through Node  70, Dot = 0.999300
-REJECTED NODE 101 through Node  70, Dot = 0.999405
+REJECTED NODE 101 through Node  70, Dot = 0.999406
 REJECTED NODE 107 through Node 108, Dot = 0.999423
 REJECTED NODE 105 through Node 109, Dot = 0.998246
 ----------------------------------------------------------------------------
@@ -9891,7 +9891,7 @@ REJECTED NODE  70 through Node 113, Dot = 0.998990
 REJECTED NODE  71 through Node 113, Dot = 0.999914
 REJECTED NODE  72 through Node  68, Dot = 0.998685
 REJECTED NODE 122 through Node 124, Dot = 0.999287
-REJECTED NODE  89 through Node  68, Dot = 0.999077
+REJECTED NODE  89 through Node  68, Dot = 0.999076
 REJECTED NODE  90 through Node  76, Dot = 0.999981
 REJECTED NODE  91 through Node  68, Dot = 0.999848
 REJECTED NODE 100 through Node 113, Dot = 0.999929
@@ -9904,7 +9904,7 @@ Node 118:
 REJECTED NODE  67 through Node 113, Dot = 0.998599
 REJECTED NODE  70 through Node 113, Dot = 0.999934
 REJECTED NODE 100 through Node  69, Dot = 0.999997
-REJECTED NODE 101 through Node  69, Dot = 0.999740
+REJECTED NODE 101 through Node  69, Dot = 0.999739
 REJECTED NODE 105 through Node 107, Dot = 0.999109
 REJECTED NODE 107 through Node 108, Dot = 0.998524
 ----------------------------------------------------------------------------
@@ -10213,7 +10213,7 @@ REJECTED NODE 131 through Node 129, Dot = 0.999902
 REJECTED NODE 189 through Node 129, Dot = 0.999249
 REJECTED NODE 188 through Node 129, Dot = 0.999399
 REJECTED NODE 187 through Node 129, Dot = 0.999399
-REJECTED NODE 186 through Node 129, Dot = 0.999384
+REJECTED NODE 186 through Node 129, Dot = 0.999385
 REJECTED NODE 165 through Node 142, Dot = 0.999945
 REJECTED NODE 139 through Node 144, Dot = 0.998010
 REJECTED NODE 161 through Node 145, Dot = 0.998022
@@ -10234,7 +10234,7 @@ REJECTED NODE 159 through Node 151, Dot = 0.999979
 Node 149:
 REJECTED NODE 152 through Node 156, Dot = 0.999232
 REJECTED NODE 163 through Node 145, Dot = 0.998653
-REJECTED NODE 161 through Node 144, Dot = 0.999869
+REJECTED NODE 161 through Node 144, Dot = 0.999870
 REJECTED NODE 160 through Node 150, Dot = 0.999999
 REJECTED NODE 159 through Node 136, Dot = 0.999043
 ----------------------------------------------------------------------------
@@ -10367,7 +10367,7 @@ REJECTED NODE 151 through Node 150, Dot = 0.998941
 REJECTED NODE 152 through Node 145, Dot = 0.999461
 REJECTED NODE 156 through Node 150, Dot = 0.999883
 REJECTED NODE 155 through Node 144, Dot = 0.999996
-REJECTED NODE 154 through Node 144, Dot = 0.999370
+REJECTED NODE 154 through Node 144, Dot = 0.999371
 REJECTED NODE 165 through Node 159, Dot = 0.999983
 ----------------------------------------------------------------------------
 

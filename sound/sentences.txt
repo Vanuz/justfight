@@ -1323,15 +1323,15 @@ JF_START_2 deeoo deeoo (e95 p98) failure failure, main control computer has no a
 
 //VOX sentences for next two maps:
 
-JF_GUTS_0 deeoo deeoo (e95 p98) super alpha bravo team, eliminate all unauthorized biological forms
-JF_GUTS_1 buzwarn buzwarn (e95 p98) failure in dimensional containment system, repair immediately
-JF_GUTS_2 doop (e95 p98) remaining service personnel proceed to administration complex
-JF_GUTS_3 deeoo deeoo (e95 p98) attention, all remaining personnel, proceed to administration complex immediately
-JF_GUTS_4 deeoo deeoo (e95 p98) unauthorized biological forms detected in dimensional containment system.
-JF_GUTS_5 deeoo deeoo (e95 p98) doctor coomer, report your status to administrator
-JF_GUTS_6 deeoo deeoo (e95 p98) doctor bailey, evacuate to administration complex right now
-JF_GUTS_7 buzwarn buzwarn (e95 p98) warning. hostile alien force detected in the facility
-JF_GUTS_8 buzwarn buzwarn (e95 p98) please, mister wilco, report to the administrator right now
+JF_GUTS0 deeoo deeoo (e95 p98) super alpha bravo team, eliminate all unauthorized biological forms
+JF_GUTS1 buzwarn buzwarn (e95 p98) failure in dimensional containment system, repair immediately
+JF_GUTS2 doop (e95 p98) remaining service personnel proceed to administration complex
+JF_GUTS3 deeoo deeoo (e95 p98) attention, all remaining personnel, proceed to administration complex immediately
+JF_GUTS4 deeoo deeoo (e95 p98) unauthorized biological forms detected in dimensional containment system.
+JF_GUTS5 deeoo deeoo (e95 p98) doctor coomer, report your status to administrator
+JF_GUTS6 deeoo deeoo (e95 p98) doctor bailey, evacuate to administration complex right now
+JF_GUTS7 buzwarn buzwarn (e95 p98) warning. hostile alien force detected in the facility
+JF_GUTS8 buzwarn buzwarn (e95 p98) please, mister wilco, report to the administrator right now
 
 //Jokes and Fluff
 

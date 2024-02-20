@@ -969,7 +969,7 @@ LinkVisibleNodes - Initial Connections
 Node #   0:
 
    5
- 157  Entity on connection: func_breakable, name:   Model: *3
+ 157
 ----------------------------------------------------------------------------
 Node #   1:
 
@@ -2680,7 +2680,7 @@ Node # 156:
 ----------------------------------------------------------------------------
 Node # 157:
 
-   0  Entity on connection: func_breakable, name:   Model: *3
+   0
    5
    6
 ----------------------------------------------------------------------------
@@ -2909,15 +2909,13 @@ Rejected Node  42 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  41 - Unreachable by Any Hull
 NODE_HUMAN_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
-Rejected Node  20 - Unreachable by Any Hull
-NODE_HUMAN_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  21 - Unreachable by Any Hull
 NODE_HUMAN_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
-Rejected Node  22 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_HUMAN_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   25:
 
@@ -5210,6 +5208,8 @@ WARNING: Node   9 does not connect back to Node  17
 WARNING: Node  26 does not connect back to Node  20
 WARNING: Node  19 does not connect back to Node  25
 WARNING: Node  19 does not connect back to Node  26
+WARNING: Node  21 does not connect back to Node  28
+WARNING: Node  23 does not connect back to Node  28
 WARNING: Node  23 does not connect back to Node  30
 WARNING: Node  26 does not connect back to Node  32
 WARNING: Node  36 does not connect back to Node  40
@@ -5251,7 +5251,7 @@ WARNING: Node  83 does not connect back to Node 159
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 599
+Total Number of Connections in Pool: 601
 -------------------------------------------------------------------------------
-Connection Pool: 14376 bytes
+Connection Pool: 14424 bytes
 -------------------------------------------------------------------------------

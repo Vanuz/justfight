@@ -4,14 +4,14 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlcsg -----
-Command line: D:\Programs\HLDMCOMPTOOLS\hlcsg.exe D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts 
-Arguments: D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts -low -wadautodetect 
-Entering D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts.map
+Command line: C:\MyStuff\Work\HLDMCO~1\hlcsg.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts -low -wadautodetect 
+Entering C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts.map
 
 Current hlcsg Settings
 Name                 |  Setting  |  Default
 ---------------------|-----------|-------------------------
-threads               [       4 ] [  Varies ]
+threads               [      12 ] [  Varies ]
 verbose               [     off ] [     off ]
 log                   [      on ] [      on ]
 reset logfile         [      on ] [      on ]
@@ -46,20 +46,20 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.15 seconds)
+ (0.08 seconds)
 CSGBrush:
- (0.31 seconds)
+ (0.21 seconds)
 
-Using Wadfile: \programs\hldmcomptools\wads\halflife.wad
+Using Wadfile: \mystuff\work\hldmcomptools\wads\halflife.wad
  - Contains 147 used textures, 99.32 percent of map (3116 textures in wad)
-Including Wadfile: \programs\hldmcomptools\wads\zhlt.wad
+Including Wadfile: \mystuff\work\hldmcomptools\wads\zhlt.wad
  - Contains 1 used texture, 0.68 percent of map (18 textures in wad)
 
 Wad files required to run the map: "halflife.wad;"
 
 added 29 additional animating textures.
 Texture usage is at 1.27 mb (of 32.00 mb MAX)
-0.96 seconds elapsed
+0.46 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -71,13 +71,13 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlbsp -----
-Command line: D:\Programs\HLDMCOMPTOOLS\hlbsp.exe D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts 
-Arguments: D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts -low -chart 
+Command line: C:\MyStuff\Work\HLDMCO~1\hlbsp.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts -low -chart 
 
 Current hlbsp Settings
 Name               |  Setting  |  Default
 -------------------|-----------|-------------------------
-threads             [       4 ] [  Varies ]
+threads             [      12 ] [  Varies ]
 verbose             [     off ] [     off ]
 log                 [      on ] [      on ]
 developer           [       0 ] [       0 ]
@@ -99,42 +99,42 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2005 (0.10 seconds)
-BSP generation successful, writing portal file 'D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts.prt'
-SolidBSP [hull 1] 500...1000...1500...2000...2070 (0.12 seconds)
-SolidBSP [hull 2] 500...1000...1500...1912 (0.11 seconds)
-SolidBSP [hull 3] 500...1000...1500...2000...2138 (0.13 seconds)
-Reduced 9923 clipnodes to 9601
+SolidBSP [hull 0] 500...1000...1500...2000...2008 (0.08 seconds)
+BSP generation successful, writing portal file 'C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts.prt'
+SolidBSP [hull 1] 500...1000...1500...2000...2071 (0.10 seconds)
+SolidBSP [hull 2] 500...1000...1500...1912 (0.09 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2140 (0.10 seconds)
+Reduced 9943 clipnodes to 9609
 Reduced 2986 texinfos to 2083
 Reduced 176 texdatas to 166 (8860 bytes to 7308)
-Reduced 12552 planes to 4846
+Reduced 12552 planes to 4847
 FixBrinks:
-Increased 9601 clipnodes to 9694.
+Increased 9609 clipnodes to 9702.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models            169/512        10816/32768    (33.0%)
-planes           4846/32768      96920/655360   (14.8%)
+models            170/512        10880/32768    (33.2%)
+planes           4847/32768      96940/655360   (14.8%)
 vertexes         7351/65535      88212/786420   (11.2%)
-nodes            3166/32767      75984/786408   ( 9.7%)
+nodes            3182/32767      76368/786408   ( 9.7%)
 texinfos         2083/32767      83320/1310680  ( 6.4%)
 faces            5188/65535     103760/1310700  ( 7.9%)
 * worldfaces     2830/32768          0/0        ( 8.6%)
-clipnodes        9694/32767      77552/262136   (29.6%)
-leaves           2429/32760      68012/917280   ( 7.4%)
-* visleafs        941/8192           0/0        (11.5%)
-marksurfaces     6957/65535      13914/131070   (10.6%)
+clipnodes        9702/32767      77616/262136   (29.6%)
+leaves           2440/32760      68320/917280   ( 7.4%)
+* visleafs        944/8192           0/0        (11.5%)
+marksurfaces     6976/65535      13952/131070   (10.6%)
 surfedges       24078/512000     96312/2048000  ( 4.7%)
 edges           12387/256000     49548/1024000  ( 4.8%)
 texdata          [variable]       7308/33554432  ( 0.0%)
 lightdata        [variable]          0/33554432  ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]      76092/2097152  ( 3.6%)
+entdata          [variable]      76554/2097152  ( 3.7%)
 * AllocBlock       13/64             0/0        (20.3%)
 166 textures referenced
-=== Total BSP file data space used: 847750 bytes ===
+=== Total BSP file data space used: 849090 bytes ===
 Wad files required to run the map: "halflife.wad;"
-1.62 seconds elapsed
+1.09 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -146,15 +146,15 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
-Command line: D:\Programs\HLDMCOMPTOOLS\hlvis.exe D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts 
-Arguments: D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts -low 
- 359 portalleafs
+Command line: C:\MyStuff\Work\HLDMCO~1\hlvis.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts -low 
+ 362 portalleafs
  892 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
 -------------------|-----------|-------------------------
-threads             [       4 ] [  Varies ]
+threads             [      12 ] [  Varies ]
 verbose             [     off ] [     off ]
 log                 [      on ] [      on ]
 developer           [       0 ] [       0 ]
@@ -171,10 +171,10 @@ full vis            [     off ] [     off ]
 BasePortalVis:
  (0.01 seconds)
 LeafThread:
- (0.10 seconds)
+ (0.04 seconds)
 average leafs visible: 49
-g_visdatasize:11900  compressed from 16155
-0.12 seconds elapsed
+g_visdatasize:11875  compressed from 16652
+0.06 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -186,13 +186,13 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlrad -----
-Command line: D:\Programs\HLDMCOMPTOOLS\hlrad.exe -extra D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts 
-Arguments: -extra D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts -low 
+Command line: C:\MyStuff\Work\HLDMCO~1\hlrad.exe -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts 
+Arguments: -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts -low 
 
 -= Current hlrad Settings =-
 Name                | Setting             | Default
 --------------------|---------------------|-------------------------
-threads              [                 4 ] [            Varies ]
+threads              [                12 ] [            Varies ]
 verbose              [               off ] [               off ]
 log                  [                on ] [                on ]
 developer            [                 0 ] [                 0 ]
@@ -253,46 +253,46 @@ no emitter range     [               off ] [               off ]
 
 
 Load Textures:
-Using Wadfile: D:\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts.wa_
+Using Wadfile: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\guts.wa_
 166 textures referenced
-Reading texlights from 'D:\Programs\HLDMCOMPTOOLS\lights.rad'
+Reading texlights from 'C:\MyStuff\Work\HLDMCO~1\lights.rad'
 0 opaque models
 0 opaque faces
 5188 faces
-Create Patches : 13629 base patches
+Create Patches : 13630 base patches
 174976 square feet [25196650.00 square inches]
 81 direct lights and 0 fast direct lights
 5 light styles
 
 BuildFacelights:
- (4.53 seconds)
+ (1.72 seconds)
 BuildVisLeafs:
- (1.68 seconds)
+ (1.06 seconds)
 visibility matrix   :   2.9 megs
 MakeScales:
- (2.88 seconds)
-Transfer Lists :     5824995 :    5.82M transfers
-       Indices :     5100024 :    4.86M bytes
-          Data :    11689104 :   11.15M bytes
+ (0.83 seconds)
+Transfer Lists :     5822044 :    5.82M transfers
+       Indices :     5093824 :    4.86M bytes
+          Data :    11683205 :   11.14M bytes
 Bounce 1 GatherLight:
- (0.06 seconds)
+ (0.02 seconds)
 Bounce 2 GatherLight:
- (0.09 seconds)
+ (0.03 seconds)
 Bounce 3 GatherLight:
- (0.09 seconds)
+ (0.04 seconds)
 Bounce 4 GatherLight:
- (0.09 seconds)
+ (0.03 seconds)
 Bounce 5 GatherLight:
- (0.09 seconds)
+ (0.03 seconds)
 Bounce 6 GatherLight:
- (0.09 seconds)
+ (0.04 seconds)
 Bounce 7 GatherLight:
- (0.09 seconds)
+ (0.03 seconds)
 Bounce 8 GatherLight:
- (0.09 seconds)
+ (0.03 seconds)
 FinalLightFace:
- (0.72 seconds)
-11.61 seconds elapsed
+ (0.21 seconds)
+5.14 seconds elapsed
 
 -----   END   hlrad -----
 
