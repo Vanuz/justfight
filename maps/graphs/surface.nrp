@@ -3909,6 +3909,7 @@ Node # 124:
   63
   68
   72
+  73
   74
   89
   90
@@ -5465,7 +5466,7 @@ Node # 191:
  190
 ----------------------------------------------------------------------------
 
-3730 Total Initial Connections -   47 Maximum connections for a single node.
+3731 Total Initial Connections -   47 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -5889,7 +5890,7 @@ Node   40:
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
+NODE_HUMAN_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  45 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
@@ -5947,7 +5948,7 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node 168 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  45 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
+NODE_HUMAN_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
@@ -5956,6 +5957,8 @@ Node   42:
 
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_HUMAN_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  45 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
@@ -5969,6 +5972,7 @@ Node   43:
 
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
+NODE_HUMAN_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 168 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
@@ -5978,6 +5982,7 @@ Rejected Node 169 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   44:
 
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
@@ -7260,6 +7265,8 @@ Rejected Node  40 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  68 - Unreachable by Any Hull
 NODE_HUMAN_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  73 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  74 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
@@ -9948,11 +9955,11 @@ Node 124:
 REJECTED NODE  63 through Node 115, Dot = 0.999179
 REJECTED NODE  72 through Node 110, Dot = 0.999585
 REJECTED NODE  89 through Node  90, Dot = 0.999968
-REJECTED NODE  90 through Node 111, Dot = 0.999966
 REJECTED NODE 115 through Node 116, Dot = 0.999802
 REJECTED NODE 114 through Node 118, Dot = 0.999989
-REJECTED NODE  91 through Node 111, Dot = 0.999781
+REJECTED NODE  90 through Node 111, Dot = 0.999966
 REJECTED NODE 112 through Node 111, Dot = 0.999815
+REJECTED NODE  91 through Node 111, Dot = 0.999781
 REJECTED NODE 105 through Node 107, Dot = 0.998907
 REJECTED NODE 106 through Node 121, Dot = 0.999367
 ----------------------------------------------------------------------------

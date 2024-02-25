@@ -1274,31 +1274,6 @@ SLV_ALERT3 aslave/(p108) slv_alert1 slv_word5
 SLV_ALERT4 aslave/(p108) slv_word5(p110) slv_word8 slv_word8
 SLV_ALERT5 aslave/(p108) slv_alert4 slv_word7 slv_alert1
 
-//GMAN
-
-//c1a0 narrative
-GM_1MUMBLE gman/gman_mumble1
-GM_2MUMBLE gman/gman_mumble2
-GM_3MUMBLE gman/gman_mumble3
-GM_4MUMBLE gman/gman_mumble4
-GM_5MUMBLE gman/gman_mumble5
-GM_6MUMBLE gman/gman_mumble6
-
-//c5 narrative
-//GM_OFFER gman/gman_offer [long version: what follows is chopped into sections]
-
-
-GM_SUIT gman/gman_suit
-GM_NASTY gman/gman_nasty
-GM_POTENTIAL gman/gman_potential
-GM_STEPIN gman/gman_stepin
-GM_OTHERWISE gman/gman_otherwise
-GM_1CHOOSE gman/gman_choose1
-GM_2CHOOSE gman/gman_choose2
-GM_WISE gman/gman_wise
-GM_REGRET gman/gman_noreg
-GM_WONTWORK gman/gman_nowork
-
 //Just Fight Sentences 
 //Just Fight Monster Sentences
 
@@ -1331,18 +1306,25 @@ JF_GUTS4 deeoo deeoo (e95 p98) unauthorized biological forms detected in dimensi
 JF_GUTS5 deeoo deeoo (e95 p98) doctor coomer, report your status to administrator
 JF_GUTS6 deeoo deeoo (e95 p98) doctor bailey, evacuate to administration complex right now
 JF_GUTS7 buzwarn buzwarn (e95 p98) warning. hostile alien force detected in the facility
-JF_GUTS8 buzwarn buzwarn (e95 p98) please, mister wilco, report to the administrator right now
+JF_GUTS8 buzwarn buzwarn (e95 p98) please, mister wilco, report to the administration right now
+
+//VOX sentences for next.bsp
+
+JF_NEXT_1 doop (e95 p98) attention please, personnel of this facility must evacuate immediately, status, (e90 p88) alien invasion
+JF_NEXT_2 deeoo deeoo (e95 p98) ventillation maintenance crew, report your status immediately
+JF_NEXT_3 buzwarn buzwarn (e95 p98) repair crew, evacuate to administration complex immediately
 
 //Jokes and Fluff
 
 JF_DETECTED deeoo deeoo (e95 p98) unauthorized agent detected, processing. buzwarn buzwarn error, failed to access main control computer, user input is required
 JF_INDIA bloop (e95 p98) india has been destroyed
-JF_FACTS bloop (e95 p98) quebec has been detected, processing. (e108 p88) quebec has been destroyed
+JF_FACTS bloop (e95 p98) quebec has been detected, processing.... (e108 p88) quebec has been destroyed
 JF_BOOBIETRAP buzwarn buzwarn (e95 p98) unauthorized access to main control computer deeoo deeoo (e108 p88) super alpha bravo team eliminate intruder
 JF_PLEASEMOVE bloop (e95 p98) please, move on
 JF_GREENCOOMER bloop (e95 p98) doctor green and doctor coomer report to administration
 JF_POORDOC bloop (e95 p98) doctor johnson wanted for questioning
 JF_ADMINBLOC buzwarn (e95 p98) this door is locked by order of the administration, the door will be unlocked in (e65 p101) nine nine nine nine nine nine (e95 p98) hours
+JF_ADLOCK buzwarn buzwarn (e95 p98) unauthorized access to the administration complex. security systems engaged
 JF_ESCAPE bloop (e95 p98) escape this facility escape escape escape (p88) escape (p78) escape (p68) escape (p58) escape
 JF_MESSAGE1 (e95 p98) this computer has no use, please, move on
 JF_MESSAGE2 bloop (e95 p98) attention, sector b status, fifty percent failure

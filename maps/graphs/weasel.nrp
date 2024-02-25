@@ -861,6 +861,7 @@ Node #  24:
   26  Entity on connection: func_wall, name:   Model: *52
   27
   28
+  29
   30
   31
   32
@@ -979,6 +980,7 @@ Node #  27:
   25
   26
   28
+  29
   30
   31
   32
@@ -1061,10 +1063,8 @@ Node #  29:
   21  Entity on connection: func_breakable, name: crate1  Model: *59
   22  Entity on connection: func_breakable, name: crate1  Model: *59
   23  Entity on connection: func_breakable, name: crate1  Model: *59
-  24
   25  Entity on connection: func_breakable, name: crate1  Model: *59
   26
-  27
   28
   30
   31
@@ -4618,7 +4618,7 @@ REJECTED NODE   2 through Node   0, Dot = 1.000000
 Node   2:
 REJECTED NODE   1 through Node   0, Dot = 1.000000
 REJECTED NODE   7 through Node   3, Dot = 0.999911
-REJECTED NODE   6 through Node   3, Dot = 0.999883
+REJECTED NODE   6 through Node   3, Dot = 0.999884
 REJECTED NODE   5 through Node   3, Dot = 0.999835
 REJECTED NODE   4 through Node   3, Dot = 1.000000
 ----------------------------------------------------------------------------
@@ -4699,11 +4699,11 @@ REJECTED NODE  22 through Node  21, Dot = 1.000000
 REJECTED NODE  48 through Node  68, Dot = 0.998603
 REJECTED NODE  42 through Node  68, Dot = 0.998361
 REJECTED NODE  26 through Node  25, Dot = 0.999976
-REJECTED NODE  38 through Node  37, Dot = 0.998295
+REJECTED NODE  38 through Node  37, Dot = 0.998296
 REJECTED NODE  37 through Node  63, Dot = 0.999978
 REJECTED NODE  34 through Node  23, Dot = 0.999983
 REJECTED NODE  70 through Node  69, Dot = 1.000000
-REJECTED NODE  31 through Node  23, Dot = 0.998442
+REJECTED NODE  31 through Node  23, Dot = 0.998441
 REJECTED NODE  68 through Node  63, Dot = 0.999995
 REJECTED NODE  29 through Node  23, Dot = 0.999584
 ----------------------------------------------------------------------------
@@ -4727,7 +4727,7 @@ REJECTED NODE  67 through Node  15, Dot = 0.998521
 REJECTED NODE  30 through Node  24, Dot = 0.998366
 REJECTED NODE  31 through Node  24, Dot = 0.999774
 REJECTED NODE  38 through Node  37, Dot = 0.999937
-REJECTED NODE  34 through Node  24, Dot = 0.999974
+REJECTED NODE  34 through Node  24, Dot = 0.999975
 ----------------------------------------------------------------------------
 
 Node  20:
@@ -4794,6 +4794,7 @@ REJECTED NODE  70 through Node  25, Dot = 0.999461
 REJECTED NODE  41 through Node  67, Dot = 0.999679
 REJECTED NODE  22 through Node  23, Dot = 1.000000
 REJECTED NODE  38 through Node  37, Dot = 0.998071
+REJECTED NODE  29 through Node  27, Dot = 1.000000
 REJECTED NODE  34 through Node  31, Dot = 0.998179
 ----------------------------------------------------------------------------
 
@@ -4846,20 +4847,19 @@ REJECTED NODE  34 through Node  31, Dot = 0.998621
 Node  29:
 REJECTED NODE  16 through Node  23, Dot = 0.999621
 REJECTED NODE  47 through Node  67, Dot = 0.998361
-REJECTED NODE  44 through Node  38, Dot = 0.999089
+REJECTED NODE  44 through Node  38, Dot = 0.999088
 REJECTED NODE  43 through Node  41, Dot = 0.998036
 REJECTED NODE  50 through Node  67, Dot = 0.999880
 REJECTED NODE  21 through Node  63, Dot = 0.998276
 REJECTED NODE  54 through Node  35, Dot = 1.000000
-REJECTED NODE  24 through Node  27, Dot = 1.000000
 REJECTED NODE  35 through Node  37, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node  30:
 REJECTED NODE  15 through Node  24, Dot = 0.999921
-REJECTED NODE  16 through Node  27, Dot = 0.999991
+REJECTED NODE  16 through Node  27, Dot = 0.999992
 REJECTED NODE  65 through Node  31, Dot = 0.998721
-REJECTED NODE  17 through Node  21, Dot = 0.999955
+REJECTED NODE  17 through Node  21, Dot = 0.999956
 REJECTED NODE  54 through Node  29, Dot = 1.000000
 REJECTED NODE  66 through Node  26, Dot = 0.999498
 REJECTED NODE  50 through Node  41, Dot = 0.999174
@@ -4870,7 +4870,7 @@ REJECTED NODE  21 through Node  23, Dot = 0.999969
 REJECTED NODE  22 through Node  63, Dot = 0.999967
 REJECTED NODE  43 through Node  42, Dot = 0.998560
 REJECTED NODE  25 through Node  24, Dot = 0.999992
-REJECTED NODE  41 through Node  68, Dot = 0.998566
+REJECTED NODE  41 through Node  68, Dot = 0.998567
 REJECTED NODE  69 through Node  24, Dot = 0.998455
 REJECTED NODE  70 through Node  24, Dot = 0.999903
 REJECTED NODE  34 through Node  31, Dot = 1.000000
@@ -4898,7 +4898,7 @@ REJECTED NODE  40 through Node  67, Dot = 0.999008
 
 Node  32:
 REJECTED NODE  17 through Node  21, Dot = 0.999997
-REJECTED NODE  51 through Node  42, Dot = 0.999809
+REJECTED NODE  51 through Node  42, Dot = 0.999810
 REJECTED NODE  47 through Node  42, Dot = 0.999996
 REJECTED NODE  44 through Node  34, Dot = 0.999764
 REJECTED NODE  54 through Node  35, Dot = 0.998914
@@ -4939,7 +4939,7 @@ REJECTED NODE  22 through Node  36, Dot = 1.000000
 REJECTED NODE  44 through Node  39, Dot = 0.999157
 REJECTED NODE  25 through Node  23, Dot = 0.999905
 REJECTED NODE  26 through Node  24, Dot = 0.999229
-REJECTED NODE  40 through Node  39, Dot = 0.999707
+REJECTED NODE  40 through Node  39, Dot = 0.999708
 REJECTED NODE  29 through Node  37, Dot = 1.000000
 REJECTED NODE  30 through Node  37, Dot = 1.000000
 ----------------------------------------------------------------------------
@@ -4968,7 +4968,7 @@ REJECTED NODE  45 through Node  42, Dot = 0.999526
 REJECTED NODE  30 through Node  29, Dot = 1.000000
 REJECTED NODE  43 through Node  67, Dot = 0.999783
 REJECTED NODE  67 through Node  38, Dot = 0.999783
-REJECTED NODE  41 through Node  38, Dot = 0.999914
+REJECTED NODE  41 through Node  38, Dot = 0.999913
 REJECTED NODE  64 through Node  38, Dot = 1.000000
 REJECTED NODE  65 through Node  42, Dot = 0.999485
 ----------------------------------------------------------------------------
@@ -5002,7 +5002,7 @@ REJECTED NODE  46 through Node  42, Dot = 0.998447
 REJECTED NODE  36 through Node  35, Dot = 0.999056
 REJECTED NODE  50 through Node  40, Dot = 0.999686
 REJECTED NODE  47 through Node  40, Dot = 0.999755
-REJECTED NODE  48 through Node  41, Dot = 0.998954
+REJECTED NODE  48 through Node  41, Dot = 0.998955
 ----------------------------------------------------------------------------
 
 Node  40:
@@ -5015,7 +5015,7 @@ REJECTED NODE  50 through Node  44, Dot = 1.000000
 REJECTED NODE  42 through Node  41, Dot = 1.000000
 REJECTED NODE  31 through Node  67, Dot = 0.998917
 REJECTED NODE  32 through Node  68, Dot = 0.999694
-REJECTED NODE  35 through Node  39, Dot = 0.999921
+REJECTED NODE  35 through Node  39, Dot = 0.999920
 REJECTED NODE  36 through Node  39, Dot = 0.999993
 ----------------------------------------------------------------------------
 
@@ -5028,7 +5028,7 @@ REJECTED NODE  27 through Node  29, Dot = 0.998550
 REJECTED NODE  32 through Node  34, Dot = 0.999933
 REJECTED NODE  49 through Node  43, Dot = 0.999829
 REJECTED NODE  48 through Node  45, Dot = 0.999998
-REJECTED NODE  37 through Node  67, Dot = 0.999914
+REJECTED NODE  37 through Node  67, Dot = 0.999913
 REJECTED NODE  38 through Node  67, Dot = 0.999800
 ----------------------------------------------------------------------------
 
@@ -5089,13 +5089,13 @@ REJECTED NODE  44 through Node  43, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node  46:
-REJECTED NODE  67 through Node  42, Dot = 0.998837
+REJECTED NODE  67 through Node  42, Dot = 0.998838
 REJECTED NODE  65 through Node  48, Dot = 0.999999
 REJECTED NODE  44 through Node  45, Dot = 1.000000
 REJECTED NODE  43 through Node  45, Dot = 1.000000
 REJECTED NODE  63 through Node  68, Dot = 0.999722
 REJECTED NODE  21 through Node  68, Dot = 0.999982
-REJECTED NODE  22 through Node  38, Dot = 0.999725
+REJECTED NODE  22 through Node  38, Dot = 0.999724
 REJECTED NODE  54 through Node  39, Dot = 0.999746
 REJECTED NODE  37 through Node  68, Dot = 0.999962
 ----------------------------------------------------------------------------
@@ -5109,7 +5109,7 @@ REJECTED NODE  69 through Node  35, Dot = 0.999883
 REJECTED NODE  29 through Node  67, Dot = 0.999559
 REJECTED NODE  68 through Node  41, Dot = 0.999922
 REJECTED NODE  31 through Node  41, Dot = 0.998551
-REJECTED NODE  32 through Node  34, Dot = 0.999162
+REJECTED NODE  32 through Node  34, Dot = 0.999163
 REJECTED NODE  34 through Node  42, Dot = 0.999256
 REJECTED NODE  35 through Node  44, Dot = 0.999580
 REJECTED NODE  36 through Node  44, Dot = 0.999730
@@ -5126,7 +5126,7 @@ REJECTED NODE  54 through Node  39, Dot = 0.998074
 REJECTED NODE  30 through Node  31, Dot = 0.999999
 REJECTED NODE  31 through Node  34, Dot = 0.999998
 REJECTED NODE  41 through Node  45, Dot = 0.999996
-REJECTED NODE  37 through Node  68, Dot = 0.998364
+REJECTED NODE  37 through Node  68, Dot = 0.998365
 REJECTED NODE  39 through Node  45, Dot = 0.999130
 REJECTED NODE  38 through Node  42, Dot = 0.999985
 ----------------------------------------------------------------------------
@@ -5144,7 +5144,7 @@ REJECTED NODE  41 through Node  64, Dot = 0.999957
 ----------------------------------------------------------------------------
 
 Node  50:
-REJECTED NODE  21 through Node  22, Dot = 0.999998
+REJECTED NODE  21 through Node  22, Dot = 0.999997
 REJECTED NODE  22 through Node  47, Dot = 0.999832
 REJECTED NODE  70 through Node  47, Dot = 0.999927
 REJECTED NODE  69 through Node  47, Dot = 0.999919
@@ -5165,7 +5165,7 @@ Node  51:
 REJECTED NODE  71 through Node  31, Dot = 0.998352
 REJECTED NODE  68 through Node  41, Dot = 0.999868
 REJECTED NODE  65 through Node  50, Dot = 0.999723
-REJECTED NODE  31 through Node  41, Dot = 0.999987
+REJECTED NODE  31 through Node  41, Dot = 0.999988
 REJECTED NODE  32 through Node  34, Dot = 0.999624
 REJECTED NODE  34 through Node  42, Dot = 0.999214
 REJECTED NODE  64 through Node  50, Dot = 0.999385
@@ -5234,7 +5234,7 @@ Node  62:
 ----------------------------------------------------------------------------
 
 Node  63:
-REJECTED NODE  70 through Node  69, Dot = 0.999597
+REJECTED NODE  70 through Node  69, Dot = 0.999596
 REJECTED NODE  46 through Node  68, Dot = 0.999808
 REJECTED NODE  20 through Node  25, Dot = 0.999993
 REJECTED NODE  42 through Node  38, Dot = 0.998506
@@ -5292,7 +5292,7 @@ REJECTED NODE  34 through Node  68, Dot = 0.998350
 
 Node  68:
 REJECTED NODE  16 through Node  21, Dot = 0.998479
-REJECTED NODE  21 through Node  63, Dot = 0.998638
+REJECTED NODE  21 through Node  63, Dot = 0.998639
 REJECTED NODE  65 through Node  45, Dot = 0.998633
 REJECTED NODE  63 through Node  37, Dot = 0.999774
 REJECTED NODE  51 through Node  41, Dot = 0.998955
@@ -5336,7 +5336,7 @@ REJECTED NODE  15 through Node  24, Dot = 0.999998
 REJECTED NODE  54 through Node  35, Dot = 0.998309
 REJECTED NODE  51 through Node  47, Dot = 0.999385
 REJECTED NODE  70 through Node  69, Dot = 0.999306
-REJECTED NODE  64 through Node  45, Dot = 0.999290
+REJECTED NODE  64 through Node  45, Dot = 0.999291
 REJECTED NODE  17 through Node  21, Dot = 0.999890
 REJECTED NODE  69 through Node  24, Dot = 0.999499
 REJECTED NODE  44 through Node  41, Dot = 0.999998
@@ -5364,12 +5364,12 @@ WARNING: Node  39 does not connect back to Node  20
 WARNING: Node  30 does not connect back to Node  20
 WARNING: Node  34 does not connect back to Node  20
 WARNING: Node  35 does not connect back to Node  20
-WARNING: Node  25 does not connect back to Node  21
 WARNING: Node  39 does not connect back to Node  23
 WARNING: Node  41 does not connect back to Node  23
 WARNING: Node  38 does not connect back to Node  23
 WARNING: Node  43 does not connect back to Node  23
 WARNING: Node  28 does not connect back to Node  24
+WARNING: Node  21 does not connect back to Node  25
 WARNING: Node  16 does not connect back to Node  26
 WARNING: Node  31 does not connect back to Node  27
 WARNING: Node  30 does not connect back to Node  27
@@ -5383,13 +5383,13 @@ WARNING: Node  30 does not connect back to Node  31
 WARNING: Node  23 does not connect back to Node  31
 WARNING: Node  34 does not connect back to Node  32
 WARNING: Node  41 does not connect back to Node  33
-WARNING: Node  44 does not connect back to Node  33
+WARNING: Node  45 does not connect back to Node  33
 WARNING: Node  41 does not connect back to Node  34
 WARNING: Node  18 does not connect back to Node  35
 WARNING: Node  58 does not connect back to Node  35
 WARNING: Node  46 does not connect back to Node  36
 WARNING: Node  31 does not connect back to Node  36
-WARNING: Node  45 does not connect back to Node  36
+WARNING: Node  44 does not connect back to Node  36
 WARNING: Node  35 does not connect back to Node  36
 WARNING: Node  41 does not connect back to Node  36
 WARNING: Node  53 does not connect back to Node  37
@@ -5397,17 +5397,17 @@ WARNING: Node  17 does not connect back to Node  37
 WARNING: Node  46 does not connect back to Node  38
 WARNING: Node  20 does not connect back to Node  38
 WARNING: Node  36 does not connect back to Node  38
-WARNING: Node  45 does not connect back to Node  38
+WARNING: Node  44 does not connect back to Node  38
 WARNING: Node  52 does not connect back to Node  40
 WARNING: Node  30 does not connect back to Node  41
 WARNING: Node  46 does not connect back to Node  42
 WARNING: Node  17 does not connect back to Node  42
 WARNING: Node  17 does not connect back to Node  43
-WARNING: Node  26 does not connect back to Node  44
-WARNING: Node  25 does not connect back to Node  44
-WARNING: Node  59 does not connect back to Node  44
+WARNING: Node  26 does not connect back to Node  45
+WARNING: Node  25 does not connect back to Node  45
+WARNING: Node  59 does not connect back to Node  45
 WARNING: Node  41 does not connect back to Node  46
-WARNING: Node  45 does not connect back to Node  47
+WARNING: Node  44 does not connect back to Node  47
 WARNING: Node  53 does not connect back to Node  48
 WARNING: Node  36 does not connect back to Node  48
 WARNING: Node  34 does not connect back to Node  48
@@ -5419,13 +5419,13 @@ WARNING: Node  21 does not connect back to Node  54
 WARNING: Node  37 does not connect back to Node  55
 WARNING: Node  34 does not connect back to Node  56
 WARNING: Node  53 does not connect back to Node  57
-WARNING: Node  44 does not connect back to Node  57
+WARNING: Node  45 does not connect back to Node  57
 WARNING: Node  30 does not connect back to Node  58
 WARNING: Node  43 does not connect back to Node  59
 WARNING: Node  53 does not connect back to Node  59
 WARNING: Node  48 does not connect back to Node  61
 WARNING: Node  52 does not connect back to Node  61
-WARNING: Node  44 does not connect back to Node  62
+WARNING: Node  45 does not connect back to Node  62
 WARNING: Node  54 does not connect back to Node  62
 WARNING: Node  51 does not connect back to Node  62
 WARNING: Node  38 does not connect back to Node  63
