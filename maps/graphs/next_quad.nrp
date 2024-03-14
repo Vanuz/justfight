@@ -2,43 +2,43 @@ Node Graph Report for map:  next_quad.bsp
 7 Total Nodes
 
 Node#            0
-Location       396,-3136,-460
+Location      3284,-3792,-468
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#            1
-Location       536,-3136,-460
+Location      3424,-3792,-468
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#            2
-Location       536,-2184,-460
+Location      3424,-2840,-468
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#            3
-Location       396,-2184,-460
+Location      3284,-2840,-468
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#            4
-Location       256,-2184,-460
+Location      3144,-2840,-468
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#            5
-Location       256,-1984,-460
+Location      3144,-2640,-468
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#            6
-Location       536,-2592,-460
+Location      3424,-3248,-468
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
