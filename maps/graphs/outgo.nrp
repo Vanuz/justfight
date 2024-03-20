@@ -135,6 +135,7 @@ Node #   2:
    6
    7
    8
+   9  Entity on connection: func_wall, name:   Model: *32
   10
   11
 ----------------------------------------------------------------------------
@@ -203,6 +204,7 @@ Node #   8:
 ----------------------------------------------------------------------------
 Node #   9:
 
+   2  Entity on connection: func_wall, name:   Model: *32
    3  Entity on connection: func_wall, name:   Model: *32
    5  Entity on connection: func_wall, name:   Model: *32
    6  Entity on connection: func_wall, name:   Model: *33
@@ -299,7 +301,7 @@ Node #  17:
   14
 ----------------------------------------------------------------------------
 
- 130 Total Initial Connections -   13 Maximum connections for a single node.
+ 132 Total Initial Connections -   13 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -314,10 +316,12 @@ Node    1:
 -------------------------------------------------------------------------------
 Node    2:
 
+NODE_SMALL_HULL step 0.000000
+Rejected Node   9 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node    3:
 
-NODE_HUMAN_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node    4:
 
@@ -342,8 +346,10 @@ Node    8:
 Node    9:
 
 NODE_SMALL_HULL step 0.000000
-Rejected Node   3 - Unreachable by Any Hull
+Rejected Node   2 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node   3 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node   5 - Unreachable by Any Hull
 NODE_HUMAN_HULL step 0.000000
@@ -408,8 +414,8 @@ REJECTED NODE  16 through Node  15, Dot = 0.999343
 
 Node   2:
 REJECTED NODE   5 through Node   3, Dot = 1.000000
-REJECTED NODE  11 through Node   3, Dot = 0.999508
 REJECTED NODE  10 through Node   3, Dot = 1.000000
+REJECTED NODE  11 through Node   3, Dot = 0.999508
 REJECTED NODE   8 through Node   3, Dot = 1.000000
 REJECTED NODE   7 through Node   3, Dot = 1.000000
 REJECTED NODE   6 through Node   3, Dot = 1.000000

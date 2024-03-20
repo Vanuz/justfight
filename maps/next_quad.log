@@ -46,24 +46,24 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.11 seconds)
+ (0.13 seconds)
 CSGBrush:
- (0.22 seconds)
+ (0.23 seconds)
 
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/halflife.wad
- - Contains 78 used textures, 92.86 percent of map (3116 textures in wad)
+ - Contains 87 used textures, 92.55 percent of map (3116 textures in wad)
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/liquids.wad
- - Contains 1 used texture, 1.19 percent of map (32 textures in wad)
+ - Contains 2 used textures, 2.13 percent of map (32 textures in wad)
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/xeno.wad
- - Contains 4 used textures, 4.76 percent of map (264 textures in wad)
+ - Contains 4 used textures, 4.26 percent of map (264 textures in wad)
 Including Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/justfight/zhlt.wad
- - Contains 1 used texture, 1.19 percent of map (8 textures in wad)
+ - Contains 1 used texture, 1.06 percent of map (8 textures in wad)
 
 Wad files required to run the map: "halflife.wad;liquids.wad;xeno.wad;"
 
-added 10 additional animating textures.
-Texture usage is at 1.32 mb (of 32.00 mb MAX)
-0.48 seconds elapsed
+added 14 additional animating textures.
+Texture usage is at 1.55 mb (of 32.00 mb MAX)
+0.53 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -103,47 +103,49 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2072 (0.11 seconds)
+SolidBSP [hull 0] 500...1000...1500...2000...2335 (0.15 seconds)
 BSP generation successful, writing portal file 'C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad.prt'
-SolidBSP [hull 1] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-768,679,-252)-(-704,680,-188) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-1000...1500...2000...2141 (0.12 seconds)
-SolidBSP [hull 2] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-768,695,-248)-(-688,696,-184) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-696,560,-304)-(-680,626,-280) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-1000...1500...1871 (0.09 seconds)
-SolidBSP [hull 3] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-736,679,-234)-(-704,680,-190) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,679,-234)-(-736,680,-190) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-1000...1500...2000...2265 (0.13 seconds)
-Reduced 7835 clipnodes to 7397
-Reduced 3678 texinfos to 2104
-Reduced 93 texdatas to 82 (5208 bytes to 3612)
-Reduced 13984 planes to 4240
+SolidBSP [hull 1] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,694,-596)-(-776,698,-579) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1000...1500...2000...2240 (0.15 seconds)
+SolidBSP [hull 2] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-696,560,-304)-(-680,626,-280) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-800,640,-520)-(-712,641,-464) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-800,640,-536)-(-688,641,-520) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1000...1500...1966 (0.11 seconds)
+SolidBSP [hull 3] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,694,-578)-(-776,698,-561) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1000...1500...2000...2404 (0.16 seconds)
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,693,-568)-(-782,912,-488) in hull 1 of model 74 (entity: classname "trigger_push", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,694,-550)-(-782,912,-506) in hull 3 of model 74 (entity: classname "trigger_push", origin "", targetname "")
+Reduced 8776 clipnodes to 8323
+Reduced 4031 texinfos to 2405
+Reduced 107 texdatas to 98 (5824 bytes to 4316)
+Reduced 15912 planes to 4858
 FixBrinks:
-Increased 7397 clipnodes to 7513.
+Increased 8323 clipnodes to 8480.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models             69/512         4416/32768    (13.5%)
-planes           4240/32768      84800/655360   (12.9%)
-vertexes         7390/65535      88680/786420   (11.3%)
-nodes            2827/32767      67848/786408   ( 8.6%)
-texinfos         2104/32767      84160/1310680  ( 6.4%)
-faces            5536/65535     110720/1310700  ( 8.4%)
-* worldfaces     3049/32768          0/0        ( 9.3%)
-clipnodes        7513/32767      60104/262136   (22.9%)
-leaves           1922/32760      53816/917280   ( 5.9%)
-* visleafs        778/8192           0/0        ( 9.5%)
-marksurfaces     6906/65535      13812/131070   (10.5%)
-surfedges       25652/512000    102608/2048000  ( 5.0%)
-edges           12854/256000     51416/1024000  ( 5.0%)
-texdata          [variable]       3612/33554432  ( 0.0%)
+models             77/512         4928/32768    (15.0%)
+planes           4858/32768      97160/655360   (14.8%)
+vertexes         8154/65535      97848/786420   (12.4%)
+nodes            3219/32767      77256/786408   ( 9.8%)
+texinfos         2405/32767      96200/1310680  ( 7.3%)
+faces            6091/65535     121820/1310700  ( 9.3%)
+* worldfaces     3430/32768          0/0        (10.5%)
+clipnodes        8480/32767      67840/262136   (25.9%)
+leaves           2210/32760      61880/917280   ( 6.7%)
+* visleafs        972/8192           0/0        (11.9%)
+marksurfaces     7603/65535      15206/131070   (11.6%)
+surfedges       28291/512000    113164/2048000  ( 5.5%)
+edges           14177/256000     56708/1024000  ( 5.5%)
+texdata          [variable]       4316/33554432  ( 0.0%)
 lightdata        [variable]          0/33554432  ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]      28057/2097152  ( 1.3%)
+entdata          [variable]      29811/2097152  ( 1.4%)
 * AllocBlock       14/64             0/0        (21.9%)
-82 textures referenced
-=== Total BSP file data space used: 754049 bytes ===
+98 textures referenced
+=== Total BSP file data space used: 844137 bytes ===
 Wad files required to run the map: "halflife.wad;liquids.wad;xeno.wad;"
-1.12 seconds elapsed
+1.32 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -157,8 +159,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlvis.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad 
 Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad -low 
- 721 portalleafs
-2034 numportals
+ 915 portalleafs
+2924 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -178,12 +180,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.04 seconds)
+ (0.11 seconds)
 LeafThread:
- (0.75 seconds)
-average leafs visible: 101
-g_visdatasize:22522  compressed from 65611
-0.80 seconds elapsed
+ (5.83 seconds)
+average leafs visible: 142
+g_visdatasize:38539  compressed from 105225
+5.96 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -195,8 +197,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlrad -----
-Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlrad.exe -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad 
-Arguments: -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad -low 
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlrad.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad -low 
 
 -= Current hlrad Settings =-
 Name                | Setting             | Default
@@ -213,7 +215,7 @@ priority             [               Low ] [            Normal ]
 
 fast rad             [               off ] [               off ]
 vismatrix algorithm  [            Sparse ] [            Sparse ]
-oversampling (-extra)[                on ] [               off ]
+oversampling (-extra)[               off ] [               off ]
 bounces              [                 8 ] [                 8 ]
 ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
 circus mode          [               off ] [               off ]
@@ -263,30 +265,30 @@ no emitter range     [               off ] [               off ]
 
 Load Textures:
 Using Wadfile: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad.wa_
-82 textures referenced
+98 textures referenced
 Reading texlights from 'C:\MyStuff\Work\HLDMCOMPTOOLS\lights.rad'
 0 opaque models
 0 opaque faces
-5536 faces
-Create Patches : 19498 base patches
-440524 square feet [63435516.00 square inches]
-86 direct lights and 0 fast direct lights
+6091 faces
+Create Patches : 20395 base patches
+451817 square feet [65061752.00 square inches]
+88 direct lights and 0 fast direct lights
 4 light styles
 
 BuildFacelights:
- (3.89 seconds)
+ (0.68 seconds)
 BuildVisLeafs:
- (1.93 seconds)
-visibility matrix   :   4.3 megs
+ (1.92 seconds)
+visibility matrix   :   4.7 megs
 MakeScales:
- (1.51 seconds)
-Transfer Lists :     9816188 :    9.82M transfers
-       Indices :     5780720 :    5.51M bytes
-          Data :    19673548 :   18.76M bytes
+ (1.59 seconds)
+Transfer Lists :    10226134 :   10.23M transfers
+       Indices :     6923020 :    6.60M bytes
+          Data :    20495792 :   19.55M bytes
 Bounce 1 GatherLight:
  (0.03 seconds)
 Bounce 2 GatherLight:
- (0.04 seconds)
+ (0.05 seconds)
 Bounce 3 GatherLight:
  (0.04 seconds)
 Bounce 4 GatherLight:
@@ -301,7 +303,7 @@ Bounce 8 GatherLight:
  (0.05 seconds)
 FinalLightFace:
  (0.18 seconds)
-8.44 seconds elapsed
+5.35 seconds elapsed
 
 -----   END   hlrad -----
 
