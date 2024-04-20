@@ -46,24 +46,25 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.13 seconds)
+ (0.27 seconds)
 CSGBrush:
- (0.23 seconds)
+ (0.33 seconds)
 
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/halflife.wad
- - Contains 87 used textures, 92.55 percent of map (3116 textures in wad)
+ - Contains 113 used textures, 90.40 percent of map (3116 textures in wad)
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/liquids.wad
- - Contains 2 used textures, 2.13 percent of map (32 textures in wad)
+ - Contains 2 used textures, 1.60 percent of map (32 textures in wad)
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/xeno.wad
- - Contains 4 used textures, 4.26 percent of map (264 textures in wad)
+ - Contains 9 used textures, 7.20 percent of map (264 textures in wad)
 Including Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/justfight/zhlt.wad
- - Contains 1 used texture, 1.06 percent of map (8 textures in wad)
+ - Contains 1 used texture, 0.80 percent of map (8 textures in wad)
 
 Wad files required to run the map: "halflife.wad;liquids.wad;xeno.wad;"
 
-added 14 additional animating textures.
-Texture usage is at 1.55 mb (of 32.00 mb MAX)
-0.53 seconds elapsed
+added 19 additional animating textures.
+Texture usage is at 1.85 mb (of 32.00 mb MAX)
+1 redundant named lights optimized.
+0.91 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -103,49 +104,54 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2335 (0.15 seconds)
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3069 (0.21 seconds)
 BSP generation successful, writing portal file 'C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad.prt'
-SolidBSP [hull 1] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,694,-596)-(-776,698,-579) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-1000...1500...2000...2240 (0.15 seconds)
-SolidBSP [hull 2] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-696,560,-304)-(-680,626,-280) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-800,640,-520)-(-712,641,-464) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-800,640,-536)-(-688,641,-520) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-1000...1500...1966 (0.11 seconds)
-SolidBSP [hull 3] 500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,694,-578)-(-776,698,-561) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
-1000...1500...2000...2404 (0.16 seconds)
-Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,693,-568)-(-782,912,-488) in hull 1 of model 74 (entity: classname "trigger_push", origin "", targetname "")
-Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,694,-550)-(-782,912,-506) in hull 3 of model 74 (entity: classname "trigger_push", origin "", targetname "")
-Reduced 8776 clipnodes to 8323
-Reduced 4031 texinfos to 2405
-Reduced 107 texdatas to 98 (5824 bytes to 4316)
-Reduced 15912 planes to 4858
+SolidBSP [hull 1] 500...1000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,656,-516)-(-704,657,-460) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,694,-596)-(-776,698,-579) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,656,-540)-(-704,657,-516) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1500...2000...2500...2908 (0.21 seconds)
+SolidBSP [hull 2] 500...1000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-696,560,-304)-(-680,626,-280) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1500...2000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (3144,-2360,-428)-(3148,-2352,-427) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+2500...2681 (0.18 seconds)
+SolidBSP [hull 3] 500...1000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-745,656,-522)-(-704,657,-484) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-704,685,-480)-(-703,696,-478) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,656,-522)-(-709,657,-486) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-792,694,-578)-(-776,698,-561) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+1500...2000...2500...3000...3255 (0.25 seconds)
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,693,-568)-(-782,912,-488) in hull 1 of model 69 (entity: classname "trigger_push", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-784,694,-550)-(-782,912,-506) in hull 3 of model 69 (entity: classname "trigger_push", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-766,1192,-314)-(-754,1200,-258) in hull 3 of model 96 (entity: classname "func_wall", origin "", targetname "")
+Reduced 14263 clipnodes to 13484
+Reduced 5515 texinfos to 3580
+Reduced 143 texdatas to 135 (7408 bytes to 5944)
+Reduced 24976 planes to 8007
 FixBrinks:
-Increased 8323 clipnodes to 8480.
+Increased 13484 clipnodes to 13746.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models             77/512         4928/32768    (15.0%)
-planes           4858/32768      97160/655360   (14.8%)
-vertexes         8154/65535      97848/786420   (12.4%)
-nodes            3219/32767      77256/786408   ( 9.8%)
-texinfos         2405/32767      96200/1310680  ( 7.3%)
-faces            6091/65535     121820/1310700  ( 9.3%)
-* worldfaces     3430/32768          0/0        (10.5%)
-clipnodes        8480/32767      67840/262136   (25.9%)
-leaves           2210/32760      61880/917280   ( 6.7%)
-* visleafs        972/8192           0/0        (11.9%)
-marksurfaces     7603/65535      15206/131070   (11.6%)
-surfedges       28291/512000    113164/2048000  ( 5.5%)
-edges           14177/256000     56708/1024000  ( 5.5%)
-texdata          [variable]       4316/33554432  ( 0.0%)
+models            119/512         7616/32768    (23.2%)
+planes           8007/32768     160140/655360   (24.4%)
+vertexes        11425/65535     137100/786420   (17.4%)
+nodes            4902/32767     117648/786408   (15.0%)
+texinfos         3580/32767     143200/1310680  (10.9%)
+faces            8560/65535     171200/1310700  (13.1%)
+* worldfaces     4145/32768          0/0        (12.6%)
+clipnodes       13746/32767     109968/262136   (42.0%)
+leaves           3426/32760      95928/917280   (10.5%)
+* visleafs       1233/8192           0/0        (15.1%)
+marksurfaces    10676/65535      21352/131070   (16.3%)
+surfedges       39551/512000    158204/2048000  ( 7.7%)
+edges           19847/256000     79388/1024000  ( 7.8%)
+texdata          [variable]       5944/33554432  ( 0.0%)
 lightdata        [variable]          0/33554432  ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]      29811/2097152  ( 1.4%)
-* AllocBlock       14/64             0/0        (21.9%)
-98 textures referenced
-=== Total BSP file data space used: 844137 bytes ===
+entdata          [variable]      66510/2097152  ( 3.2%)
+* AllocBlock       17/64             0/0        (26.6%)
+135 textures referenced
+=== Total BSP file data space used: 1274198 bytes ===
 Wad files required to run the map: "halflife.wad;liquids.wad;xeno.wad;"
-1.32 seconds elapsed
+2.20 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -159,8 +165,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlvis.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad 
 Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad -low 
- 915 portalleafs
-2924 numportals
+1053 portalleafs
+3313 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -180,12 +186,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.11 seconds)
+ (0.14 seconds)
 LeafThread:
- (5.83 seconds)
-average leafs visible: 142
-g_visdatasize:38539  compressed from 105225
-5.96 seconds elapsed
+ (11.17 seconds)
+average leafs visible: 164
+g_visdatasize:49455  compressed from 138996
+11.33 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -197,8 +203,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlrad -----
-Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlrad.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad 
-Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad -low 
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlrad.exe -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad 
+Arguments: -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad -low 
 
 -= Current hlrad Settings =-
 Name                | Setting             | Default
@@ -215,7 +221,7 @@ priority             [               Low ] [            Normal ]
 
 fast rad             [               off ] [               off ]
 vismatrix algorithm  [            Sparse ] [            Sparse ]
-oversampling (-extra)[               off ] [               off ]
+oversampling (-extra)[                on ] [               off ]
 bounces              [                 8 ] [                 8 ]
 ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
 circus mode          [               off ] [               off ]
@@ -265,45 +271,45 @@ no emitter range     [               off ] [               off ]
 
 Load Textures:
 Using Wadfile: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next_quad.wa_
-98 textures referenced
+135 textures referenced
 Reading texlights from 'C:\MyStuff\Work\HLDMCOMPTOOLS\lights.rad'
 0 opaque models
 0 opaque faces
-6091 faces
-Create Patches : 20395 base patches
-451817 square feet [65061752.00 square inches]
-88 direct lights and 0 fast direct lights
-4 light styles
+8560 faces
+Create Patches : 24243 base patches
+476731 square feet [68649400.00 square inches]
+103 direct lights and 0 fast direct lights
+8 light styles
 
 BuildFacelights:
- (0.68 seconds)
+ (5.48 seconds)
 BuildVisLeafs:
- (1.92 seconds)
-visibility matrix   :   4.7 megs
+ (2.93 seconds)
+visibility matrix   :   6.8 megs
 MakeScales:
- (1.59 seconds)
-Transfer Lists :    10226134 :   10.23M transfers
-       Indices :     6923020 :    6.60M bytes
-          Data :    20495792 :   19.55M bytes
+ (2.34 seconds)
+Transfer Lists :    14327067 :   14.33M transfers
+       Indices :    10791308 :   10.29M bytes
+          Data :    28707567 :   27.38M bytes
 Bounce 1 GatherLight:
- (0.03 seconds)
+ (0.05 seconds)
 Bounce 2 GatherLight:
- (0.05 seconds)
+ (0.07 seconds)
 Bounce 3 GatherLight:
- (0.04 seconds)
+ (0.07 seconds)
 Bounce 4 GatherLight:
- (0.04 seconds)
+ (0.07 seconds)
 Bounce 5 GatherLight:
- (0.04 seconds)
+ (0.07 seconds)
 Bounce 6 GatherLight:
- (0.04 seconds)
+ (0.07 seconds)
 Bounce 7 GatherLight:
- (0.04 seconds)
+ (0.08 seconds)
 Bounce 8 GatherLight:
- (0.05 seconds)
+ (0.07 seconds)
 FinalLightFace:
- (0.18 seconds)
-5.35 seconds elapsed
+ (0.24 seconds)
+12.40 seconds elapsed
 
 -----   END   hlrad -----
 

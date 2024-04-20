@@ -806,6 +806,7 @@ JF_NEXT_3 buzwarn buzwarn (e95 p98) repair crew, evacuate to administration comp
 
 //Jokes and Fluff
 
+JF_SUPERTEAM deeoo deeoo (e108 p88) super alpha bravo team hostile alien forms detected, eliminate immediately
 JF_DETECTED deeoo deeoo (e95 p98) unauthorized agent detected, processing. buzwarn buzwarn error, failed to access main control computer, user input is required
 JF_INDIA bloop (e95 p98) india has been destroyed
 JF_FACTS bloop (e95 p98) quebec has been detected, processing.... (e108 p88) quebec has been destroyed
@@ -821,4 +822,5 @@ JF_MESSAGE2 bloop (e95 p98) attention, sector b status, fifty percent failure
 JF_MESSAGE3 (e95 p98) ventillation maintenance crew report your status immediately
 JF_MESSAGE4 (e95 p98) danger danger, high voltage in sector a
 JF_MESSAGE5 deeoo deeoo (e95 p98) chemical processing plant status. (e90 p88) malfunction
-JF_SUPERTEAM deeoo deeoo (e108 p88) super alpha bravo team hostile alien forms detected, eliminate immediately
+
+//

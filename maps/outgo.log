@@ -46,7 +46,7 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.11 seconds)
+ (0.10 seconds)
 CSGBrush:
  (0.24 seconds)
 
@@ -101,42 +101,42 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2127 (0.12 seconds)
+SolidBSP [hull 0] 500...1000...1500...2000...2124 (0.12 seconds)
 BSP generation successful, writing portal file 'C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\outgo.prt'
-SolidBSP [hull 1] 500...1000...1500...2000...2124 (0.12 seconds)
-SolidBSP [hull 2] 500...1000...1500...1947 (0.10 seconds)
-SolidBSP [hull 3] 500...1000...1500...2000...2226 (0.14 seconds)
-Reduced 8666 clipnodes to 8151
+SolidBSP [hull 1] 500...1000...1500...2000...2112 (0.11 seconds)
+SolidBSP [hull 2] 500...1000...1500...1949 (0.11 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2215 (0.14 seconds)
+Reduced 8581 clipnodes to 7994
 Reduced 2649 texinfos to 1697
 Reduced 136 texdatas to 128 (5988 bytes to 5636)
-Reduced 13386 planes to 4217
+Reduced 13386 planes to 4218
 FixBrinks:
-Increased 8151 clipnodes to 8225.
+Increased 7994 clipnodes to 8103.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models             91/512         5824/32768    (17.8%)
-planes           4217/32768      84340/655360   (12.9%)
-vertexes         6646/65535      79752/786420   (10.1%)
-nodes            3020/32767      72480/786408   ( 9.2%)
+planes           4218/32768      84360/655360   (12.9%)
+vertexes         6629/65535      79548/786420   (10.1%)
+nodes            3011/32767      72264/786408   ( 9.2%)
 texinfos         1697/32767      67880/1310680  ( 5.2%)
-faces            4842/65535      96840/1310700  ( 7.4%)
-* worldfaces     3074/32768          0/0        ( 9.4%)
-clipnodes        8225/32767      65800/262136   (25.1%)
-leaves           2068/32760      57904/917280   ( 6.3%)
-* visleafs        903/8192           0/0        (11.0%)
-marksurfaces     6824/65535      13648/131070   (10.4%)
-surfedges       22381/512000     89524/2048000  ( 4.4%)
-edges           11396/256000     45584/1024000  ( 4.5%)
+faces            4824/65535      96480/1310700  ( 7.4%)
+* worldfaces     3058/32768          0/0        ( 9.3%)
+clipnodes        8103/32767      64824/262136   (24.7%)
+leaves           2064/32760      57792/917280   ( 6.3%)
+* visleafs        900/8192           0/0        (11.0%)
+marksurfaces     6816/65535      13632/131070   (10.4%)
+surfedges       22317/512000     89268/2048000  ( 4.4%)
+edges           11358/256000     45432/1024000  ( 4.4%)
 texdata          [variable]       5636/33554432  ( 0.0%)
 lightdata        [variable]          0/33554432  ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]      35116/2097152  ( 1.7%)
+entdata          [variable]      35114/2097152  ( 1.7%)
 * AllocBlock       11/64             0/0        (17.2%)
 128 textures referenced
-=== Total BSP file data space used: 720328 bytes ===
+=== Total BSP file data space used: 718054 bytes ===
 Wad files required to run the map: "halflife.wad;xeno.wad;"
-1.26 seconds elapsed
+1.24 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -150,8 +150,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlvis.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\outgo 
 Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\outgo -low 
- 423 portalleafs
-1135 numportals
+ 421 portalleafs
+1108 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -173,10 +173,10 @@ full vis            [     off ] [     off ]
 BasePortalVis:
  (0.02 seconds)
 LeafThread:
- (0.48 seconds)
-average leafs visible: 97
-g_visdatasize:18515  compressed from 22419
-0.52 seconds elapsed
+ (0.38 seconds)
+average leafs visible: 96
+g_visdatasize:18289  compressed from 22313
+0.41 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -260,22 +260,22 @@ Using Wadfile: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\
 Reading texlights from 'C:\MyStuff\Work\HLDMCOMPTOOLS\lights.rad'
 0 opaque models
 0 opaque faces
-4842 faces
-Create Patches : 11092 base patches
-246131 square feet [35442904.00 square inches]
+4824 faces
+Create Patches : 11066 base patches
+246131 square feet [35442888.00 square inches]
 89 direct lights and 0 fast direct lights
 6 light styles
 
 BuildFacelights:
- (2.13 seconds)
+ (2.08 seconds)
 BuildVisLeafs:
- (0.85 seconds)
+ (0.76 seconds)
 visibility matrix   :   2.4 megs
 MakeScales:
- (0.63 seconds)
-Transfer Lists :     5216500 :    5.22M transfers
-       Indices :     3978816 :    3.79M bytes
-          Data :    10465181 :    9.98M bytes
+ (0.62 seconds)
+Transfer Lists :     5245947 :    5.25M transfers
+       Indices :     3945212 :    3.76M bytes
+          Data :    10524003 :   10.04M bytes
 Bounce 1 GatherLight:
  (0.02 seconds)
 Bounce 2 GatherLight:
@@ -294,7 +294,7 @@ Bounce 8 GatherLight:
  (0.03 seconds)
 FinalLightFace:
  (0.13 seconds)
-4.27 seconds elapsed
+4.13 seconds elapsed
 
 -----   END   hlrad -----
 

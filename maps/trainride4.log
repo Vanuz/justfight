@@ -46,7 +46,7 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.19 seconds)
+ (0.18 seconds)
 CSGBrush:
  (0.30 seconds)
 
@@ -59,7 +59,7 @@ Wad files required to run the map: "halflife.wad;"
 
 added 20 additional animating textures.
 Texture usage is at 1.66 mb (of 32.00 mb MAX)
-0.83 seconds elapsed
+0.80 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -99,42 +99,43 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2260 (0.11 seconds)
+SolidBSP [hull 0] 500...1000...1500...2000...2262 (0.11 seconds)
 BSP generation successful, writing portal file 'C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\trainride4.prt'
-SolidBSP [hull 1] 500...1000...1500...2000...2500...2596 (0.12 seconds)
-SolidBSP [hull 2] 500...1000...1500...2000...2433 (0.11 seconds)
-SolidBSP [hull 3] 500...1000...1500...2000...2500...2644 (0.13 seconds)
-Reduced 13754 clipnodes to 13083
+SolidBSP [hull 1] 500...1000...1500...2000...2500...2594 (0.12 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2430 (0.11 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2500...2647 (0.13 seconds)
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-48,32,32)-(-48,44,35) in hull 2 of model 53 (entity: classname "func_rotating", origin "-472 -1032 2401", targetname "")
+Reduced 13835 clipnodes to 13165
 Reduced 3905 texinfos to 2373
 Reduced 159 texdatas to 143 (7000 bytes to 6296)
-Reduced 16380 planes to 5582
+Reduced 16380 planes to 5581
 FixBrinks:
-Increased 13083 clipnodes to 13218.
+Increased 13165 clipnodes to 13262.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
 models            243/512        15552/32768    (47.5%)
-planes           5582/32768     111640/655360   (17.0%)
-vertexes         7645/65535      91740/786420   (11.7%)
-nodes            4067/32767      97608/786408   (12.4%)
+planes           5581/32768     111620/655360   (17.0%)
+vertexes         7634/65535      91608/786420   (11.6%)
+nodes            4069/32767      97656/786408   (12.4%)
 texinfos         2373/32767      94920/1310680  ( 7.2%)
-faces            5688/65535     113760/1310700  ( 8.7%)
-* worldfaces     2241/32768          0/0        ( 6.8%)
-clipnodes       13218/32767     105744/262136   (40.3%)
-leaves           2934/32760      82152/917280   ( 9.0%)
-* visleafs        469/8192           0/0        ( 5.7%)
-marksurfaces     6853/65535      13706/131070   (10.5%)
-surfedges       25807/512000    103228/2048000  ( 5.0%)
-edges           12958/256000     51832/1024000  ( 5.1%)
+faces            5683/65535     113660/1310700  ( 8.7%)
+* worldfaces     2243/32768          0/0        ( 6.8%)
+clipnodes       13262/32767     106096/262136   (40.5%)
+leaves           2932/32760      82096/917280   ( 8.9%)
+* visleafs        468/8192           0/0        ( 5.7%)
+marksurfaces     6844/65535      13688/131070   (10.4%)
+surfedges       25773/512000    103092/2048000  ( 5.0%)
+edges           12944/256000     51776/1024000  ( 5.1%)
 texdata          [variable]       6296/33554432  ( 0.0%)
 lightdata        [variable]          0/33554432  ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
 entdata          [variable]      82102/2097152  ( 3.9%)
 * AllocBlock       14/64             0/0        (21.9%)
 143 textures referenced
-=== Total BSP file data space used: 970280 bytes ===
+=== Total BSP file data space used: 970162 bytes ===
 Wad files required to run the map: "halflife.wad;"
-1.83 seconds elapsed
+1.79 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -148,8 +149,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlvis.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\trainride4 
 Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\trainride4 -low 
- 380 portalleafs
- 852 numportals
+ 379 portalleafs
+ 842 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -169,12 +170,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.02 seconds)
+ (0.01 seconds)
 LeafThread:
- (0.25 seconds)
-average leafs visible: 86
-g_visdatasize:10164  compressed from 18240
-0.27 seconds elapsed
+ (0.22 seconds)
+average leafs visible: 84
+g_visdatasize:10134  compressed from 18192
+0.25 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -258,22 +259,22 @@ Using Wadfile: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\
 Reading texlights from 'C:\MyStuff\Work\HLDMCOMPTOOLS\lights.rad'
 0 opaque models
 0 opaque faces
-5688 faces
-Create Patches : 14748 base patches
-332193 square feet [47835904.00 square inches]
+5683 faces
+Create Patches : 14760 base patches
+332193 square feet [47835840.00 square inches]
 164 direct lights and 0 fast direct lights
 4 light styles
 
 BuildFacelights:
- (3.08 seconds)
+ (2.82 seconds)
 BuildVisLeafs:
- (1.35 seconds)
+ (1.44 seconds)
 visibility matrix   :   3.4 megs
 MakeScales:
- (0.95 seconds)
-Transfer Lists :     7234070 :    7.23M transfers
-       Indices :     5430516 :    5.18M bytes
-          Data :    14509747 :   13.84M bytes
+ (1.05 seconds)
+Transfer Lists :     7247467 :    7.25M transfers
+       Indices :     5424156 :    5.17M bytes
+          Data :    14536577 :   13.86M bytes
 Bounce 1 GatherLight:
  (0.03 seconds)
 Bounce 2 GatherLight:
@@ -292,7 +293,7 @@ Bounce 8 GatherLight:
  (0.04 seconds)
 FinalLightFace:
  (0.18 seconds)
-6.26 seconds elapsed
+6.22 seconds elapsed
 
 -----   END   hlrad -----
 

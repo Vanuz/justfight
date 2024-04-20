@@ -1269,7 +1269,6 @@ Node #  52:
   57
   58
   59
-  60
   61
   62
   66
@@ -1493,6 +1492,7 @@ Node #  60:
   49
   50
   51
+  52
   53
   54
   55
@@ -2682,8 +2682,6 @@ NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  59 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
-Rejected Node  60 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   53:
 
@@ -2964,6 +2962,11 @@ NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
+Rejected Node  52 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  78 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
@@ -2971,17 +2974,14 @@ NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  58 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
-Rejected Node  78 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
-NODE_SMALL_HULL step 0.000000
-Rejected Node  59 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
 Rejected Node  68 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  67 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  66 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  59 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
