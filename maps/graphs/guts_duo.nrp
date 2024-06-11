@@ -2672,6 +2672,7 @@ Node # 155:
 Node # 156:
 
   44  Entity on connection: func_wall, name:   Model: *182
+  45
   48  Entity on connection: func_wall, name:   Model: *182
   54  Entity on connection: func_wall, name:   Model: *182
   72  Entity on connection: func_wall, name:   Model: *182
@@ -2701,7 +2702,7 @@ Node # 159:
   27
 ----------------------------------------------------------------------------
 
-1254 Total Initial Connections -   21 Maximum connections for a single node.
+1255 Total Initial Connections -   21 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -4496,13 +4497,15 @@ Node  156:
 NODE_SMALL_HULL step 0.000000
 Rejected Node  44 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
-Rejected Node  48 - Unreachable by Any Hull
+Rejected Node  45 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node 154 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  72 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  54 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  48 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node  157:
 
