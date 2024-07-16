@@ -769,6 +769,8 @@ SLV_ALERT5 aslave/(p108) slv_alert4 slv_word7 slv_alert1
 
 JF_NONONO justfight/npc/nonono
 JF_BOB justfight/npc/bob
+JF_STUPID1 justfight/npc/sabotage
+JF_STUPID2 justfight/npc/sanemind
 JF_LAST1 justfight/npc/last1
 JF_LAST2 justfight/npc/last2
 JF_LAST3 justfight/npc/last3

@@ -106,12 +106,22 @@ $color 255 83 0
 $color2 243 243 243
 $fadein 0.05
 $fxtime 0.25
-$holdtime 1.5
+$holdtime 3.2
 $fadeout 0.5
 
 OBJECTIVE1
 {
 Objective Accomplished: Get access to Main Control Computer
+}
+
+OBJECTIVE1_1
+{
+New Objective: Leave using a cargo carriage
+}
+
+OBJECTIVE1_2
+{
+Objective Accomplished: Leave using a cargo carriage
 }
 
 OBJECTIVE2
