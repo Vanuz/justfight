@@ -272,7 +272,7 @@ HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           45
-Location      1716,2422, 368
+Location      1716,2422, 376
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
@@ -881,9 +881,9 @@ Node #  28:
 
   29
   30
-  31  Entity on connection: func_door, name:   Model: *17
-  45  Entity on connection: func_door, name:   Model: *17
-  46  Entity on connection: func_door, name:   Model: *17
+  31
+  45  Entity on connection: func_door, name: stuck_door  Model: *17
+  46  Entity on connection: func_door, name: stuck_door  Model: *17
 ----------------------------------------------------------------------------
 Node #  29:
 
@@ -894,14 +894,14 @@ Node #  30:
 
   28
   29
-  31  Entity on connection: func_door, name:   Model: *17
-  45  Entity on connection: func_door, name:   Model: *17
-  46  Entity on connection: func_door, name:   Model: *17
+  31
+  45
+  46
 ----------------------------------------------------------------------------
 Node #  31:
 
-  28  Entity on connection: func_door, name:   Model: *17
-  30  Entity on connection: func_door, name:   Model: *17
+  28
+  30
   45
   46
 ----------------------------------------------------------------------------
@@ -1055,15 +1055,15 @@ Node #  44:
 ----------------------------------------------------------------------------
 Node #  45:
 
-  28  Entity on connection: func_door, name:   Model: *17
-  30  Entity on connection: func_door, name:   Model: *17
+  28  Entity on connection: func_door, name: stuck_door  Model: *17
+  30
   31
   46
 ----------------------------------------------------------------------------
 Node #  46:
 
-  28  Entity on connection: func_door, name:   Model: *17
-  30  Entity on connection: func_door, name:   Model: *17
+  28  Entity on connection: func_door, name: stuck_door  Model: *17
+  30
   31
   43  Entity on connection: func_door_rotating, name:   Model: *23
   44

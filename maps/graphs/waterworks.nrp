@@ -863,7 +863,6 @@ Node #  28:
   27  Entity on connection: func_wall, name:   Model: *41
   29
   30
-  31
   32
 ----------------------------------------------------------------------------
 Node #  29:
@@ -887,6 +886,7 @@ Node #  31:
 
   26  Entity on connection: func_wall, name:   Model: *41
   27  Entity on connection: func_wall, name:   Model: *41
+  28
   29
   30
   32
@@ -1937,8 +1937,6 @@ Rejected Node  27 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  32 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
-Rejected Node  31 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
 Rejected Node  30 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   29:
@@ -1965,6 +1963,8 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node  33 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  27 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  28 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   32:
@@ -2472,6 +2472,7 @@ Node   87:
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  94 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
@@ -2530,6 +2531,7 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node  91 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  90 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   90:
 
