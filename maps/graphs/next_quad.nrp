@@ -140,13 +140,13 @@ HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           23
-Location      2880,-488,-432
+Location      2880,-472,-432
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           24
-Location      2880,-376,-392
+Location      2880,-384,-396
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
@@ -2444,11 +2444,12 @@ Node   18:
 -------------------------------------------------------------------------------
 Node   19:
 
+NODE_SMALL_HULL step 0.000000
+Rejected Node  23 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  33 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  34 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
@@ -2474,6 +2475,7 @@ Rejected Node  44 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   21:
 
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  24 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
@@ -2521,10 +2523,12 @@ Rejected Node  28 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   23:
 
+NODE_SMALL_HULL step 0.000000
+Rejected Node  19 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  22 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   24:
@@ -4091,6 +4095,8 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node  89 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node 105 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node  112:
 
@@ -4205,8 +4211,8 @@ REJECTED NODE  50 through Node  51, Dot = 0.999712
 
 Node  19:
 REJECTED NODE  30 through Node  29, Dot = 0.999647
-REJECTED NODE  38 through Node  31, Dot = 1.000000
 REJECTED NODE  37 through Node  31, Dot = 1.000000
+REJECTED NODE  38 through Node  31, Dot = 1.000000
 REJECTED NODE  46 through Node  31, Dot = 1.000000
 ----------------------------------------------------------------------------
 
@@ -4689,12 +4695,11 @@ REJECTED NODE  96 through Node  95, Dot = 0.999705
 
 -------------------------------------------------------------------------------
 Link Pairings:
-WARNING: Node  22 does not connect back to Node  23
 WARNING: Node  22 does not connect back to Node  24
-WARNING: Node  30 does not connect back to Node  26
+WARNING: Node  29 does not connect back to Node  26
 WARNING: Node  40 does not connect back to Node  28
 WARNING: Node  21 does not connect back to Node  28
-WARNING: Node  28 does not connect back to Node  31
+WARNING: Node  28 does not connect back to Node  30
 WARNING: Node  40 does not connect back to Node  33
 WARNING: Node  33 does not connect back to Node  34
 WARNING: Node  32 does not connect back to Node  34
@@ -4733,13 +4738,14 @@ WARNING: Node  81 does not connect back to Node  85
 WARNING: Node  83 does not connect back to Node  85
 WARNING: Node  90 does not connect back to Node  86
 WARNING: Node 107 does not connect back to Node 102
+WARNING: Node 111 does not connect back to Node 109
 WARNING: Node  96 does not connect back to Node 110
 WARNING: Node  96 does not connect back to Node 112
 -------------------------------------------------------------------------------
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 536
+Total Number of Connections in Pool: 532
 -------------------------------------------------------------------------------
-Connection Pool: 12864 bytes
+Connection Pool: 12768 bytes
 -------------------------------------------------------------------------------
