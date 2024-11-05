@@ -82,9 +82,9 @@ Node #   0:
 
    1
    2
-   4  Entity on connection: func_wall, name:   Model: *127
-   6  Entity on connection: func_wall, name:   Model: *126
-   7  Entity on connection: func_wall, name:   Model: *126
+   4  Entity on connection: func_wall, name:   Model: *125
+   6  Entity on connection: func_wall, name:   Model: *124
+   7  Entity on connection: func_wall, name:   Model: *124
 ----------------------------------------------------------------------------
 Node #   1:
 
@@ -92,7 +92,7 @@ Node #   1:
    2
    6
    7
-  10  Entity on connection: func_wall, name:   Model: *127
+  10  Entity on connection: func_wall, name:   Model: *125
 ----------------------------------------------------------------------------
 Node #   2:
 
@@ -109,11 +109,11 @@ Node #   3:
    5
    7
    8
-  10  Entity on connection: func_pushable, name:   Model: *121
+  10  Entity on connection: func_pushable, name:   Model: *119
 ----------------------------------------------------------------------------
 Node #   4:
 
-   0  Entity on connection: func_wall, name:   Model: *127
+   0  Entity on connection: func_wall, name:   Model: *125
    2
    3
    5
@@ -126,22 +126,22 @@ Node #   5:
    4
    6
    7
-   8  Entity on connection: func_wall, name:   Model: *112
-   9  Entity on connection: func_wall, name:   Model: *112
+   8  Entity on connection: func_wall, name:   Model: *110
+   9  Entity on connection: func_wall, name:   Model: *110
 ----------------------------------------------------------------------------
 Node #   6:
 
-   0  Entity on connection: func_wall, name:   Model: *126
+   0  Entity on connection: func_wall, name:   Model: *124
    1
    5
    7
-   8  Entity on connection: func_wall, name:   Model: *112
+   8  Entity on connection: func_wall, name:   Model: *110
    9
   11
 ----------------------------------------------------------------------------
 Node #   7:
 
-   0  Entity on connection: func_wall, name:   Model: *126
+   0  Entity on connection: func_wall, name:   Model: *124
    1
    3
    5
@@ -153,14 +153,14 @@ Node #   7:
 Node #   8:
 
    3
-   5  Entity on connection: func_wall, name:   Model: *112
-   6  Entity on connection: func_wall, name:   Model: *112
+   5  Entity on connection: func_wall, name:   Model: *110
+   6  Entity on connection: func_wall, name:   Model: *110
    7
    9
 ----------------------------------------------------------------------------
 Node #   9:
 
-   5  Entity on connection: func_wall, name:   Model: *112
+   5  Entity on connection: func_wall, name:   Model: *110
    6
    7
    8
@@ -169,8 +169,8 @@ Node #   9:
 ----------------------------------------------------------------------------
 Node #  10:
 
-   1  Entity on connection: func_wall, name:   Model: *127
-   3  Entity on connection: func_pushable, name:   Model: *121
+   1  Entity on connection: func_wall, name:   Model: *125
+   3  Entity on connection: func_pushable, name:   Model: *119
    9
   11
 ----------------------------------------------------------------------------

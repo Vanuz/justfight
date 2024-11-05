@@ -53,11 +53,11 @@ Node #   2:
 ----------------------------------------------------------------------------
 Node #   3:
 
-   4  Entity on connection: func_door, name: door  Model: *64
+   4  Entity on connection: func_door, name: door  Model: *62
 ----------------------------------------------------------------------------
 Node #   4:
 
-   3  Entity on connection: func_door, name: door  Model: *64
+   3  Entity on connection: func_door, name: door  Model: *62
 ----------------------------------------------------------------------------
 
    8 Total Initial Connections -    2 Maximum connections for a single node.
