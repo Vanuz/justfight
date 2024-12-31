@@ -134,6 +134,11 @@ OBJECTIVE3
 Objective Accomplished: Stop Anomalous Activity
 }
 
+KEYCARD
+{
+...A KEYCARD required to open this door...
+}
+
 //Secrets
 $position -1 -1
 $effect 2
