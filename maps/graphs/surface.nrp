@@ -4994,7 +4994,7 @@ Node # 162:
  164
  165
  166
- 187  Entity on connection: func_wall, name:   Model: *145
+ 187
  188
  189
 ----------------------------------------------------------------------------
@@ -5365,7 +5365,7 @@ Node # 187:
  151
  159
  160
- 162  Entity on connection: func_wall, name:   Model: *145
+ 162
  165
  166
  167
@@ -8383,7 +8383,6 @@ NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
-Rejected Node 187 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node  163:
 
@@ -8727,7 +8726,6 @@ NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
-Rejected Node 162 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
@@ -10379,6 +10377,7 @@ REJECTED NODE 165 through Node 159, Dot = 0.999983
 
 Node 162:
 REJECTED NODE 189 through Node 146, Dot = 0.998697
+REJECTED NODE 187 through Node 146, Dot = 0.998249
 REJECTED NODE 166 through Node 142, Dot = 0.999998
 REJECTED NODE 142 through Node 145, Dot = 0.999912
 REJECTED NODE 188 through Node 146, Dot = 0.998249
@@ -10566,9 +10565,9 @@ REJECTED NODE 147 through Node 188, Dot = 0.999504
 Node 187:
 REJECTED NODE 129 through Node 131, Dot = 0.999731
 REJECTED NODE 130 through Node 131, Dot = 0.999453
+REJECTED NODE 141 through Node 140, Dot = 0.999989
 REJECTED NODE 167 through Node 134, Dot = 0.999233
 REJECTED NODE 166 through Node 134, Dot = 0.999973
-REJECTED NODE 141 through Node 140, Dot = 0.999989
 REJECTED NODE 147 through Node 140, Dot = 0.999892
 REJECTED NODE 151 through Node 150, Dot = 0.998559
 ----------------------------------------------------------------------------
@@ -10802,6 +10801,7 @@ WARNING: Node 141 does not connect back to Node 151
 WARNING: Node 144 does not connect back to Node 151
 WARNING: Node 146 does not connect back to Node 152
 WARNING: Node 169 does not connect back to Node 152
+WARNING: Node 169 does not connect back to Node 153
 WARNING: Node 146 does not connect back to Node 153
 WARNING: Node 136 does not connect back to Node 154
 WARNING: Node 155 does not connect back to Node 154
@@ -10860,7 +10860,7 @@ WARNING: Node  50 does not connect back to Node 190
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 1923
+Total Number of Connections in Pool: 1924
 -------------------------------------------------------------------------------
-Connection Pool: 46152 bytes
+Connection Pool: 46176 bytes
 -------------------------------------------------------------------------------
