@@ -1,0 +1,307 @@
+hlcsg v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlcsg.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b -low -wadautodetect 
+Entering C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [      12 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 33554432 ] [ 33554432 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wadcfg by file        [    None ] [    None ]
+wadcfg by name        [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.25 seconds)
+CSGBrush:
+ (0.42 seconds)
+
+Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/justfight/utilization.wad
+ - Contains 1 used texture, 0.83 percent of map (10 textures in wad)
+Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/halflife.wad
+ - Contains 113 used textures, 93.39 percent of map (3116 textures in wad)
+Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/liquids.wad
+ - Contains 3 used textures, 2.48 percent of map (32 textures in wad)
+Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/xeno.wad
+ - Contains 3 used textures, 2.48 percent of map (264 textures in wad)
+Including Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/justfight/zhlt.wad
+ - Contains 1 used texture, 0.83 percent of map (8 textures in wad)
+
+Wad files required to run the map: "utilization.wad;halflife.wad;liquids.wad;xeno.wad;"
+
+added 34 additional animating textures.
+Texture usage is at 1.74 mb (of 32.00 mb MAX)
+1.10 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlbsp.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      12 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...3778 (0.24 seconds)
+BSP generation successful, writing portal file 'C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b.prt'
+SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...3999 (0.26 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3500...3732 (0.23 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...4000...4132 (0.28 seconds)
+Warning: No visible brushes in solid entity: model 111 (entity: classname "func_monsterclip", origin "", targetname "", range (-1136,-2280,-1424) - (-720,-376,-1120))
+Reduced 20520 clipnodes to 17821
+Reduced 5726 texinfos to 3358
+Reduced 154 texdatas to 149 (7892 bytes to 6560)
+Reduced 21006 planes to 7792
+FixBrinks:
+Increased 17821 clipnodes to 18105.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models            152/512         9728/32768    (29.7%)
+planes           7792/32768     155840/655360   (23.8%)
+vertexes        16980/65535     203760/786420   (25.9%)
+nodes            7309/32767     175416/786408   (22.3%)
+texinfos         3358/32767     134320/1310680  (10.2%)
+faces           12744/65535     254880/1310700  (19.4%)
+* worldfaces     5149/32768          0/0        (15.7%)
+clipnodes       18105/32767     144840/262136   (55.3%)
+leaves           5269/32760     147532/917280   (16.1%)
+* visleafs       1479/8192           0/0        (18.1%)
+marksurfaces    17014/65535      34028/131070   (26.0%)
+surfedges       59110/512000    236440/2048000  (11.5%)
+edges           29649/256000    118596/1024000  (11.6%)
+texdata          [variable]       6560/33554432  ( 0.0%)
+lightdata        [variable]          0/33554432  ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]     120372/2097152  ( 5.7%)
+* AllocBlock       18/64             0/0        (28.1%)
+149 textures referenced
+=== Total BSP file data space used: 1742312 bytes ===
+Wad files required to run the map: "utilization.wad;halflife.wad;liquids.wad;xeno.wad;"
+3.02 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlvis.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b -low 
+1292 portalleafs
+3631 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      12 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.15 seconds)
+LeafThread:
+ (2.97 seconds)
+average leafs visible: 128
+g_visdatasize:48272  compressed from 209304
+3.17 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlrad.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b -low 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                12 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          33554432 ] [          33554432 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[               off ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.001 ] [             0.001 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.000 ] [             1.000 ]
+no emitter range     [               off ] [               off ]
+
+
+Load Textures:
+Using Wadfile: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b.wa_
+149 textures referenced
+Reading texlights from 'C:\MyStuff\Work\HLDMCOMPTOOLS\lights.rad'
+1 opaque models
+10 opaque faces
+12744 faces
+Create Patches : 23391 base patches
+259251 square feet [37332164.00 square inches]
+367 direct lights and 0 fast direct lights
+4 light styles
+
+BuildFacelights:
+ (0.60 seconds)
+BuildVisLeafs:
+ (2.21 seconds)
+visibility matrix   :   5.8 megs
+MakeScales:
+ (2.30 seconds)
+Transfer Lists :    11832336 :   11.83M transfers
+       Indices :    11505056 :   10.97M bytes
+          Data :    23732136 :   22.63M bytes
+Bounce 1 GatherLight:
+ (0.04 seconds)
+Bounce 2 GatherLight:
+ (0.05 seconds)
+Bounce 3 GatherLight:
+ (0.05 seconds)
+Bounce 4 GatherLight:
+ (0.05 seconds)
+Bounce 5 GatherLight:
+ (0.05 seconds)
+Bounce 6 GatherLight:
+ (0.05 seconds)
+Bounce 7 GatherLight:
+ (0.05 seconds)
+Bounce 8 GatherLight:
+ (0.05 seconds)
+FinalLightFace:
+ (0.13 seconds)
+6.07 seconds elapsed
+
+-----   END   hlrad -----
+
+
+
