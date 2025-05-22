@@ -46,26 +46,26 @@ Wadinclude list :
 [zhlt.wad]
 
 CreateBrush:
- (0.25 seconds)
+ (0.35 seconds)
 CSGBrush:
- (0.42 seconds)
+ (0.51 seconds)
 
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/justfight/utilization.wad
- - Contains 1 used texture, 0.83 percent of map (10 textures in wad)
+ - Contains 1 used texture, 0.72 percent of map (10 textures in wad)
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/halflife.wad
- - Contains 113 used textures, 93.39 percent of map (3116 textures in wad)
+ - Contains 129 used textures, 93.48 percent of map (3116 textures in wad)
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/liquids.wad
- - Contains 3 used textures, 2.48 percent of map (32 textures in wad)
+ - Contains 4 used textures, 2.90 percent of map (32 textures in wad)
 Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/xeno.wad
- - Contains 3 used textures, 2.48 percent of map (264 textures in wad)
+ - Contains 3 used textures, 2.17 percent of map (264 textures in wad)
 Including Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/justfight/zhlt.wad
- - Contains 1 used texture, 0.83 percent of map (8 textures in wad)
+ - Contains 1 used texture, 0.72 percent of map (8 textures in wad)
 
 Wad files required to run the map: "utilization.wad;halflife.wad;liquids.wad;xeno.wad;"
 
-added 34 additional animating textures.
-Texture usage is at 1.74 mb (of 32.00 mb MAX)
-1.10 seconds elapsed
+added 37 additional animating textures.
+Texture usage is at 2.01 mb (of 32.00 mb MAX)
+1.34 seconds elapsed
 
 -----   END   hlcsg -----
 
@@ -105,43 +105,43 @@ max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
 remove hull 2       [     off ] [     off ]
 
 
-SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...3778 (0.24 seconds)
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...4000...4500...4729 (0.28 seconds)
 BSP generation successful, writing portal file 'C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b.prt'
-SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...3999 (0.26 seconds)
-SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3500...3732 (0.23 seconds)
-SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...4000...4132 (0.28 seconds)
+SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...4000...4500...4968 (0.30 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3500...4000...4500...4502 (0.26 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...4000...4500...5000...5187 (0.33 seconds)
 Warning: No visible brushes in solid entity: model 111 (entity: classname "func_monsterclip", origin "", targetname "", range (-1136,-2280,-1424) - (-720,-376,-1120))
-Reduced 20520 clipnodes to 17821
-Reduced 5726 texinfos to 3358
-Reduced 154 texdatas to 149 (7892 bytes to 6560)
-Reduced 21006 planes to 7792
+Reduced 23625 clipnodes to 20681
+Reduced 7063 texinfos to 4160
+Reduced 174 texdatas to 168 (8772 bytes to 7396)
+Reduced 23824 planes to 8738
 FixBrinks:
-Increased 17821 clipnodes to 18105.
+Increased 20681 clipnodes to 21007.
 
 Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
 ------------  ---------------  ---------------  --------
-models            152/512         9728/32768    (29.7%)
-planes           7792/32768     155840/655360   (23.8%)
-vertexes        16980/65535     203760/786420   (25.9%)
-nodes            7309/32767     175416/786408   (22.3%)
-texinfos         3358/32767     134320/1310680  (10.2%)
-faces           12744/65535     254880/1310700  (19.4%)
-* worldfaces     5149/32768          0/0        (15.7%)
-clipnodes       18105/32767     144840/262136   (55.3%)
-leaves           5269/32760     147532/917280   (16.1%)
-* visleafs       1479/8192           0/0        (18.1%)
-marksurfaces    17014/65535      34028/131070   (26.0%)
-surfedges       59110/512000    236440/2048000  (11.5%)
-edges           29649/256000    118596/1024000  (11.6%)
-texdata          [variable]       6560/33554432  ( 0.0%)
+models            181/512        11584/32768    (35.4%)
+planes           8738/32768     174760/655360   (26.7%)
+vertexes        19574/65535     234888/786420   (29.9%)
+nodes            8479/32767     203496/786408   (25.9%)
+texinfos         4160/32767     166400/1310680  (12.7%)
+faces           14649/65535     292980/1310700  (22.4%)
+* worldfaces     6468/32768          0/0        (19.7%)
+clipnodes       21007/32767     168056/262136   (64.1%)
+leaves           6001/32760     168028/917280   (18.3%)
+* visleafs       1856/8192           0/0        (22.7%)
+marksurfaces    19386/65535      38772/131070   (29.6%)
+surfedges       68078/512000    272312/2048000  (13.3%)
+edges           34158/256000    136632/1024000  (13.3%)
+texdata          [variable]       7396/33554432  ( 0.0%)
 lightdata        [variable]          0/33554432  ( 0.0%)
 visdata          [variable]          0/8388608  ( 0.0%)
-entdata          [variable]     120372/2097152  ( 5.7%)
-* AllocBlock       18/64             0/0        (28.1%)
-149 textures referenced
-=== Total BSP file data space used: 1742312 bytes ===
+entdata          [variable]     133198/2097152  ( 6.4%)
+* AllocBlock       22/64             0/0        (34.4%)
+168 textures referenced
+=== Total BSP file data space used: 2008502 bytes ===
 Wad files required to run the map: "utilization.wad;halflife.wad;liquids.wad;xeno.wad;"
-3.02 seconds elapsed
+3.46 seconds elapsed
 
 -----   END   hlbsp -----
 
@@ -155,8 +155,8 @@ Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlvis -----
 Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlvis.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b 
 Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b -low 
-1292 portalleafs
-3631 numportals
+1634 portalleafs
+4679 numportals
 
 -= Current hlvis Settings =-
 Name               |  Setting  |  Default
@@ -176,12 +176,12 @@ full vis            [     off ] [     off ]
 
 
 BasePortalVis:
- (0.15 seconds)
+ (0.23 seconds)
 LeafThread:
- (2.97 seconds)
-average leafs visible: 128
-g_visdatasize:48272  compressed from 209304
-3.17 seconds elapsed
+ (3.94 seconds)
+average leafs visible: 140
+g_visdatasize:62913  compressed from 334970
+4.21 seconds elapsed
 
 -----   END   hlvis -----
 
@@ -193,8 +193,8 @@ Based on code modifications by Sean 'Zoner' Cavanaugh
 Based on Valve's version, modified with permission.
 Submit detailed bug reports to (vluzacn@163.com)
 -----  BEGIN  hlrad -----
-Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlrad.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b 
-Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b -low 
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlrad.exe -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b 
+Arguments: -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b -low 
 
 -= Current hlrad Settings =-
 Name                | Setting             | Default
@@ -211,7 +211,7 @@ priority             [               Low ] [            Normal ]
 
 fast rad             [               off ] [               off ]
 vismatrix algorithm  [            Sparse ] [            Sparse ]
-oversampling (-extra)[               off ] [               off ]
+oversampling (-extra)[                on ] [               off ]
 bounces              [                 8 ] [                 8 ]
 ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
 circus mode          [               off ] [               off ]
@@ -261,26 +261,26 @@ no emitter range     [               off ] [               off ]
 
 Load Textures:
 Using Wadfile: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks_tres_b.wa_
-149 textures referenced
+168 textures referenced
 Reading texlights from 'C:\MyStuff\Work\HLDMCOMPTOOLS\lights.rad'
 1 opaque models
 10 opaque faces
-12744 faces
-Create Patches : 23391 base patches
-259251 square feet [37332164.00 square inches]
-367 direct lights and 0 fast direct lights
+14649 faces
+Create Patches : 27916 base patches
+344411 square feet [49595228.00 square inches]
+424 direct lights and 0 fast direct lights
 4 light styles
 
 BuildFacelights:
- (0.60 seconds)
+ (5.25 seconds)
 BuildVisLeafs:
- (2.21 seconds)
-visibility matrix   :   5.8 megs
+ (2.44 seconds)
+visibility matrix   :   6.8 megs
 MakeScales:
- (2.30 seconds)
-Transfer Lists :    11832336 :   11.83M transfers
-       Indices :    11505056 :   10.97M bytes
-          Data :    23732136 :   22.63M bytes
+ (2.82 seconds)
+Transfer Lists :    13881376 :   13.88M transfers
+       Indices :    13254128 :   12.64M bytes
+          Data :    27843200 :   26.55M bytes
 Bounce 1 GatherLight:
  (0.04 seconds)
 Bounce 2 GatherLight:
@@ -298,8 +298,8 @@ Bounce 7 GatherLight:
 Bounce 8 GatherLight:
  (0.05 seconds)
 FinalLightFace:
- (0.13 seconds)
-6.07 seconds elapsed
+ (0.15 seconds)
+11.74 seconds elapsed
 
 -----   END   hlrad -----
 

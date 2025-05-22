@@ -1,0 +1,438 @@
+hlcsg v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlcsg.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks -low -wadautodetect 
+Entering C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [      12 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 33554432 ] [ 33554432 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wadcfg by file        [    None ] [    None ]
+wadcfg by name        [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.47 seconds)
+CSGBrush:
+ (0.58 seconds)
+
+Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/halflife.wad
+ - Contains 162 used textures, 97.01 percent of map (3116 textures in wad)
+Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/liquids.wad
+ - Contains 1 used texture, 0.60 percent of map (32 textures in wad)
+Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/xeno.wad
+ - Contains 3 used textures, 1.80 percent of map (264 textures in wad)
+Including Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/justfight/zhlt.wad
+ - Contains 1 used texture, 0.60 percent of map (8 textures in wad)
+
+Wad files required to run the map: "halflife.wad;liquids.wad;xeno.wad;"
+
+added 23 additional animating textures.
+Texture usage is at 1.78 mb (of 32.00 mb MAX)
+7 redundant named lights optimized.
+1.48 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlbsp.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      12 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...1000...1500...2000...2500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2347,-1926,-38)-(-2343,-1923,-33) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2347,-1932,-38)-(-2343,-1930,-33) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2347,-1933,-38)-(-2343,-1930,-33) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2343,-1931,-40)-(-2341,-1926,-38) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+3000...3500...4000...4500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-63430,-6797,-48803)-(-2492,9661,-35) in hull 0 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+5000...5500...6000...6500...6857 (0.67 seconds)
+BSP generation successful, writing portal file 'C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks.prt'
+SolidBSP [hull 1] 500...1000...1500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2364,-80000,-65144)-(46476,80000,-67) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2364,-80000,-76)-(-2357,80000,-67) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2363,-1912,-76)-(-2362,-1908,-36) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+2000...2500...3000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-63373,-80061,-49028)-(31184,80110,26715) in hull 1 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+3500...4000...4500...4720 (0.44 seconds)
+SolidBSP [hull 2] 500...1000...1500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2380,-80000,-65150)-(46467,80000,-63) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2380,-80000,-72)-(-2373,80000,-63) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2379,-1896,-72)-(-2378,-1892,-32) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+2000...2500...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-63458,-80000,-48737)-(-2456,80000,-64) in hull 2 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+3000...3500...3905 (0.32 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2363,-1920,-58)-(-2357,-1908,-50) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-49576,-80000,-58)-(-2357,80000,62816) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-49576,-80000,-57)-(-2358,80000,62816) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2361,-80000,-64875)-(46849,80000,-53) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-2363,-1912,-58)-(-2362,-1908,-18) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+2500...3000...3500...4000...Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-63471,-80000,-48721)-(-2472,80000,-50) in hull 3 of model 0 (entity: classname "worldspawn", origin "", targetname "")
+4500...5000...5419 (0.51 seconds)
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (519,-3200,28)-(549,-3192,140) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-78092,-23442,-79998)-(76555,17710,40802) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-834,-3200,-80000)-(549,-2830,617) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (517,-3198,133)-(575,-3195,140) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (515,-3199,28)-(530,-3172,36) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (561,-2970,120)-(632,-2968,133) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-77970,-2977,-80000)-(627,18110,80000) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-77970,-2977,-80000)-(627,18110,80000) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (593,-2978,28)-(632,-2968,140) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3192,91)-(519,-3189,134) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3192,34)-(519,-3189,70) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3200,120)-(517,-3157,133) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3200,35)-(517,-3157,48) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3200,28)-(530,-3159,38) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3159,120)-(570,-2968,140) in hull 1 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (545,-2954,116)-(648,-2952,129) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (609,-23246,-80000)-(76600,-2952,136) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-21765,-4435,93)-(5352,2766,80002) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (495,-3216,-80000)-(533,-3205,139) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (495,-3216,116)-(501,-3141,129) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (501,-3214,129)-(591,-3211,136) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (495,-3161,116)-(555,-2952,136) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (609,-2957,34)-(629,-2952,112) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (609,-2957,33)-(629,-2952,112) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (495,-3179,39)-(501,-3123,52) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (501,-3191,12)-(552,-3143,39) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (495,-3216,32)-(534,-3205,112) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (530,-3216,45)-(533,-3215,112) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-78097,-23461,-79998)-(76572,17718,80002) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-850,-3216,-80000)-(533,-2846,613) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (495,-3216,32)-(533,-3205,112) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (495,-3216,39)-(501,-3177,52) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (501,-3214,32)-(514,-3179,39) in hull 2 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (519,-3200,46)-(549,-3192,122) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (542,-3200,52)-(549,-3198,116) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-834,-3200,-80000)-(549,-2830,617) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (519,-3193,50)-(524,-3192,119) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (517,-3198,115)-(575,-3195,122) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (515,-3199,46)-(530,-3172,54) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (561,-2970,102)-(632,-2968,115) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (593,-2977,8)-(627,-2968,122) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (593,-2978,29)-(632,-2968,122) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (593,-2971,32)-(603,-2968,117) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (600,-2977,46)-(628,-2970,130) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3192,52)-(519,-3189,116) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3191,102)-(517,-3157,115) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3200,53)-(517,-3157,66) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3200,46)-(530,-3159,56) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (511,-3177,102)-(568,-2968,115) in hull 3 of model 41 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (210,-2984,46)-(212,-2976,50) in hull 1 of model 45 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (226,-2968,50)-(228,-2960,54) in hull 2 of model 45 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (210,-2984,64)-(212,-2976,68) in hull 3 of model 45 (entity: classname "func_wall", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-3128,-3324,-276)-(-3072,-3300,-185) in hull 0 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-3124,-3328,-256)-(-3072,-3309,-186) in hull 0 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-3144,-3308,-219)-(-3056,-3289,-149) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-3140,-3344,-292)-(-3056,-3325,-222) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-3140,-3344,-292)-(-3056,-3325,-222) in hull 1 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-3156,-3292,-223)-(-3040,-3273,-153) in hull 2 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-3140,-3308,-237)-(-3056,-3289,-167) in hull 3 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-3140,-3344,-274)-(-3056,-3325,-204) in hull 3 of model 149 (entity: classname "func_breakable", origin "", targetname "")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-57392,-6,-46007)-(-145,80032,3) in hull 0 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-3,-4,-2)-(1,-2,3) in hull 0 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (18,16,-40)-(19,19,40) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-170,-20,32)-(-160,20,40) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-170,-20,32)-(-160,20,40) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-42338,-32889,-33699)-(62362,80022,50176) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-165,-80000,36)-(62422,80000,50036) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (13,-20,32)-(19,20,40) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (13,-20,32)-(19,20,40) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (13,-20,32)-(19,20,40) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (13,-20,32)-(19,20,40) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-47822,-80000,-64092)-(47877,80000,64133) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-47822,-80000,-64092)-(47877,80000,64133) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-48067,-80000,-63908)-(48122,80000,63950) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-48003,-33846,-63968)-(48035,80010,64010) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-170,16,-40)-(-169,19,40) in hull 1 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (34,32,-36)-(35,35,36) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-186,-36,28)-(-176,36,36) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-186,-36,28)-(-154,52,54) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-185,-28036,29)-(62382,2606,50167) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-186,-80000,28)-(62382,36,50167) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-62589,-80000,-49825)-(62417,80000,50041) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (35,32,18)-(42,360,28) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-1816,-80000,28)-(35,36,2516) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (29,-80000,18)-(42,62,36) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-48011,-80000,34)-(30,80000,63992) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (144000,144000,144000)-(-144000,-144000,-144000) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-186,32,-36)-(-185,35,36) in hull 2 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (18,16,-22)-(19,19,22) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (13,-80000,-64006)-(47993,80000,22) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (13,-80000,-64006)-(47993,80000,22) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (13,-80000,-64062)-(48066,80000,22) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (13,-20,14)-(19,20,22) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-170,-20,14)-(-160,20,22) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-170,-27,14)-(62346,80000,50318) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-167,-46038,16)-(62346,80000,50254) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-165,-80000,18)-(62430,80000,50025) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-62545,-80000,-49881)-(-155,80000,26) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-170,-20,14)-(-160,20,22) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Warning: Ambiguous leafnode content ( EMPTY and SOLID ) at (-170,16,-22)-(-169,19,22) in hull 3 of model 161 (entity: classname "func_door_rotating", origin "-2344 -1928 -36", targetname "corridor_pipe_br")
+Reduced 22211 clipnodes to 20629
+Reduced 7424 texinfos to 5326
+Reduced 189 texdatas to 176 (9432 bytes to 7748)
+Reduced 34574 planes to 11104
+FixBrinks:
+Increased 20629 clipnodes to 21158.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models            234/512        14976/32768    (45.7%)
+planes          11104/32768     222080/655360   (33.9%)
+vertexes        23956/65535     287472/786420   (36.6%)
+nodes            9766/32767     234384/786408   (29.8%)
+texinfos         5326/32767     213040/1310680  (16.3%)
+faces           17499/65535     349980/1310700  (26.7%)
+* worldfaces    11937/32768          0/0        (36.4%)
+clipnodes       21158/32767     169264/262136   (64.6%)
+leaves           7259/32760     203252/917280   (22.2%)
+* visleafs       4200/8192           0/0        (51.3%)
+marksurfaces    24464/65535      48928/131070   (37.3%)
+surfedges       82889/512000    331556/2048000  (16.2%)
+edges           41578/256000    166312/1024000  (16.2%)
+texdata          [variable]       7748/33554432  ( 0.0%)
+lightdata        [variable]          0/33554432  ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]     159797/2097152  ( 7.6%)
+* AllocBlock       25/64             0/0        (39.1%)
+176 textures referenced
+=== Total BSP file data space used: 2408789 bytes ===
+Wad files required to run the map: "halflife.wad;liquids.wad;xeno.wad;"
+4.52 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlvis.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks -low 
+4073 portalleafs
+14551 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      12 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (2.24 seconds)
+LeafThread:
+ (149.27 seconds)
+Warning: Leaf portals saw into leaf
+    Problem at portal between leaves 6 and 18:
+       (2457.600 -2236.400 -4.800)
+    (2458.000 -2236.000 -4.000)
+    (2460.000 -2228.000 0.000)
+    (2460.000 -1472.000 0.000)
+    (2457.600 -1472.000 -4.800)
+
+average leafs visible: 300
+g_visdatasize:298423  compressed from 2077230
+151.64 seconds elapsed [2m 31s]
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlrad.exe -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks 
+Arguments: -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks -low 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                12 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          33554432 ] [          33554432 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[                on ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.001 ] [             0.001 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.000 ] [             1.000 ]
+no emitter range     [               off ] [               off ]
+
+
+Load Textures:
+Using Wadfile: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\waterworks.wa_
+176 textures referenced
+Reading texlights from 'C:\MyStuff\Work\HLDMCOMPTOOLS\lights.rad'
+0 opaque models
+0 opaque faces
+17499 faces
+Create Patches : 32173 base patches
+241569 square feet [34785956.00 square inches]
+264 direct lights and 0 fast direct lights
+7 light styles
+
+BuildFacelights:
+ (5.98 seconds)
+BuildVisLeafs:
+ (2.51 seconds)
+visibility matrix   :   7.7 megs
+MakeScales:
+ (4.19 seconds)
+Transfer Lists :    13484226 :   13.48M transfers
+       Indices :    16544472 :   15.78M bytes
+          Data :    27059763 :   25.81M bytes
+Bounce 1 GatherLight:
+ (0.04 seconds)
+Bounce 2 GatherLight:
+ (0.06 seconds)
+Bounce 3 GatherLight:
+ (0.06 seconds)
+Bounce 4 GatherLight:
+ (0.06 seconds)
+Bounce 5 GatherLight:
+ (0.06 seconds)
+Bounce 6 GatherLight:
+ (0.06 seconds)
+Bounce 7 GatherLight:
+ (0.06 seconds)
+Bounce 8 GatherLight:
+ (0.06 seconds)
+FinalLightFace:
+ (0.24 seconds)
+14.09 seconds elapsed
+
+-----   END   hlrad -----
+
+
+

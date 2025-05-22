@@ -1,5 +1,5 @@
 Node Graph Report for map:  waterworks_tres_b.bsp
-64 Total Nodes
+65 Total Nodes
 
 Node#            0
 Location      1352,-2088,-1016
@@ -385,6 +385,12 @@ HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
+Node#           64
+Location      -480,-1504,-1016
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
 
 
 ----------------------------------------------------------------------------
@@ -739,6 +745,7 @@ Node #  40:
   39
   41
   51
+  64
 ----------------------------------------------------------------------------
 Node #  41:
 
@@ -750,6 +757,7 @@ Node #  41:
   44
   45
   51
+  64
 ----------------------------------------------------------------------------
 Node #  42:
 
@@ -757,6 +765,7 @@ Node #  42:
   43
   44
   45
+  64
 ----------------------------------------------------------------------------
 Node #  43:
 
@@ -764,6 +773,7 @@ Node #  43:
   42
   44
   45
+  64
 ----------------------------------------------------------------------------
 Node #  44:
 
@@ -773,6 +783,7 @@ Node #  44:
   45
   46  Entity on connection: func_door_rotating, name:   Model: *23
   47  Entity on connection: func_door_rotating, name:   Model: *23
+  64
 ----------------------------------------------------------------------------
 Node #  45:
 
@@ -782,6 +793,7 @@ Node #  45:
   44
   46  Entity on connection: func_door_rotating, name:   Model: *23
   47  Entity on connection: func_door_rotating, name:   Model: *23
+  64
 ----------------------------------------------------------------------------
 Node #  46:
 
@@ -898,8 +910,17 @@ Node #  63:
   50
   62
 ----------------------------------------------------------------------------
+Node #  64:
 
- 316 Total Initial Connections -   12 Maximum connections for a single node.
+  40
+  41
+  42
+  43
+  44
+  45
+----------------------------------------------------------------------------
+
+ 328 Total Initial Connections -   12 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -1228,6 +1249,7 @@ Rejected Node  32 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  33 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   38:
 
@@ -1249,26 +1271,37 @@ Node   40:
 NODE_SMALL_HULL step 0.000000
 Rejected Node  35 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
+Rejected Node  64 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
 Rejected Node  36 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   41:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  35 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  45 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   42:
 
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  45 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   43:
 
+NODE_LARGE_HULL step 0.000000
 NODE_HUMAN_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   44:
 
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
@@ -1277,6 +1310,8 @@ Node   45:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  41 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  64 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  42 - Unreachable by Any Hull
@@ -1303,6 +1338,7 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node  33 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  63 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   50:
@@ -1367,6 +1403,7 @@ Rejected Node  39 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  37 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   63:
 
@@ -1378,6 +1415,14 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node  49 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  50 - Unreachable by Any Hull
+-------------------------------------------------------------------------------
+Node   64:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  40 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  45 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 
 
@@ -1571,10 +1616,10 @@ REJECTED NODE  51 through Node  39, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node  41:
-REJECTED NODE  51 through Node  39, Dot = 1.000000
+REJECTED NODE  39 through Node  40, Dot = 1.000000
+REJECTED NODE  51 through Node  40, Dot = 1.000000
 REJECTED NODE  44 through Node  42, Dot = 1.000000
 REJECTED NODE  43 through Node  42, Dot = 1.000000
-REJECTED NODE  39 through Node  40, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node  42:
@@ -1587,6 +1632,7 @@ REJECTED NODE  41 through Node  42, Dot = 1.000000
 
 Node  44:
 REJECTED NODE  41 through Node  42, Dot = 1.000000
+REJECTED NODE  64 through Node  42, Dot = 0.999201
 REJECTED NODE  47 through Node  45, Dot = 1.000000
 REJECTED NODE  46 through Node  45, Dot = 1.000000
 REJECTED NODE  42 through Node  43, Dot = 1.000000
@@ -1662,6 +1708,10 @@ Node  62:
 Node  63:
 ----------------------------------------------------------------------------
 
+Node  64:
+REJECTED NODE  44 through Node  43, Dot = 0.999509
+----------------------------------------------------------------------------
+
 
 
 -------------------------------------------------------------------------------
@@ -1675,7 +1725,7 @@ WARNING: Node  32 does not connect back to Node  33
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 159
+Total Number of Connections in Pool: 165
 -------------------------------------------------------------------------------
-Connection Pool: 3816 bytes
+Connection Pool: 3960 bytes
 -------------------------------------------------------------------------------
