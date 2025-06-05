@@ -1861,6 +1861,7 @@ Node # 111:
  110
  112
  113
+ 149
 ----------------------------------------------------------------------------
 Node # 112:
 
@@ -1868,6 +1869,7 @@ Node # 112:
  110
  111
  113
+ 149
 ----------------------------------------------------------------------------
 Node # 113:
 
@@ -1876,6 +1878,7 @@ Node # 113:
  111
  112
  144  Entity on connection: func_wall, name:   Model: *244
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 114:
@@ -2093,6 +2096,7 @@ Node # 131:
  132
  133
  134
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 132:
@@ -2120,6 +2124,7 @@ Node # 134:
  139
  140
  144
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 135:
@@ -2135,6 +2140,7 @@ Node # 135:
  143
  144
  146
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 136:
@@ -2153,6 +2159,7 @@ Node # 136:
  146
  147
  148
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 137:
@@ -2170,6 +2177,7 @@ Node # 137:
  146
  147
  148
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 138:
@@ -2186,6 +2194,7 @@ Node # 138:
  146
  147
  148
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 139:
@@ -2201,6 +2210,7 @@ Node # 139:
  143
  144
  145
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 140:
@@ -2218,6 +2228,7 @@ Node # 140:
  145
  147
  148
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 141:
@@ -2270,6 +2281,7 @@ Node # 144:
  142
  143
  145
+ 149
  150
 ----------------------------------------------------------------------------
 Node # 145:
@@ -2283,6 +2295,7 @@ Node # 145:
  146
  147
  148
+ 149  Entity on connection: func_wall, name:   Model: *1
  150  Entity on connection: func_wall, name:   Model: *1
 ----------------------------------------------------------------------------
 Node # 146:
@@ -2319,6 +2332,20 @@ Node # 149:
 
  109  Entity on connection: func_wall, name:   Model: *206
  110  Entity on connection: func_wall, name:   Model: *206
+ 111
+ 112
+ 113
+ 131
+ 134
+ 135
+ 136
+ 137
+ 138
+ 139
+ 140
+ 144
+ 145  Entity on connection: func_wall, name:   Model: *1
+ 150
 ----------------------------------------------------------------------------
 Node # 150:
 
@@ -2334,6 +2361,7 @@ Node # 150:
  141
  144
  145  Entity on connection: func_wall, name:   Model: *1
+ 149
 ----------------------------------------------------------------------------
 Node # 151:
 
@@ -2414,7 +2442,7 @@ Node # 158:
  129
 ----------------------------------------------------------------------------
 
- 976 Total Initial Connections -   15 Maximum connections for a single node.
+1004 Total Initial Connections -   16 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -3206,6 +3234,8 @@ NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 112 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
+Rejected Node 149 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
 Rejected Node 113 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node  112:
@@ -3225,9 +3255,9 @@ NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 110 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
-Rejected Node 144 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
 Rejected Node 111 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node 144 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node  114:
 
@@ -3411,6 +3441,8 @@ Rejected Node  95 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node 150 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
+Rejected Node 149 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
 Rejected Node 134 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
@@ -3446,6 +3478,7 @@ NODE_LARGE_HULL step 0.000000
 NODE_HUMAN_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 140 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node  135:
 
@@ -3516,9 +3549,9 @@ Rejected Node 113 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 142 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 145 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node  145:
 
@@ -3526,6 +3559,8 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node 139 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node 150 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node 149 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node 148 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
@@ -3563,16 +3598,23 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node 109 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node 110 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node 145 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node 111 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node 131 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node  150:
 
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 131 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 145 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node  151:
 
@@ -4139,6 +4181,7 @@ Node 111:
 ----------------------------------------------------------------------------
 
 Node 112:
+REJECTED NODE 149 through Node 113, Dot = 0.999979
 ----------------------------------------------------------------------------
 
 Node 113:
@@ -4252,19 +4295,21 @@ REJECTED NODE 134 through Node 132, Dot = 1.000000
 Node 134:
 REJECTED NODE 150 through Node 144, Dot = 0.999846
 REJECTED NODE 144 through Node 139, Dot = 0.998743
-REJECTED NODE 136 through Node 135, Dot = 1.000000
 REJECTED NODE 133 through Node 132, Dot = 1.000000
+REJECTED NODE 136 through Node 135, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node 135:
 REJECTED NODE 142 through Node 141, Dot = 0.998718
 REJECTED NODE 150 through Node 144, Dot = 0.999587
+REJECTED NODE 149 through Node 144, Dot = 0.999211
 REJECTED NODE 143 through Node 140, Dot = 0.999962
 ----------------------------------------------------------------------------
 
 Node 136:
 REJECTED NODE 134 through Node 135, Dot = 1.000000
 REJECTED NODE 150 through Node 144, Dot = 0.999287
+REJECTED NODE 149 through Node 144, Dot = 0.998615
 REJECTED NODE 148 through Node 138, Dot = 0.999873
 REJECTED NODE 147 through Node 138, Dot = 0.999664
 REJECTED NODE 142 through Node 141, Dot = 0.999781
@@ -4273,13 +4318,15 @@ REJECTED NODE 145 through Node 138, Dot = 0.999985
 
 Node 137:
 REJECTED NODE 139 through Node 140, Dot = 1.000000
+REJECTED NODE 148 through Node 145, Dot = 0.998263
 REJECTED NODE 150 through Node 140, Dot = 1.000000
-REJECTED NODE 148 through Node 147, Dot = 0.999588
+REJECTED NODE 149 through Node 140, Dot = 0.999972
 REJECTED NODE 144 through Node 140, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node 138:
 REJECTED NODE 139 through Node 137, Dot = 1.000000
+REJECTED NODE 149 through Node 137, Dot = 0.999980
 REJECTED NODE 147 through Node 145, Dot = 0.999522
 REJECTED NODE 140 through Node 137, Dot = 1.000000
 REJECTED NODE 150 through Node 137, Dot = 1.000000
@@ -4289,11 +4336,13 @@ REJECTED NODE 144 through Node 137, Dot = 1.000000
 Node 139:
 REJECTED NODE 137 through Node 140, Dot = 1.000000
 REJECTED NODE 150 through Node 144, Dot = 1.000000
+REJECTED NODE 149 through Node 144, Dot = 0.999916
 REJECTED NODE 138 through Node 140, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node 140:
 REJECTED NODE 150 through Node 139, Dot = 1.000000
+REJECTED NODE 149 through Node 139, Dot = 0.999952
 REJECTED NODE 138 through Node 137, Dot = 1.000000
 REJECTED NODE 144 through Node 139, Dot = 1.000000
 REJECTED NODE 142 through Node 141, Dot = 0.998892
@@ -4316,6 +4365,7 @@ REJECTED NODE 138 through Node 137, Dot = 0.998206
 Node 144:
 REJECTED NODE 134 through Node 135, Dot = 0.999056
 REJECTED NODE 135 through Node 136, Dot = 0.999550
+REJECTED NODE 149 through Node 150, Dot = 0.999654
 REJECTED NODE 137 through Node 139, Dot = 1.000000
 REJECTED NODE 140 through Node 139, Dot = 1.000000
 REJECTED NODE 138 through Node 139, Dot = 1.000000
@@ -4336,15 +4386,23 @@ Node 148:
 ----------------------------------------------------------------------------
 
 Node 149:
+REJECTED NODE 144 through Node 150, Dot = 0.999474
+REJECTED NODE 138 through Node 150, Dot = 0.998626
+REJECTED NODE 137 through Node 150, Dot = 0.998685
+REJECTED NODE 140 through Node 150, Dot = 0.998802
+REJECTED NODE 135 through Node 136, Dot = 0.999854
+REJECTED NODE 134 through Node 150, Dot = 0.998224
+REJECTED NODE 139 through Node 150, Dot = 0.998953
+REJECTED NODE 112 through Node 113, Dot = 0.999901
 ----------------------------------------------------------------------------
 
 Node 150:
 REJECTED NODE 134 through Node 135, Dot = 0.999480
 REJECTED NODE 135 through Node 136, Dot = 0.999780
+REJECTED NODE 137 through Node 144, Dot = 1.000000
 REJECTED NODE 140 through Node 144, Dot = 1.000000
 REJECTED NODE 139 through Node 144, Dot = 1.000000
 REJECTED NODE 138 through Node 144, Dot = 1.000000
-REJECTED NODE 137 through Node 144, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node 151:
@@ -4395,27 +4453,29 @@ WARNING: Node  96 does not connect back to Node  97
 WARNING: Node  97 does not connect back to Node  99
 WARNING: Node 101 does not connect back to Node  99
 WARNING: Node 110 does not connect back to Node 107
-WARNING: Node 144 does not connect back to Node 117
-WARNING: Node 136 does not connect back to Node 128
-WARNING: Node 131 does not connect back to Node 129
-WARNING: Node 128 does not connect back to Node 131
-WARNING: Node 133 does not connect back to Node 132
-WARNING: Node 135 does not connect back to Node 133
-WARNING: Node 131 does not connect back to Node 134
-WARNING: Node 134 does not connect back to Node 135
-WARNING: Node 134 does not connect back to Node 136
-WARNING: Node 153 does not connect back to Node 142
-WARNING: Node 150 does not connect back to Node 143
-WARNING: Node 151 does not connect back to Node 146
-WARNING: Node 146 does not connect back to Node 152
-WARNING: Node 143 does not connect back to Node 154
-WARNING: Node 145 does not connect back to Node 155
-WARNING: Node 153 does not connect back to Node 155
+WARNING: Node 145 does not connect back to Node 117
+WARNING: Node 145 does not connect back to Node 118
+WARNING: Node 137 does not connect back to Node 129
+WARNING: Node 132 does not connect back to Node 130
+WARNING: Node 129 does not connect back to Node 132
+WARNING: Node 134 does not connect back to Node 133
+WARNING: Node 136 does not connect back to Node 134
+WARNING: Node 132 does not connect back to Node 135
+WARNING: Node 135 does not connect back to Node 136
+WARNING: Node 135 does not connect back to Node 137
+WARNING: Node 118 does not connect back to Node 142
+WARNING: Node 154 does not connect back to Node 143
+WARNING: Node 151 does not connect back to Node 144
+WARNING: Node 152 does not connect back to Node 147
+WARNING: Node 147 does not connect back to Node 153
+WARNING: Node 144 does not connect back to Node 155
+WARNING: Node 146 does not connect back to Node 156
+WARNING: Node 154 does not connect back to Node 156
 -------------------------------------------------------------------------------
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 493
+Total Number of Connections in Pool: 499
 -------------------------------------------------------------------------------
-Connection Pool: 11832 bytes
+Connection Pool: 11976 bytes
 -------------------------------------------------------------------------------

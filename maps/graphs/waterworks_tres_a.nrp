@@ -97,7 +97,7 @@ Node #   3:
    2
    4
    5
-   7  Entity on connection: func_wall, name:   Model: *6
+   7  Entity on connection: func_wall, name:   Model: *5
 ----------------------------------------------------------------------------
 Node #   4:
 
@@ -126,7 +126,7 @@ Node #   6:
 Node #   7:
 
    2
-   3  Entity on connection: func_wall, name:   Model: *6
+   3  Entity on connection: func_wall, name:   Model: *5
    4
    5
    6

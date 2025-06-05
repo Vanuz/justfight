@@ -1,5 +1,5 @@
 Node Graph Report for map:  waterworks_tres.bsp
-103 Total Nodes
+105 Total Nodes
 
 Node#            0
 Location      -3504,-1080,-1544
@@ -548,7 +548,7 @@ HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           91
-Location      -1120,-2048,-1052
+Location      -1112,-2048,-1052
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
@@ -615,6 +615,18 @@ HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#          102
 Location      -2136,-2568,-988
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#          103
+Location      -1220,-2072,-1052
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#          104
+Location      -1172,-2072,-1052
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
@@ -1405,6 +1417,7 @@ Node #  78:
   81
   89
   90
+  91
 ----------------------------------------------------------------------------
 Node #  79:
 
@@ -1479,7 +1492,9 @@ Node #  89:
   81
   90
   91
-  92
+  92  Entity on connection: func_wall, name:   Model: *146
+ 103
+ 104
 ----------------------------------------------------------------------------
 Node #  90:
 
@@ -1489,33 +1504,42 @@ Node #  90:
   81
   89
   91
-  92
-  93
+  92  Entity on connection: func_wall, name:   Model: *146
+  93  Entity on connection: func_wall, name:   Model: *146
+ 103
+ 104
 ----------------------------------------------------------------------------
 Node #  91:
 
   75
   77
+  78
   89
   90
   92
   93
+ 103
+ 104
 ----------------------------------------------------------------------------
 Node #  92:
 
-  89
-  90
+  89  Entity on connection: func_wall, name:   Model: *146
+  90  Entity on connection: func_wall, name:   Model: *146
   91
   93
   94
+ 103
+ 104
 ----------------------------------------------------------------------------
 Node #  93:
 
-  90
+  90  Entity on connection: func_wall, name:   Model: *146
   91
   92
   94
   95
+ 103
+ 104
 ----------------------------------------------------------------------------
 Node #  94:
 
@@ -1531,7 +1555,7 @@ Node #  95:
   94
   96
   97
-  99  Entity on connection: func_wall, name:   Model: *141
+  99  Entity on connection: func_wall, name:   Model: *140
 ----------------------------------------------------------------------------
 Node #  96:
 
@@ -1560,7 +1584,7 @@ Node #  98:
 Node #  99:
 
   94
-  95  Entity on connection: func_wall, name:   Model: *141
+  95  Entity on connection: func_wall, name:   Model: *140
   96
   97
   98
@@ -1579,8 +1603,26 @@ Node # 101:
 Node # 102:
 
 ----------------------------------------------------------------------------
+Node # 103:
 
- 646 Total Initial Connections -   15 Maximum connections for a single node.
+  89
+  90
+  91
+  92
+  93
+ 104
+----------------------------------------------------------------------------
+Node # 104:
+
+  89
+  90
+  91
+  92
+  93
+ 103
+----------------------------------------------------------------------------
+
+ 670 Total Initial Connections -   15 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -2453,6 +2495,8 @@ NODE_LARGE_HULL step 0.000000
 Node   78:
 
 NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  91 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   79:
 
@@ -2510,36 +2554,59 @@ Node   89:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  75 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  92 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node 103 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   90:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  75 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  92 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  93 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   91:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  75 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  78 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  92 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  93 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   92:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  89 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  90 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  91 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  94 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   93:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  90 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  91 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
@@ -2602,6 +2669,25 @@ Node  101:
 -------------------------------------------------------------------------------
 Node  102:
 
+-------------------------------------------------------------------------------
+Node  103:
+
+NODE_SMALL_HULL step 0.000000
+Rejected Node  89 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+-------------------------------------------------------------------------------
+Node  104:
+
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 
 
@@ -3006,14 +3092,13 @@ Node  90:
 ----------------------------------------------------------------------------
 
 Node  91:
-REJECTED NODE  93 through Node  92, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node  92:
 ----------------------------------------------------------------------------
 
 Node  93:
-REJECTED NODE  91 through Node  92, Dot = 1.000000
+REJECTED NODE 104 through Node 103, Dot = 0.999950
 ----------------------------------------------------------------------------
 
 Node  94:
@@ -3051,6 +3136,12 @@ Node 101:
 Node 102:
 ----------------------------------------------------------------------------
 
+Node 103:
+----------------------------------------------------------------------------
+
+Node 104:
+----------------------------------------------------------------------------
+
 
 
 -------------------------------------------------------------------------------
@@ -3065,11 +3156,12 @@ WARNING: Node  65 does not connect back to Node  69
 WARNING: Node  77 does not connect back to Node  80
 WARNING: Node  83 does not connect back to Node  81
 WARNING: Node  83 does not connect back to Node  82
+WARNING: Node  91 does not connect back to Node  89
 -------------------------------------------------------------------------------
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 290
+Total Number of Connections in Pool: 305
 -------------------------------------------------------------------------------
-Connection Pool: 6960 bytes
+Connection Pool: 7320 bytes
 -------------------------------------------------------------------------------
