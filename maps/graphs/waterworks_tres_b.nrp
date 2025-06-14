@@ -1,5 +1,5 @@
 Node Graph Report for map:  waterworks_tres_b.bsp
-159 Total Nodes
+162 Total Nodes
 
 Node#            0
 Location      1352,-2088,-1016
@@ -266,31 +266,31 @@ HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           44
-Location      -1280,-1472,-1016
+Location      -1280,-1472,-1020
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           45
-Location      -1280,-1520,-1016
+Location      -1280,-1524,-1020
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           46
-Location      -1280,-1584,-1016
+Location      -1280,-1580,-1020
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           47
-Location      -1280,-1776,-1016
+Location      -1280,-1776,-1020
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#           48
-Location      -1208,-1776,-1016
+Location      -1208,-1776,-1020
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
@@ -955,6 +955,24 @@ HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
+Node#          159
+Location      -1392,-1960,-1216
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#          160
+Location      -1392,-1664,-1216
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
+Node#          161
+Location      -1184,-1664,-1216
+HintType:        0
+HintActivity:    0
+HintYaw:      0.000000
+-------------------------------------------------------------------------------
 
 
 ----------------------------------------------------------------------------
@@ -1067,7 +1085,7 @@ Node #  14:
   13
   15
   16
- 154  Entity on connection: func_wall, name:   Model: *235
+ 154  Entity on connection: func_wall, name:   Model: *234
  155
 ----------------------------------------------------------------------------
 Node #  15:
@@ -1075,7 +1093,7 @@ Node #  15:
   13
   14
   16
- 154  Entity on connection: func_wall, name:   Model: *235
+ 154  Entity on connection: func_wall, name:   Model: *234
  155
  156
  157
@@ -1367,7 +1385,6 @@ Node #  45:
   44
   46  Entity on connection: func_door_rotating, name:   Model: *28
   47  Entity on connection: func_door_rotating, name:   Model: *28
-  64
 ----------------------------------------------------------------------------
 Node #  46:
 
@@ -1491,7 +1508,6 @@ Node #  64:
   42
   43
   44
-  45
 ----------------------------------------------------------------------------
 Node #  65:
 
@@ -1689,8 +1705,8 @@ Node #  93:
   97
   98
   99
- 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
- 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
+ 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+ 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
 ----------------------------------------------------------------------------
 Node #  94:
 
@@ -1700,9 +1716,9 @@ Node #  94:
   97
   98
   99
- 101  Entity on connection: func_breakable, name:   Model: *202
- 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
- 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
+ 101  Entity on connection: func_breakable, name:   Model: *201
+ 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+ 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
 ----------------------------------------------------------------------------
 Node #  95:
 
@@ -1712,9 +1728,9 @@ Node #  95:
   97
   98
   99
- 101  Entity on connection: func_breakable, name:   Model: *202
- 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
- 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
+ 101  Entity on connection: func_breakable, name:   Model: *201
+ 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+ 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
 ----------------------------------------------------------------------------
 Node #  96:
 
@@ -1724,9 +1740,9 @@ Node #  96:
   97
   98
   99
- 101  Entity on connection: func_breakable, name:   Model: *202
- 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
- 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
+ 101  Entity on connection: func_breakable, name:   Model: *201
+ 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+ 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
 ----------------------------------------------------------------------------
 Node #  97:
 
@@ -1736,9 +1752,9 @@ Node #  97:
   96
   98
   99
- 101  Entity on connection: func_breakable, name:   Model: *202
- 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
- 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
+ 101  Entity on connection: func_breakable, name:   Model: *201
+ 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+ 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
 ----------------------------------------------------------------------------
 Node #  98:
 
@@ -1749,9 +1765,9 @@ Node #  98:
   97
   99
  100
- 101  Entity on connection: func_breakable, name:   Model: *202
- 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
- 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
+ 101  Entity on connection: func_breakable, name:   Model: *201
+ 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+ 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
 ----------------------------------------------------------------------------
 Node #  99:
 
@@ -1763,8 +1779,8 @@ Node #  99:
   98
  100
  101
- 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
- 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
+ 130  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+ 131  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
 ----------------------------------------------------------------------------
 Node # 100:
 
@@ -1774,11 +1790,11 @@ Node # 100:
 ----------------------------------------------------------------------------
 Node # 101:
 
-  94  Entity on connection: func_breakable, name:   Model: *202
-  95  Entity on connection: func_breakable, name:   Model: *202
-  96  Entity on connection: func_breakable, name:   Model: *202
-  97  Entity on connection: func_breakable, name:   Model: *202
-  98  Entity on connection: func_breakable, name:   Model: *202
+  94  Entity on connection: func_breakable, name:   Model: *201
+  95  Entity on connection: func_breakable, name:   Model: *201
+  96  Entity on connection: func_breakable, name:   Model: *201
+  97  Entity on connection: func_breakable, name:   Model: *201
+  98  Entity on connection: func_breakable, name:   Model: *201
   99
  100
 ----------------------------------------------------------------------------
@@ -1786,7 +1802,7 @@ Node # 102:
 
  103
  114
- 115  Entity on connection: func_breakable, name:   Model: *232
+ 115  Entity on connection: func_breakable, name:   Model: *231
  116
  117
 ----------------------------------------------------------------------------
@@ -1797,7 +1813,7 @@ Node # 103:
  105
  106
  114
- 115  Entity on connection: func_breakable, name:   Model: *232
+ 115  Entity on connection: func_breakable, name:   Model: *231
 ----------------------------------------------------------------------------
 Node # 104:
 
@@ -1810,27 +1826,27 @@ Node # 105:
  103
  104
  106
- 107  Entity on connection: func_door, name: hazdoor  Model: *213
- 108  Entity on connection: func_door, name: hazdoor  Model: *213
+ 107  Entity on connection: func_door, name: hazdoor  Model: *212
+ 108  Entity on connection: func_door, name: hazdoor  Model: *212
 ----------------------------------------------------------------------------
 Node # 106:
 
  103
  104
  105
- 107  Entity on connection: func_door, name: hazdoor  Model: *213
- 108  Entity on connection: func_door, name: hazdoor  Model: *213
+ 107  Entity on connection: func_door, name: hazdoor  Model: *212
+ 108  Entity on connection: func_door, name: hazdoor  Model: *212
 ----------------------------------------------------------------------------
 Node # 107:
 
- 105  Entity on connection: func_door, name: hazdoor  Model: *213
- 106  Entity on connection: func_door, name: hazdoor  Model: *213
+ 105  Entity on connection: func_door, name: hazdoor  Model: *212
+ 106  Entity on connection: func_door, name: hazdoor  Model: *212
  108
 ----------------------------------------------------------------------------
 Node # 108:
 
- 105  Entity on connection: func_door, name: hazdoor  Model: *213
- 106  Entity on connection: func_door, name: hazdoor  Model: *213
+ 105  Entity on connection: func_door, name: hazdoor  Model: *212
+ 106  Entity on connection: func_door, name: hazdoor  Model: *212
  107
  109
  110
@@ -1842,8 +1858,8 @@ Node # 109:
  110
  111
  112
- 113  Entity on connection: func_wall, name:   Model: *206
- 149  Entity on connection: func_wall, name:   Model: *206
+ 113  Entity on connection: func_wall, name:   Model: *205
+ 149  Entity on connection: func_wall, name:   Model: *205
 ----------------------------------------------------------------------------
 Node # 110:
 
@@ -1851,8 +1867,8 @@ Node # 110:
  109
  111
  112
- 113  Entity on connection: func_wall, name:   Model: *206
- 149  Entity on connection: func_wall, name:   Model: *206
+ 113  Entity on connection: func_wall, name:   Model: *205
+ 149  Entity on connection: func_wall, name:   Model: *205
 ----------------------------------------------------------------------------
 Node # 111:
 
@@ -1873,11 +1889,11 @@ Node # 112:
 ----------------------------------------------------------------------------
 Node # 113:
 
- 109  Entity on connection: func_wall, name:   Model: *206
- 110  Entity on connection: func_wall, name:   Model: *206
+ 109  Entity on connection: func_wall, name:   Model: *205
+ 110  Entity on connection: func_wall, name:   Model: *205
  111
  112
- 144  Entity on connection: func_wall, name:   Model: *244
+ 144  Entity on connection: func_wall, name:   Model: *243
  149
  150
 ----------------------------------------------------------------------------
@@ -1885,17 +1901,17 @@ Node # 114:
 
  102
  103
- 115  Entity on connection: func_breakable, name:   Model: *232
+ 115  Entity on connection: func_breakable, name:   Model: *231
  116
  117
 ----------------------------------------------------------------------------
 Node # 115:
 
- 102  Entity on connection: func_breakable, name:   Model: *232
- 103  Entity on connection: func_breakable, name:   Model: *232
- 114  Entity on connection: func_breakable, name:   Model: *232
+ 102  Entity on connection: func_breakable, name:   Model: *231
+ 103  Entity on connection: func_breakable, name:   Model: *231
+ 114  Entity on connection: func_breakable, name:   Model: *231
  116
- 118  Entity on connection: func_breakable, name:   Model: *232
+ 118  Entity on connection: func_breakable, name:   Model: *231
 ----------------------------------------------------------------------------
 Node # 116:
 
@@ -1918,7 +1934,7 @@ Node # 117:
 ----------------------------------------------------------------------------
 Node # 118:
 
- 115  Entity on connection: func_breakable, name:   Model: *232
+ 115  Entity on connection: func_breakable, name:   Model: *231
  116
  117
  119
@@ -1935,7 +1951,7 @@ Node # 119:
  120
  121
  122
- 124  Entity on connection: func_wall, name:   Model: *239
+ 124  Entity on connection: func_wall, name:   Model: *238
  128
  129
  158
@@ -1965,7 +1981,7 @@ Node # 121:
  123
  124
  125
- 126  Entity on connection: func_door, name: elev_door  Model: *216
+ 126  Entity on connection: func_door, name: elev_door  Model: *215
  128
  129
  158
@@ -1980,8 +1996,8 @@ Node # 122:
  123
  124
  125
- 126  Entity on connection: func_door, name: elev_door  Model: *216
- 127  Entity on connection: func_door, name: elev_door  Model: *216
+ 126  Entity on connection: func_door, name: elev_door  Model: *215
+ 127  Entity on connection: func_door, name: elev_door  Model: *215
  128
  129
  158
@@ -1992,22 +2008,22 @@ Node # 123:
  122
  124
  125
- 126  Entity on connection: func_door, name: elev_door  Model: *216
- 127  Entity on connection: func_door, name: elev_door  Model: *216
+ 126  Entity on connection: func_door, name: elev_door  Model: *215
+ 127  Entity on connection: func_door, name: elev_door  Model: *215
  129
  158
 ----------------------------------------------------------------------------
 Node # 124:
 
- 119  Entity on connection: func_wall, name:   Model: *239
+ 119  Entity on connection: func_wall, name:   Model: *238
  120
  121
  122
  123
  125
- 126  Entity on connection: func_door, name: elev_door  Model: *217
- 127  Entity on connection: func_door, name: elev_door  Model: *217
- 128  Entity on connection: func_wall, name:   Model: *239
+ 126  Entity on connection: func_door, name: elev_door  Model: *216
+ 127  Entity on connection: func_door, name: elev_door  Model: *216
+ 128  Entity on connection: func_wall, name:   Model: *238
  129
  158
 ----------------------------------------------------------------------------
@@ -2017,30 +2033,30 @@ Node # 125:
  122
  123
  124
- 126  Entity on connection: func_door, name: elev_door  Model: *217
- 127  Entity on connection: func_door, name: elev_door  Model: *217
+ 126  Entity on connection: func_door, name: elev_door  Model: *216
+ 127  Entity on connection: func_door, name: elev_door  Model: *216
  129
  158
 ----------------------------------------------------------------------------
 Node # 126:
 
- 121  Entity on connection: func_door, name: elev_door  Model: *216
- 122  Entity on connection: func_door, name: elev_door  Model: *216
- 123  Entity on connection: func_door, name: elev_door  Model: *216
- 124  Entity on connection: func_door, name: elev_door  Model: *217
- 125  Entity on connection: func_door, name: elev_door  Model: *217
+ 121  Entity on connection: func_door, name: elev_door  Model: *215
+ 122  Entity on connection: func_door, name: elev_door  Model: *215
+ 123  Entity on connection: func_door, name: elev_door  Model: *215
+ 124  Entity on connection: func_door, name: elev_door  Model: *216
+ 125  Entity on connection: func_door, name: elev_door  Model: *216
  127
- 129  Entity on connection: func_door, name: elev_door  Model: *217
- 158  Entity on connection: func_door, name: elev_door  Model: *216
+ 129  Entity on connection: func_door, name: elev_door  Model: *216
+ 158  Entity on connection: func_door, name: elev_door  Model: *215
 ----------------------------------------------------------------------------
 Node # 127:
 
- 122  Entity on connection: func_door, name: elev_door  Model: *216
- 123  Entity on connection: func_door, name: elev_door  Model: *216
- 124  Entity on connection: func_door, name: elev_door  Model: *217
- 125  Entity on connection: func_door, name: elev_door  Model: *217
+ 122  Entity on connection: func_door, name: elev_door  Model: *215
+ 123  Entity on connection: func_door, name: elev_door  Model: *215
+ 124  Entity on connection: func_door, name: elev_door  Model: *216
+ 125  Entity on connection: func_door, name: elev_door  Model: *216
  126
- 129  Entity on connection: func_door, name: elev_door  Model: *217
+ 129  Entity on connection: func_door, name: elev_door  Model: *216
 ----------------------------------------------------------------------------
 Node # 128:
 
@@ -2049,7 +2065,7 @@ Node # 128:
  120
  121
  122
- 124  Entity on connection: func_wall, name:   Model: *239
+ 124  Entity on connection: func_wall, name:   Model: *238
  129
  158
 ----------------------------------------------------------------------------
@@ -2064,34 +2080,34 @@ Node # 129:
  123
  124
  125
- 126  Entity on connection: func_door, name: elev_door  Model: *217
- 127  Entity on connection: func_door, name: elev_door  Model: *217
+ 126  Entity on connection: func_door, name: elev_door  Model: *216
+ 127  Entity on connection: func_door, name: elev_door  Model: *216
  128
  158
 ----------------------------------------------------------------------------
 Node # 130:
 
-  93  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  94  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  95  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  96  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  97  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  98  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  99  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
+  93  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  94  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  95  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  96  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  97  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  98  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  99  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
  131
  132
- 133  Entity on connection: func_wall, name:   Model: *242
+ 133  Entity on connection: func_wall, name:   Model: *241
  134
 ----------------------------------------------------------------------------
 Node # 131:
 
-  93  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  94  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  95  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  96  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  97  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  98  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
-  99  Entity on connection: func_door_rotating, name: shortcut_2  Model: *181
+  93  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  94  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  95  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  96  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  97  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  98  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
+  99  Entity on connection: func_door_rotating, name: shortcut_2  Model: *180
  130
  132
  133
@@ -2108,7 +2124,7 @@ Node # 132:
 ----------------------------------------------------------------------------
 Node # 133:
 
- 130  Entity on connection: func_wall, name:   Model: *242
+ 130  Entity on connection: func_wall, name:   Model: *241
  131
  132
  134
@@ -2170,7 +2186,7 @@ Node # 137:
  139
  140
  141
- 142  Entity on connection: func_wall, name:   Model: *252
+ 142  Entity on connection: func_wall, name:   Model: *251
  143
  144
  145
@@ -2248,7 +2264,7 @@ Node # 142:
 
  135
  136
- 137  Entity on connection: func_wall, name:   Model: *252
+ 137  Entity on connection: func_wall, name:   Model: *251
  139
  140
  141
@@ -2269,7 +2285,7 @@ Node # 143:
 ----------------------------------------------------------------------------
 Node # 144:
 
- 113  Entity on connection: func_wall, name:   Model: *244
+ 113  Entity on connection: func_wall, name:   Model: *243
  134
  135
  136
@@ -2330,8 +2346,8 @@ Node # 148:
 ----------------------------------------------------------------------------
 Node # 149:
 
- 109  Entity on connection: func_wall, name:   Model: *206
- 110  Entity on connection: func_wall, name:   Model: *206
+ 109  Entity on connection: func_wall, name:   Model: *205
+ 110  Entity on connection: func_wall, name:   Model: *205
  111
  112
  113
@@ -2388,8 +2404,8 @@ Node # 153:
 ----------------------------------------------------------------------------
 Node # 154:
 
-  14  Entity on connection: func_wall, name:   Model: *235
-  15  Entity on connection: func_wall, name:   Model: *235
+  14  Entity on connection: func_wall, name:   Model: *234
+  15  Entity on connection: func_wall, name:   Model: *234
   16
  120
  151
@@ -2437,12 +2453,25 @@ Node # 158:
  123
  124
  125
- 126  Entity on connection: func_door, name: elev_door  Model: *216
+ 126  Entity on connection: func_door, name: elev_door  Model: *215
  128
  129
 ----------------------------------------------------------------------------
+Node # 159:
 
-1004 Total Initial Connections -   16 Maximum connections for a single node.
+ 160
+----------------------------------------------------------------------------
+Node # 160:
+
+ 159
+ 161
+----------------------------------------------------------------------------
+Node # 161:
+
+ 160
+----------------------------------------------------------------------------
+
+1006 Total Initial Connections -   16 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -2833,7 +2862,8 @@ Rejected Node  45 - Unreachable by Any Hull
 Node   43:
 
 NODE_LARGE_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  45 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   44:
@@ -2848,16 +2878,17 @@ Node   45:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  41 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
-Rejected Node  64 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  42 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  43 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   46:
 
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
@@ -2960,8 +2991,6 @@ Node   64:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  40 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
-Rejected Node  45 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   65:
@@ -3673,6 +3702,15 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node 118 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
+-------------------------------------------------------------------------------
+Node  159:
+
+-------------------------------------------------------------------------------
+Node  160:
+
+-------------------------------------------------------------------------------
+Node  161:
+
 -------------------------------------------------------------------------------
 
 
@@ -4438,6 +4476,15 @@ REJECTED NODE 128 through Node 120, Dot = 0.999162
 REJECTED NODE 119 through Node 120, Dot = 0.998736
 ----------------------------------------------------------------------------
 
+Node 159:
+----------------------------------------------------------------------------
+
+Node 160:
+----------------------------------------------------------------------------
+
+Node 161:
+----------------------------------------------------------------------------
+
 
 
 -------------------------------------------------------------------------------
@@ -4475,7 +4522,7 @@ WARNING: Node 154 does not connect back to Node 156
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 499
+Total Number of Connections in Pool: 501
 -------------------------------------------------------------------------------
-Connection Pool: 11976 bytes
+Connection Pool: 12024 bytes
 -------------------------------------------------------------------------------
