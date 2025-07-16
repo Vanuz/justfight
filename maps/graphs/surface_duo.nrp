@@ -4239,7 +4239,6 @@ Node # 150:
  155
  156
  157
- 159  Entity on connection: func_wall, name:   Model: *267
  160  Entity on connection: func_wall, name:   Model: *179
  163  Entity on connection: func_wall, name:   Model: *318
  165
@@ -4481,7 +4480,7 @@ Node # 159:
  135
  147
  148  Entity on connection: func_wall, name:   Model: *319
- 150  Entity on connection: func_wall, name:   Model: *267
+ 150
  151  Entity on connection: func_wall, name:   Model: *267
  153
  154
@@ -5013,7 +5012,7 @@ Node # 188:
  187
 ----------------------------------------------------------------------------
 
-3305 Total Initial Connections -   42 Maximum connections for a single node.
+3304 Total Initial Connections -   42 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -5069,7 +5068,7 @@ Node    8:
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node   4 - Unreachable by Any Hull
-NODE_HUMAN_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
@@ -5083,36 +5082,30 @@ Rejected Node   4 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   10:
 
 NODE_LARGE_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  14 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   11:
 
 NODE_LARGE_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   12:
 
 NODE_HUMAN_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   13:
 
 NODE_LARGE_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  16 - Unreachable by Any Hull
@@ -8311,16 +8304,15 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node 139 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node 160 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 141 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 143 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node 147 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node  151:
@@ -10627,6 +10619,7 @@ WARNING: Node 164 does not connect back to Node 131
 WARNING: Node 165 does not connect back to Node 131
 WARNING: Node 134 does not connect back to Node 132
 WARNING: Node 133 does not connect back to Node 132
+WARNING: Node 136 does not connect back to Node 133
 WARNING: Node 162 does not connect back to Node 140
 WARNING: Node 167 does not connect back to Node 140
 WARNING: Node 170 does not connect back to Node 140
@@ -10656,7 +10649,7 @@ WARNING: Node 182 does not connect back to Node 184
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 1414
+Total Number of Connections in Pool: 1413
 -------------------------------------------------------------------------------
-Connection Pool: 33936 bytes
+Connection Pool: 33912 bytes
 -------------------------------------------------------------------------------

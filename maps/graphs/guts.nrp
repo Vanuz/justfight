@@ -2270,6 +2270,8 @@ NODE_SMALL_HULL step 0.000000
 Rejected Node  12 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  72 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  19 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
@@ -2298,14 +2300,16 @@ NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   19:
 
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
-Rejected Node  24 - Unreachable by Any Hull
+Rejected Node  15 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  91 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  90 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  24 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   20:
 
@@ -2512,6 +2516,7 @@ Rejected Node  33 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   38:
 
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  47 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
@@ -2544,12 +2549,16 @@ Rejected Node  30 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  48 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  49 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  50 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  51 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
@@ -2606,7 +2615,8 @@ Node   45:
 
 NODE_SMALL_HULL step 0.000000
 Rejected Node  42 - Unreachable by Any Hull
-NODE_HUMAN_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  46 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  47 - Unreachable by Any Hull
 NODE_HUMAN_HULL step 0.000000
@@ -2701,6 +2711,7 @@ Rejected Node  54 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   52:
 
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  48 - Unreachable by Any Hull
@@ -4231,7 +4242,7 @@ WARNING: Node   8 does not connect back to Node  11
 WARNING: Node  16 does not connect back to Node  13
 WARNING: Node   7 does not connect back to Node  17
 WARNING: Node  28 does not connect back to Node  22
-WARNING: Node  25 does not connect back to Node  24
+WARNING: Node  24 does not connect back to Node  25
 WARNING: Node  33 does not connect back to Node  30
 WARNING: Node  34 does not connect back to Node  31
 WARNING: Node  36 does not connect back to Node  34
@@ -4242,6 +4253,7 @@ WARNING: Node  44 does not connect back to Node  50
 WARNING: Node  53 does not connect back to Node  52
 WARNING: Node  48 does not connect back to Node  53
 WARNING: Node  38 does not connect back to Node  55
+WARNING: Node  52 does not connect back to Node  56
 WARNING: Node  57 does not connect back to Node  58
 WARNING: Node  58 does not connect back to Node  62
 WARNING: Node  59 does not connect back to Node  74
@@ -4256,7 +4268,7 @@ WARNING: Node  32 does not connect back to Node 112
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 451
+Total Number of Connections in Pool: 448
 -------------------------------------------------------------------------------
-Connection Pool: 10824 bytes
+Connection Pool: 10752 bytes
 -------------------------------------------------------------------------------
