@@ -2,25 +2,25 @@ Node Graph Report for map:  waterworks_quad.bsp
 4 Total Nodes
 
 Node#            0
-Location      -320,-2304,-784
+Location      2528,3360,  16
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#            1
-Location      -320,-1984,-784
+Location      2528,3680,  16
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#            2
-Location       -48,-1984,-784
+Location      2800,3680,  16
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
 -------------------------------------------------------------------------------
 Node#            3
-Location      -480,-2304,-784
+Location      2368,3360,  16
 HintType:        0
 HintActivity:    0
 HintYaw:      0.000000
