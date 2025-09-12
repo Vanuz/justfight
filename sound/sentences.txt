@@ -824,5 +824,6 @@ JF_MESSAGE2 bloop (e95 p98) attention, sector b status, fifty percent failure
 JF_MESSAGE3 (e95 p98) ventillation maintenance crew report your status immediately
 JF_MESSAGE4 (e95 p98) danger danger, high voltage in sector a
 JF_MESSAGE5 deeoo deeoo (e95 p98) chemical processing plant status. (e90 p88) malfunction
+JF_MESSAGE6 deeoo deeoo (e95 p98) sorry, this elevator is not operative. please, use stairway
 
 //
