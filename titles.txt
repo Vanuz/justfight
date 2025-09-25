@@ -139,6 +139,11 @@ KEYCARD
 ...A KEYCARD required to open this door...
 }
 
+FAILURE
+{
+...A CRITICAL Mission FAILURE detected, reloading...
+}
+
 //Secrets
 $position -1 -1
 $effect 2
