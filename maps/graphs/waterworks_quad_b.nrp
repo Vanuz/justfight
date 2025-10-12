@@ -384,6 +384,7 @@ Node #  12:
   14
   15
   16
+  17
   40
 ----------------------------------------------------------------------------
 Node #  13:
@@ -392,6 +393,7 @@ Node #  13:
   14
   15
   16
+  17
   40
 ----------------------------------------------------------------------------
 Node #  14:
@@ -400,6 +402,7 @@ Node #  14:
   13
   15
   16
+  17
   40
 ----------------------------------------------------------------------------
 Node #  15:
@@ -408,6 +411,7 @@ Node #  15:
   13
   14
   16
+  17
   40
 ----------------------------------------------------------------------------
 Node #  16:
@@ -416,6 +420,7 @@ Node #  16:
   13
   14
   15
+  17
   21
   33
   35  Entity on connection: func_breakable, name:   Model: *51
@@ -423,9 +428,24 @@ Node #  16:
 ----------------------------------------------------------------------------
 Node #  17:
 
+  12
+  13
+  14
+  15
+  16
+  18
+  19
+  20
+  21
+  22
+  29
+  33
+  35  Entity on connection: func_breakable, name:   Model: *51
+  40
 ----------------------------------------------------------------------------
 Node #  18:
 
+  17
   19
   20
   21
@@ -437,6 +457,7 @@ Node #  18:
 ----------------------------------------------------------------------------
 Node #  19:
 
+  17
   18
   20
   21
@@ -447,6 +468,7 @@ Node #  19:
 ----------------------------------------------------------------------------
 Node #  20:
 
+  17
   18
   19
   21  Entity on connection: func_breakable, name:   Model: *51
@@ -460,6 +482,7 @@ Node #  20:
 Node #  21:
 
   16
+  17
   18
   19
   20  Entity on connection: func_breakable, name:   Model: *51
@@ -474,6 +497,7 @@ Node #  21:
 ----------------------------------------------------------------------------
 Node #  22:
 
+  17
   18
   19
   20
@@ -556,6 +580,7 @@ Node #  28:
 ----------------------------------------------------------------------------
 Node #  29:
 
+  17
   18
   19
   20
@@ -599,6 +624,7 @@ Node #  32:
 Node #  33:
 
   16
+  17
   18
   19
   20  Entity on connection: func_breakable, name:   Model: *51
@@ -620,6 +646,7 @@ Node #  34:
 Node #  35:
 
   16  Entity on connection: func_breakable, name:   Model: *51
+  17  Entity on connection: func_breakable, name:   Model: *51
   18  Entity on connection: func_breakable, name:   Model: *51
   19  Entity on connection: func_breakable, name:   Model: *51
   20  Entity on connection: func_breakable, name:   Model: *51
@@ -670,6 +697,7 @@ Node #  40:
   14
   15
   16
+  17
 ----------------------------------------------------------------------------
 Node #  41:
 
@@ -720,7 +748,7 @@ Node #  46:
   45
 ----------------------------------------------------------------------------
 
- 290 Total Initial Connections -   13 Maximum connections for a single node.
+ 318 Total Initial Connections -   14 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -789,10 +817,13 @@ NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  17 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   13:
 
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_HUMAN_HULL step 0.000000
 -------------------------------------------------------------------------------
@@ -800,9 +831,11 @@ Node   14:
 
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   15:
 
+NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  40 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
@@ -818,6 +851,16 @@ Rejected Node  40 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   17:
 
+NODE_SMALL_HULL step 0.000000
+Rejected Node  12 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  40 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
+NODE_SMALL_HULL step 0.000000
+Rejected Node  22 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   18:
 
@@ -844,12 +887,14 @@ NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   22:
 
+NODE_SMALL_HULL step 0.000000
+Rejected Node  17 - Unreachable by Any Hull
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  19 - Unreachable by Any Hull
-NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  30 - Unreachable by Any Hull
+NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   23:
 
@@ -894,6 +939,7 @@ NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   29:
 
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
 Node   30:
@@ -959,6 +1005,8 @@ NODE_HUMAN_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  15 - Unreachable by Any Hull
+NODE_SMALL_HULL step 0.000000
+Rejected Node  17 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  16 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
@@ -1077,11 +1125,13 @@ REJECTED NODE   6 through Node   7, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node  13:
+REJECTED NODE  17 through Node  15, Dot = 0.998053
 ----------------------------------------------------------------------------
 
 Node  14:
 REJECTED NODE  15 through Node  13, Dot = 1.000000
 REJECTED NODE  16 through Node  13, Dot = 0.998752
+REJECTED NODE  17 through Node  13, Dot = 0.999133
 ----------------------------------------------------------------------------
 
 Node  15:
@@ -1090,14 +1140,22 @@ REJECTED NODE  14 through Node  13, Dot = 1.000000
 
 Node  16:
 REJECTED NODE  12 through Node  15, Dot = 0.999925
-REJECTED NODE  14 through Node  13, Dot = 0.999449
+REJECTED NODE  35 through Node  17, Dot = 1.000000
 REJECTED NODE  33 through Node  21, Dot = 0.999774
+REJECTED NODE  14 through Node  13, Dot = 0.999449
 ----------------------------------------------------------------------------
 
 Node  17:
+REJECTED NODE  35 through Node  18, Dot = 1.000000
+REJECTED NODE  13 through Node  16, Dot = 0.998053
+REJECTED NODE  33 through Node  29, Dot = 0.999867
+REJECTED NODE  21 through Node  29, Dot = 0.999321
+REJECTED NODE  14 through Node  16, Dot = 0.999133
+REJECTED NODE  18 through Node  19, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node  18:
+REJECTED NODE  17 through Node  19, Dot = 1.000000
 REJECTED NODE  33 through Node  21, Dot = 0.999985
 ----------------------------------------------------------------------------
 
@@ -1108,9 +1166,12 @@ REJECTED NODE  35 through Node  18, Dot = 1.000000
 ----------------------------------------------------------------------------
 
 Node  20:
+REJECTED NODE  17 through Node  19, Dot = 0.999131
 ----------------------------------------------------------------------------
 
 Node  21:
+REJECTED NODE  16 through Node  17, Dot = 0.999650
+REJECTED NODE  17 through Node  19, Dot = 0.999321
 REJECTED NODE  19 through Node  18, Dot = 0.998138
 ----------------------------------------------------------------------------
 
@@ -1147,6 +1208,7 @@ REJECTED NODE  25 through Node  24, Dot = 0.999491
 ----------------------------------------------------------------------------
 
 Node  29:
+REJECTED NODE  17 through Node  19, Dot = 0.998138
 ----------------------------------------------------------------------------
 
 Node  30:
@@ -1163,7 +1225,8 @@ REJECTED NODE  25 through Node  35, Dot = 0.999894
 ----------------------------------------------------------------------------
 
 Node  33:
-REJECTED NODE  16 through Node  19, Dot = 0.998257
+REJECTED NODE  16 through Node  17, Dot = 0.999669
+REJECTED NODE  17 through Node  19, Dot = 0.999445
 REJECTED NODE  18 through Node  21, Dot = 0.999875
 REJECTED NODE  24 through Node  25, Dot = 0.998516
 ----------------------------------------------------------------------------
@@ -1172,7 +1235,8 @@ Node  34:
 ----------------------------------------------------------------------------
 
 Node  35:
-REJECTED NODE  16 through Node  18, Dot = 1.000000
+REJECTED NODE  16 through Node  17, Dot = 1.000000
+REJECTED NODE  17 through Node  18, Dot = 1.000000
 REJECTED NODE  19 through Node  18, Dot = 1.000000
 REJECTED NODE  24 through Node  25, Dot = 0.999323
 ----------------------------------------------------------------------------
@@ -1233,20 +1297,22 @@ Node  46:
 -------------------------------------------------------------------------------
 Link Pairings:
 WARNING: Node   7 does not connect back to Node  13
-WARNING: Node  16 does not connect back to Node  14
-WARNING: Node  21 does not connect back to Node  22
-WARNING: Node  18 does not connect back to Node  24
-WARNING: Node  24 does not connect back to Node  25
-WARNING: Node  30 does not connect back to Node  26
-WARNING: Node  22 does not connect back to Node  27
-WARNING: Node  25 does not connect back to Node  33
-WARNING: Node  30 does not connect back to Node  34
-WARNING: Node  38 does not connect back to Node  40
+WARNING: Node  17 does not connect back to Node  14
+WARNING: Node  18 does not connect back to Node  16
+WARNING: Node  19 does not connect back to Node  16
+WARNING: Node  20 does not connect back to Node  23
+WARNING: Node  22 does not connect back to Node  24
+WARNING: Node  23 does not connect back to Node  27
+WARNING: Node  31 does not connect back to Node  28
+WARNING: Node  24 does not connect back to Node  29
+WARNING: Node  27 does not connect back to Node  34
+WARNING: Node  31 does not connect back to Node  35
+WARNING: Node  39 does not connect back to Node  41
 -------------------------------------------------------------------------------
 
 
 -------------------------------------------------------------------------------
-Total Number of Connections in Pool: 186
+Total Number of Connections in Pool: 192
 -------------------------------------------------------------------------------
-Connection Pool: 4464 bytes
+Connection Pool: 4608 bytes
 -------------------------------------------------------------------------------

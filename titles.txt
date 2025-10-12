@@ -134,9 +134,19 @@ OBJECTIVE3
 Objective Accomplished: Stop Anomalous Activity
 }
 
-KEYCARD
+KEYCARD_REQ
 {
 ...A KEYCARD required to open this door...
+}
+
+KEYCARD_FOUND
+{
+KEYCARD found
+}
+
+KEYCARD_USED
+{
+KEYCARD has been used, KEYCARD has been lost...
 }
 
 FAILURE

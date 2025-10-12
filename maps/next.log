@@ -1,0 +1,303 @@
+hlcsg v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlcsg -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlcsg.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next -low -wadautodetect 
+Entering C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next.map
+
+Current hlcsg Settings
+Name                 |  Setting  |  Default
+---------------------|-----------|-------------------------
+threads               [      12 ] [  Varies ]
+verbose               [     off ] [     off ]
+log                   [      on ] [      on ]
+reset logfile         [      on ] [      on ]
+developer             [       0 ] [       0 ]
+chart                 [     off ] [     off ]
+estimate              [     off ] [     off ]
+max texture memory    [ 33554432 ] [ 33554432 ]
+max lighting memory   [ 33554432 ] [ 33554432 ]
+priority              [     Low ] [  Normal ]
+
+noclip                [     off ] [     off ]
+null texture stripping[      on ] [      on ]
+clipnode economy mode [     off ] [     off ]
+clip hull type        [  simple ] [  simple ]
+onlyents              [     off ] [     off ]
+wadtextures           [      on ] [      on ]
+skyclip               [      on ] [      on ]
+hullfile              [    None ] [    None ]
+wadcfg by file        [    None ] [    None ]
+wadcfg by name        [    None ] [    None ]
+nullfile              [    None ] [    None ]
+nullify trigger       [      on ] [      on ]
+min surface area      [   0.000 ] [   0.000 ]
+brush union threshold [   0.000 ] [   0.000 ]
+map scaling           [    None ] [    None ]
+light name optimize   [      on ] [      on ]
+UTF8 game_text        [      on ] [      on ]
+
+Using mapfile wad configuration
+Wadfiles not in use by the map will be excluded
+Wadinclude list :
+[zhlt.wad]
+
+CreateBrush:
+ (0.23 seconds)
+CSGBrush:
+ (0.57 seconds)
+
+Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/halflife.wad
+ - Contains 160 used textures, 98.16 percent of map (3116 textures in wad)
+Using Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/valve/xeno.wad
+ - Contains 2 used textures, 1.23 percent of map (264 textures in wad)
+Including Wadfile: /MyStuff/Games/Steam/steamapps/common/Half-Life/justfight/zhlt.wad
+ - Contains 1 used texture, 0.61 percent of map (8 textures in wad)
+
+Wad files required to run the map: "halflife.wad;xeno.wad;"
+
+added 25 additional animating textures.
+Texture usage is at 1.76 mb (of 32.00 mb MAX)
+6 redundant named lights optimized.
+1.05 seconds elapsed
+
+-----   END   hlcsg -----
+
+
+
+hlbsp v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlbsp -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlbsp.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next -low -chart 
+
+Current hlbsp Settings
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      12 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [      on ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+priority            [     Low ] [  Normal ]
+
+noclip              [     off ] [     off ]
+nofill              [     off ] [     off ]
+noinsidefill        [     off ] [     off ]
+noopt               [     off ] [     off ]
+no clipnode merging [     off ] [     off ]
+null tex. stripping [      on ] [      on ]
+notjunc             [     off ] [     off ]
+nobrink             [     off ] [     off ]
+subdivide size      [     240 ] [     240 ] (Min 64) (Max 512)
+max node size       [    1024 ] [    1024 ] (Min 64) (Max 65536)
+remove hull 2       [     off ] [     off ]
+
+
+SolidBSP [hull 0] 500...1000...1500...2000...2500...3000...3500...4000...4409 (0.21 seconds)
+BSP generation successful, writing portal file 'C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next.prt'
+SolidBSP [hull 1] 500...1000...1500...2000...2500...3000...3500...4000...4393 (0.24 seconds)
+SolidBSP [hull 2] 500...1000...1500...2000...2500...3000...3500...3769 (0.19 seconds)
+SolidBSP [hull 3] 500...1000...1500...2000...2500...3000...3500...4000...4500...4621 (0.27 seconds)
+Reduced 14572 clipnodes to 13638
+Reduced 4735 texinfos to 3022
+Reduced 187 texdatas to 182 (8232 bytes to 8012)
+Reduced 18576 planes to 6386
+FixBrinks:
+Increased 13638 clipnodes to 13815.
+
+Object names  Objects/Maxobjs  Memory / Maxmem  Fullness
+------------  ---------------  ---------------  --------
+models            151/512         9664/32768    (29.5%)
+planes           6386/32768     127720/655360   (19.5%)
+vertexes        12380/65535     148560/786420   (18.9%)
+nodes            5433/32767     130392/786408   (16.6%)
+texinfos         3022/32767     120880/1310680  ( 9.2%)
+faces            8931/65535     178620/1310700  (13.6%)
+* worldfaces     6191/32768          0/0        (18.9%)
+clipnodes       13815/32767     110520/262136   (42.2%)
+leaves           3829/32760     107212/917280   (11.7%)
+* visleafs       2181/8192           0/0        (26.6%)
+marksurfaces    12875/65535      25750/131070   (19.6%)
+surfedges       40751/512000    163004/2048000  ( 8.0%)
+edges           21341/256000     85364/1024000  ( 8.3%)
+texdata          [variable]       8012/33554432  ( 0.0%)
+lightdata        [variable]          0/33554432  ( 0.0%)
+visdata          [variable]          0/8388608  ( 0.0%)
+entdata          [variable]     111744/2097152  ( 5.3%)
+* AllocBlock       18/64             0/0        (28.1%)
+182 textures referenced
+=== Total BSP file data space used: 1327442 bytes ===
+Wad files required to run the map: "halflife.wad;xeno.wad;"
+2.14 seconds elapsed
+
+-----   END   hlbsp -----
+
+
+
+hlvis v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlvis -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlvis.exe C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next 
+Arguments: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next -low 
+ 620 portalleafs
+1588 numportals
+
+-= Current hlvis Settings =-
+Name               |  Setting  |  Default
+-------------------|-----------|-------------------------
+threads             [      12 ] [  Varies ]
+verbose             [     off ] [     off ]
+log                 [      on ] [      on ]
+developer           [       0 ] [       0 ]
+chart               [     off ] [     off ]
+estimate            [     off ] [     off ]
+max texture memory  [ 33554432 ] [ 33554432 ]
+max vis distance    [       0 ] [       0 ]
+priority            [     Low ] [  Normal ]
+
+fast vis            [     off ] [     off ]
+full vis            [     off ] [     off ]
+
+
+BasePortalVis:
+ (0.04 seconds)
+LeafThread:
+ (0.22 seconds)
+average leafs visible: 64
+g_visdatasize:28744  compressed from 48360
+0.28 seconds elapsed
+
+-----   END   hlvis -----
+
+
+
+hlrad v3.4 VL30 (Nov 23 2012)
+Zoner's Half-Life Compilation Tools -- Custom Build
+Based on code modifications by Sean 'Zoner' Cavanaugh
+Based on Valve's version, modified with permission.
+Submit detailed bug reports to (vluzacn@163.com)
+-----  BEGIN  hlrad -----
+Command line: C:/MyStuff/Work/HLDMCOMPTOOLS/hlrad.exe -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next 
+Arguments: -extra C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next -low 
+
+-= Current hlrad Settings =-
+Name                | Setting             | Default
+--------------------|---------------------|-------------------------
+threads              [                12 ] [            Varies ]
+verbose              [               off ] [               off ]
+log                  [                on ] [                on ]
+developer            [                 0 ] [                 0 ]
+chart                [               off ] [               off ]
+estimate             [               off ] [               off ]
+max texture memory   [          33554432 ] [          33554432 ]
+max lighting memory  [          33554432 ] [          33554432 ]
+priority             [               Low ] [            Normal ]
+
+fast rad             [               off ] [               off ]
+vismatrix algorithm  [            Sparse ] [            Sparse ]
+oversampling (-extra)[                on ] [               off ]
+bounces              [                 8 ] [                 8 ]
+ambient light        [ 0.000 0.000 0.000 ] [ 0.000 0.000 0.000 ]
+circus mode          [               off ] [               off ]
+
+smoothing threshold  [            50.000 ] [            50.000 ]
+smoothing threshold 2[         no change ] [         no change ]
+direct threshold     [            10.000 ] [            10.000 ]
+direct light scale   [             1.000 ] [             1.000 ]
+coring threshold     [             0.001 ] [             0.001 ]
+patch interpolation  [                on ] [                on ]
+
+texscale             [                on ] [                on ]
+patch subdividing    [                on ] [                on ]
+chop value           [            64.000 ] [            64.000 ]
+texchop value        [            32.000 ] [            32.000 ]
+
+global fade          [             1.000 ] [             1.000 ]
+global light scale   [ 2.000 2.000 2.000 ] [ 2.000 2.000 2.000 ]
+global gamma         [ 0.550 0.550 0.550 ] [ 0.550 0.550 0.550 ]
+global light scale   [             2.000 ] [             2.000 ]
+global sky diffusion [             1.000 ] [             1.000 ]
+
+spread angles        [                on ] [                on ]
+opaque entities      [                on ] [                on ]
+sky lighting fix     [                on ] [                on ]
+incremental          [               off ] [               off ]
+dump                 [               off ] [               off ]
+
+colour jitter        [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+monochromatic jitter [       0.0 0.0 0.0 ] [       0.0 0.0 0.0 ]
+
+custom shadows with bounce light
+                     [               off ] [               off ]
+rgb transfers        [               off ] [               off ]
+minimum final light  [                 0 ] [                 0 ]
+size of transfer     [         1 (16bit) ] [         1 (16bit) ]
+size of rgbtransfer  [         2 (32bit) ] [         2 (32bit) ]
+soft sky             [                on ] [                on ]
+translucent depth    [             2.000 ] [             2.000 ]
+block opaque         [                on ] [                on ]
+ignore textures      [               off ] [               off ]
+reflectivity gamma   [             1.760 ] [             1.760 ]
+reflectivity scale   [             0.700 ] [             0.700 ]
+blur size            [             1.000 ] [             1.000 ]
+no emitter range     [               off ] [               off ]
+
+
+Load Textures:
+Using Wadfile: C:\MyStuff\Games\Steam\steamapps\common\Half-Life\justfight\maps\next.wa_
+182 textures referenced
+Reading texlights from 'C:\MyStuff\Work\HLDMCOMPTOOLS\lights.rad'
+0 opaque models
+0 opaque faces
+8931 faces
+Create Patches : 21152 base patches
+256670 square feet [36960584.00 square inches]
+243 direct lights and 0 fast direct lights
+7 light styles
+
+BuildFacelights:
+ (4.61 seconds)
+BuildVisLeafs:
+ (2.16 seconds)
+visibility matrix   :   4.8 megs
+MakeScales:
+ (2.02 seconds)
+Transfer Lists :     9912818 :    9.91M transfers
+       Indices :     9093064 :    8.67M bytes
+          Data :    19886518 :   18.97M bytes
+Bounce 1 GatherLight:
+ (0.05 seconds)
+Bounce 2 GatherLight:
+ (0.07 seconds)
+Bounce 3 GatherLight:
+ (0.07 seconds)
+Bounce 4 GatherLight:
+ (0.07 seconds)
+Bounce 5 GatherLight:
+ (0.07 seconds)
+Bounce 6 GatherLight:
+ (0.07 seconds)
+Bounce 7 GatherLight:
+ (0.07 seconds)
+Bounce 8 GatherLight:
+ (0.07 seconds)
+FinalLightFace:
+ (0.33 seconds)
+10.19 seconds elapsed
+
+-----   END   hlrad -----
+
+
+

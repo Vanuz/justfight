@@ -5088,13 +5088,11 @@ NODE_LARGE_HULL step 0.000000
 Node   10:
 
 NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  14 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   11:
 
-NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 -------------------------------------------------------------------------------
@@ -5105,15 +5103,13 @@ NODE_HUMAN_HULL step 0.000000
 Node   13:
 
 NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
-NODE_LARGE_HULL step 0.000000
 NODE_SMALL_HULL step 0.000000
 Rejected Node  16 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node   14:
 
 NODE_LARGE_HULL step 0.000000
-NODE_HUMAN_HULL step 0.000000
+NODE_LARGE_HULL step 0.000000
 NODE_LARGE_HULL step 0.000000
 NODE_HUMAN_HULL step 0.000000
 -------------------------------------------------------------------------------
