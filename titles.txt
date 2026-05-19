@@ -151,7 +151,7 @@ KEYCARD has been used, KEYCARD has been lost...
 
 FAILURE
 {
-...A CRITICAL Mission FAILURE detected, reloading...
+...A critical Mission FAILURE detected, reloading...
 }
 
 //Secrets
@@ -172,4 +172,9 @@ You have found  Secret Level!
 SECRET2
 {
 The Dopefish Lives!
+}
+
+SECRET3
+{
+NO! You killed the Rat! You're a monster!!
 }
