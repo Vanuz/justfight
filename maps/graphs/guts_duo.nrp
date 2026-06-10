@@ -1442,7 +1442,7 @@ Node #  44:
   48  Entity on connection: func_breakable, name:   Model: *35
  154
  155
- 156  Entity on connection: func_wall, name:   Model: *180
+ 156  Entity on connection: func_wall, name:   Model: *179
 ----------------------------------------------------------------------------
 Node #  45:
 
@@ -1487,7 +1487,7 @@ Node #  48:
   75
  154
  155
- 156  Entity on connection: func_wall, name:   Model: *180
+ 156  Entity on connection: func_wall, name:   Model: *179
 ----------------------------------------------------------------------------
 Node #  49:
 
@@ -1498,8 +1498,8 @@ Node #  49:
   54
   72  Entity on connection: func_breakable, name:   Model: *35
   75
- 154  Entity on connection: func_wall, name:   Model: *180
- 155  Entity on connection: func_wall, name:   Model: *180
+ 154  Entity on connection: func_wall, name:   Model: *179
+ 155  Entity on connection: func_wall, name:   Model: *179
 ----------------------------------------------------------------------------
 Node #  50:
 
@@ -1540,8 +1540,8 @@ Node #  54:
   67
   75
  154
- 155  Entity on connection: func_wall, name:   Model: *180
- 156  Entity on connection: func_wall, name:   Model: *180
+ 155  Entity on connection: func_wall, name:   Model: *179
+ 156  Entity on connection: func_wall, name:   Model: *179
 ----------------------------------------------------------------------------
 Node #  55:
 
@@ -1753,8 +1753,8 @@ Node #  75:
   49
   54
   72  Entity on connection: func_breakable, name:   Model: *35
- 154  Entity on connection: func_wall, name:   Model: *180
- 155  Entity on connection: func_wall, name:   Model: *180
+ 154  Entity on connection: func_wall, name:   Model: *179
+ 155  Entity on connection: func_wall, name:   Model: *179
 ----------------------------------------------------------------------------
 Node #  76:
 
@@ -2732,10 +2732,10 @@ Node # 154:
   44
   45
   48
-  49  Entity on connection: func_wall, name:   Model: *180
+  49  Entity on connection: func_wall, name:   Model: *179
   54
   72  Entity on connection: func_breakable, name:   Model: *35
-  75  Entity on connection: func_wall, name:   Model: *180
+  75  Entity on connection: func_wall, name:   Model: *179
  155
  156
 ----------------------------------------------------------------------------
@@ -2744,20 +2744,19 @@ Node # 155:
   44
   45
   48
-  49  Entity on connection: func_wall, name:   Model: *180
-  54  Entity on connection: func_wall, name:   Model: *180
+  49  Entity on connection: func_wall, name:   Model: *179
+  54  Entity on connection: func_wall, name:   Model: *179
   72  Entity on connection: func_breakable, name:   Model: *35
-  75  Entity on connection: func_wall, name:   Model: *180
+  75  Entity on connection: func_wall, name:   Model: *179
  154
  156
 ----------------------------------------------------------------------------
 Node # 156:
 
-  44  Entity on connection: func_wall, name:   Model: *180
-  45
-  48  Entity on connection: func_wall, name:   Model: *180
-  54  Entity on connection: func_wall, name:   Model: *180
-  72  Entity on connection: func_wall, name:   Model: *180
+  44  Entity on connection: func_wall, name:   Model: *179
+  48  Entity on connection: func_wall, name:   Model: *179
+  54  Entity on connection: func_wall, name:   Model: *179
+  72  Entity on connection: func_wall, name:   Model: *179
  154
  155
 ----------------------------------------------------------------------------
@@ -2850,7 +2849,7 @@ Node # 165:
   16
 ----------------------------------------------------------------------------
 
-1349 Total Initial Connections -   21 Maximum connections for a single node.
+1348 Total Initial Connections -   21 Maximum connections for a single node.
 ----------------------------------------------------------------------------
 
 
@@ -4690,15 +4689,13 @@ Node  156:
 NODE_SMALL_HULL step 0.000000
 Rejected Node  44 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
-Rejected Node  45 - Unreachable by Any Hull
+Rejected Node  48 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node 154 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  72 - Unreachable by Any Hull
 NODE_SMALL_HULL step 0.000000
 Rejected Node  54 - Unreachable by Any Hull
-NODE_SMALL_HULL step 0.000000
-Rejected Node  48 - Unreachable by Any Hull
 -------------------------------------------------------------------------------
 Node  157:
 
