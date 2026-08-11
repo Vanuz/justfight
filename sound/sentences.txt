@@ -764,7 +764,9 @@ SLV_ALERT3 aslave/(p108) slv_alert1 slv_word5
 SLV_ALERT4 aslave/(p108) slv_word5(p110) slv_word8 slv_word8
 SLV_ALERT5 aslave/(p108) slv_alert4 slv_word7 slv_alert1
 
-//Just Fight Sentences 
+//Just Fight Sentences
+//Just Fight "Ambient" Sentences will go here.
+ 
 //Just Fight Monster Sentences
 
 JF_NONONO justfight/npc/nonono
